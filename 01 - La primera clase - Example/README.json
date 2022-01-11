@@ -1,0 +1,11 @@
+{
+  "lessonTitle": "Primera clase",
+  "feedbackID": "01-lesson1",
+  "permalink": "/Tema_Uno/",
+  "homeworkUrl": "https://github.com/soyHenry/Prep-Course/tree/main/05-JS-IV/homework",
+  "eleventyNavigation": {
+    "key": "Tema 1",
+    "order": 1
+  }
+}
+

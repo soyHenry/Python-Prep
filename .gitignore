@@ -1,0 +1,5 @@
+node_modules
+
+# Eleventy build
+_dist
+package-lock.json
