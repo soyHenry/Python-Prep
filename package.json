@@ -21,6 +21,7 @@
   },
   "dependencies": {
     "@11ty/eleventy": "^0.12.1",
+    "@11ty/eleventy-cache-assets": "^2.3.0",
     "@11ty/eleventy-navigation": "^0.3.2",
     "bootstrap": "^5.1.3",
     "eleventy-navigation-bootstrap": "^0.1.2",
@@ -29,6 +30,7 @@
     "git-url-parse": "^11.6.0",
     "henry-reader-bar": "https://henry-11ty-resources.s3.sa-east-1.amazonaws.com/Modules/henry-reader-bar-0.2.0.tgz",
     "henry-reading-time": "https://henry-11ty-resources.s3.sa-east-1.amazonaws.com/Modules/henry-reading-time-0.1.0.tgz",
+    "markdown-it": "^12.3.0",
     "markdown-it-anchor": "^8.4.1",
     "markdown-it-highlightjs": "^3.5.0",
     "simple-git": "^2.45.1"
