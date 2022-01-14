@@ -33,7 +33,23 @@ Los primeros lenguajes de programación se escribían en instrucciones que podí
 
 Éste último, es el caso de <b>Python</b>, que nace a finales de la década del 80, fue pensado para principiantes por su facilidad de aprendizaje y uso. Su código era compacto pero legible. Con el correr de los años fue incluyendo mejoras hasta llegar tambien a ser de licencia libre. Hoy por hoy, es usado desde en simples "scripts", hasta grandes servidores web que proveen servicio ininterrumpido las 24hs. Es utilizado para la programación de interfaces gráficas y bases de datos. Además tiene una amplia aceptación por científicos que hacen aplicaciones para las supercomputadores más rápidas del mundo y por los niños que recién están comenzando a programar.
 
+## Sintaxis
+
+Para el ejemplo se uso un lenguaje con el que era posible determinar los pasos a seguir por el robot abeja hasta llegar a la flor, y nos fue suficiente para poder entender como resolveríamos el problema. El hecho es que, los lenguajes de programación que utilizamos, deben ser más específicos todavía, necesitamos tener un nivel de detalle mayor en nuestras instrucciones, por ejemplo, en lugar de la instruccion "Arriba", podría ser, especificar la cantidad de celdas que hay que moverse, e incluso qué implica "moverse", que seguramente será cambiar el estado de la propia abeja. Por otro lado tambien habrá un marco de referencia, es decir, el tablero de juego, en sí mismo, es una estructura de datos que debemos conocer, saber donde hay ubicado un arbusto y donde no, saber cuales son los límites, y que pasa si con las instrucciones que le damos a la abeja, hacemos que rebase esos límites. 
+Para solventar esa complejidad, necesitamos un set de instrucciones un poco más complejo y tener la posibilidad de representar esas estructuras de datos, es decir, representar la realidad, de hecho, todos los datos son una representación de la realidad.
+La sintaxis de un programa, consiste en un conjunto de palabras reservadas a instrucciones específicas, con una estructura específica, tal y como funciona un lenguaje como el que usamos los humanos para comunicarnos, como el español o el inglés. Los lenguajes de programación tambien tienen su sintaxis, que esta compuesta por diferentes elementos, como ser variables para representar el dato de la realidad, sentencias para representar las instrucciones ó estructuras de control que conforman el cuerpo del programa.
+
+## Variables
+
+Una variable es un espacio de memoria donde guardamos un dato, ese espacio de memoria a la vez recibe un nombre:
+
+![unaImagenConBoxShadow](../_src/assets/02_imagen01.jpg)
+
+## Tipos de Datos
+## Operaciones entre Variables
+
+
+
 
 ```python
-
 ```
