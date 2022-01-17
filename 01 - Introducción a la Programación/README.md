@@ -165,7 +165,7 @@ Hemos llegado hasta este punto y se repasaron algunos de los conceptos más fund
 
 Anteriormente se menciono que un dato representa la realidad, y se presento el concepto de variable, que es un elemento que nos permite guardar un dato dentro de nuestro programa. Sin embargo, rápidamente vamos a llegar a la conclusión de que una variable puede llegar a quedar insuficiente para ciertas representaciones. Ante esta situación, en los lenguajes de programación tenemos estructuras de datos más complejas, en el caso de Python contamos con listas, tuplas y diccionarios.
 
-### Listas
+### Lista
 
 Una estructura de dato muy importante en Python es la lista, que consiste en una serie de elementos ordenados.
 Esos elementos pueden ser de distinto tipo, e incluso pueden ser de tipo lista también:
@@ -188,6 +188,47 @@ Las listas, así como otras estructuras de datos que se verán en adelante, tien
 * Extraer y recuperar el último elemento de la lista -> ulitmo = mi_lista.pop()
 * Multiplicar la lista 3 veces -> print(mi_lista[:] * 3)
 
+### Tupla
+
+La diferencia con la lista es que no se pueden modificar una vez creadas:
+
+* Convertir una lista a tupla -> mi_tupla=tuple(mi_lista)
+* Imprimir el índice 1 de la tupla -> print(mi_tupla[1])
+* Evaluar si un elemento está contenido en la tupla -> 'Rojo' <b>in</b> mi_tupla (Devuelve un valor booleano)
+* Evaluar las veces que está un elemento específico -> mi_tupla.count('Rojo')
+* Tupla con un solo elemento -> mi_tupla_unitaria = ('Blanco',)
+* Empaquetado de tupla, tupla sin paréntesis -> mi_tupla='Gaspar', 5, 8, 1999
+* Desempaquetado de tupla, se guardan los valores en orden de las variables -> nombre, dia, mes, año = mi_tupla
+* Convertir una tupla en una lista -> mi_lista=list(mi_tupla)
+
+### Diccionario
+
+Un diccionario tiene una organización de 'clave' y 'valor':
+
+* Crear un diccionario ->
+    mi_diccionario = {  'Colores Primarios': ['Rojo','Azul','Amarillo'], 
+                        'Colores secundarios': ['Naranja','Violeta','Verde'], 
+                        'Clave3': 10,
+                        'Clave4': False}
+* Imprimir un valor a través de su clave -> print(mi_diccionario['Colores Secundarios'])
+* Agregar un valor -> mi_diccionario['Clave5']='Otro ejemplo'
+* Cambiar un valor -> mi_diccionario['Clave3']=2
+* Eliminar un elemento de un diccionario a través de su clave -> <b>del</b> mi_diccionario['Clave4']
+* Utilizar una tupla como clave de un diccionario -> mi_tupla=("Argentina", "Italia", "Inglaterra")
+                                                    mi_diccionario={mi_tupla[0]:"Buenos Aires", 
+                                                                    mi_tupla[1]:"Roma", 
+                                                                    mi_tupla[2]:"Londres"}
+* Colocar una tupla dentro de un diccionario -> mi_diccionario={'Clave1':'Valor1', 'Clave2':(1,2,3,4,5)}
+* Colocar una lista dentro de un diccionario -> mi_diccionario={'Clave1':'Valor1', 'Clave2':[1,2,3,4,5]} (Notar que la diferencia está en el paréntesis '()' y el corchete '[]')
+* Colocar un diccionario dentro de un diccionario -> mi_diccionario={'Clave1':'Valor1', 'Clave2':{'numeros':[1,2,3,4,5]}}
+* Imprimir las claves del diccionario -> print(mi_diccionario.keys())
+* Imprimir las claves del diccionario -> print(mi_diccionario.values())
+* Imprimir la longitud del diccionario -> len(mi_diccionario)
+
+#### Consideraciones
+
+* La funcionalidad <b>del</b> permite eliminar cualquier estructura de datos
+* La funcionalidad <b>len</b> permite obtener el tamaño de la estructura de datos
 
 
 
