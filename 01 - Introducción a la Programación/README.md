@@ -48,6 +48,10 @@ Una variable es un espacio de memoria donde guardamos un dato, ese espacio de me
 
 Y esto conforma la estructura de datos más simple que podemos encontrar.
 
+## Constantes
+
+Sin embargo, cuando ese dato no lo alojamos en una variable y lo utilizamos directamente, recibe el nombre de constante.
+
 ## Tipos de Datos
 
 Es importante notar, que podemos encontrarnos con datos de tipos distintos, es decir numéricos, alfanuméricos, fechas o booleanos.
@@ -169,6 +173,20 @@ Operaciones con listas:
 * Creacion -> mi_lista = ['Rojo','Azul','Amarillo','Naranja','Violeta','Verde']
 * Imprimir -> print(mi_lista)
 * Ver el tipo de dato -> type(mi_lista)
+
+Las listas, así como otras estructuras de datos que se verán en adelante, tienen varios elementos, motivo por el cual cuando se quiere acceder en específico se requiere de un <b>índice</b> que va a hacer referencia al elemento dentro de la lista:
+
+* Imprimir el indice 3 de la lista -> print(mi_lista[2])
+* Acceder a un rango dentro de la lista -> print(mi_lista[0:2])  (el limite inferior se incluye y el superior se excluye)
+* Al no poner primer valor, Python asume que es un 0 -> print(mi_lista[:2])
+* Al no poner segundo valor, Python asume que se trata de todos los elementos a partir del primero -> print(mi_lista[0:])
+* Agregar un elemento al final de la lista -> mi_lista.append('Blanco') (Si el elemento ya existe va a quedar duplicado)
+* Agregar un elemento especificando el indice -> mi_lista.insert(3,'Negro')
+* Concatenar una nueva lista a la lista previamente creada -> mi_lista.extend(['Marrón','Gris'])
+* Encontrar el índice de un valor específico -> print(mi_lista.index('Azul'))
+* Eliminar un elemento de la lista -> mi_lista.remove('Blanco') (Si el elemento no existe va a arrojar un error)
+* Extraer y recuperar el último elemento de la lista -> ulitmo = mi_lista.pop()
+* Multiplicar la lista 3 veces -> print(mi_lista[:] * 3)
 
 
 
