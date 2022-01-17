@@ -373,5 +373,40 @@ Este formato de clases, objetos, métodos y parámetros es muy común en Python 
 
 Las librerías son proyectos con metodos o funciones puntuales, el cual es posible anexar a otros proyectos y complementarlo usando sus metodos especificos para una determinada solución. Son trozos de código hechos por terceros. Facilita mucho la programación y hace que nuestro programa sea más sencillo de hacer y luego de entender. También llamadas 'Frameworks', consiste en archivos de código a los que se invoca al proncipio de nuestro propio código.
 
+## Manejo de Errores
+
+### Pruebas de caja negra
+
+Las pruebas de caja negra se basan en la especificación de la función o el programa, aquí debemos probar sus inputs y validar los outputs. Se llama caja negra por que no necesitamos saber necesariamente los procesos internos del programa, solo contrastar sus resultados.
+Hay dos tipos de pruebas muy importantes:
+* Pruebas Unitarias: Se realizan pruebas a cada uno de los módulos para determinar su correcto funcionamiento.
+* Pruebas de Integración: Se valida quee todos los módulos funcionan entre sí.
+
+Es una buena práctica realizar las pruebas antes de crear código, esto es por que cualquier cambio que se realice a futuro los test estaran incorporados para determinar si los cambios cumplen lo esperado.
+En Python existe la posibilidad de realizar estas pruebas gracias a la libreria <b>unittest</b>.
+
+### Pruebas de caja de cristal
+
+Se basan en el flujo del programa, por lo que se asume que conocemos el funcionamiento del programa, por lo que podemos probar todos los caminos posibles de una función. Esto significa que vamos a probar las ramificaciones, bucles for y while, recursiónes, etc.
+Este tipo de pruebas son muy buenas cuando descubrimos un bug cuando corremos el programa, por lo que vamos a buscar el <b>bug</b> ó error de código gracias a que conocemos su estructura.
+
+### Seguir el código paso a paso ó 'Debugging'
+
+Los bugs son un problema que les sucede a todos, sin embargo si realizamos test a nuestro programa probablemente tendremos menos bugs, pero esto no es suficiente.
+Existen unas reglas generales que nos ayudaran:
+No te molestes con el debugger. Aprende a utilizar el print statement.
+* Estudia los datos disponibles.
+* Utiliza los datos para crear hipótesis y experimentos. Método científico.
+* Ten una mente abierta. Si entendieras el programa, probablemente no habrían bugs.
+* Lleva un registro de lo que has tratado, preferentemente en la forma de tests.
+* Debuguear es un proceso de búsqueda de los bugs, por lo que al diseñar nuestros experimentos debemos acotar el espacio de búsqueda en cada prueba. Una forma ágil de debugear es utilizando una búsqueda binaria con print statements, esto significa que ejecutamos la mitad del código, si no falla entonces sabemos que el problema esta en la otra mitad, y en cada área que vamos acortando lo dividimos por mitades, de esta forma hallaremos rápidamente nuestro bug.
+
+Existe un listado de errores comunes de los cuales también nos podemos apoyar:
+* Encuentra a los sospechosos comunes (llamado a una función mal escrita, parámetros en orden incorrecto, etc.)
+* En lugar de preguntarte por qué un programa no funciona, pregúntate por qué está funcionando de esta manera.
+* Es posible que el bug no se encuentre donde crees que está.
+* Explícale el problema a otra persona. De preferencia que no tenga contexto.
+* Lleva un registro de lo que has tratado, preferentemente en la forma de tests.
+
 ```python
 ``` 
