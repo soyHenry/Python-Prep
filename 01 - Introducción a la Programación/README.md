@@ -230,6 +230,82 @@ Un diccionario tiene una organización de 'clave' y 'valor':
 * La funcionalidad <b>del</b> permite eliminar cualquier estructura de datos
 * La funcionalidad <b>len</b> permite obtener el tamaño de la estructura de datos
 
+## Funciones
+
+Las funciones son una secuencia de comandos que ejecutan una sección de código. En Python las funciones se definen usando la palabra reservada <b>def</b> y luego el nombre de la función con paréntesis y dos puntos que indican que lo que sigue son las sentencias, eventualmente una función debe retornar un valor, para esto se usa la palabra reservada <b>return</b>.
+
+### Limites al declarar funciones
+
+* Los nombres no pueden comenzar con digitos
+* No pueden utilizar una palabra reservada
+* Las variables deben tener diferentes nombres
+* Los nombres de las funciones deben ser descriptivas de lo que hacen las funciones "Imprimir_valor_variable"
+* Los parámetros pueden tener valores por defecto.
+* Se puede devolver ningun, uno o más de un valor, y de diferentes tipos de datos.
+* Se puede asignar a variables, el resultado de retorno de una función.
+
+Para poder imprimir el valor de una variable dentro de un string podemos hacerlo así:
+
+->  def imprimir_valor_variable(var):<br>
+&nbsp;print('El valor de la variable es' + str(var))
+
+Para devolver dos números ordenados de menor a mayor podemos hacerlo así:
+
+->  def ordenar_dos_numeros(num1=0, num2=0):<br>
+&nbsp;if (num1 > num2):<br>
+&nbsp;&nbsp;return num2, num1<br>
+&nbsp;else:<br>
+&nbsp;&nbsp;return num1, num2<br>
+
+### Declarar y Ejecutar
+
+Declarar una función es escribir su estructura y ejecutar una función es llamar la función y ejecutar su código, estas dos cosas ocurren en sentencias diferentes.
+
+### Donde se puede acceder a las variables
+
+Cada vez que una función se ejecuta se genera un contenedor donde las variables de la función van a vivir, una vez se sale de la función estas variables dejan de existir, esto se denomina espacio de nombres, alcance o scope de la función.
+Dentro de una función puede haber una variable que solo se pueda utilizar dentro del cuerpo de la función, son <b>variables locales</b>. Mientras que las variables en el código desde el cual se llama a la función, son <b>variables globales</b>.
+
+![unaImagenConBoxShadow](../_src/assets/02_imagen07.jpg)
+
+![unaImagenConBoxShadow](../_src/assets/02_imagen08.jpg)
+
+En este caso, 'divisor' es una variable local dentro de la función. Deja de existir cuando termina el llamado a la función, lo que denota el mensaje de error es que no encuentra esa variable para imprimir, porque de hecho, solo existió dentro del espacio de nombres de la función.
+
+![unaImagenConBoxShadow](../_src/assets/02_imagen09.jpg)
+
+En este caso 'divisor' es una variable global. En el llamado de la función, como no encuentra una variable local llamada 'divisor', busca una variable global llamada 'divisor'. Desde dentro de la función, si se tiene acceso al espacio de nombres que la invoca.
+
+![unaImagenConBoxShadow](../_src/assets/02_imagen10.jpg)
+
+En este caso existe 'divisor' como variable global y 'divisor' como variable local. El llamado a la función usa siempre primero la variable local.
+
+### Recursividad
+
+En ocasiones, según la problemática que se quiera resolver, podemos utilizar la recursividad, que consiste en una función que hace referencia a sí misma. Python lo permite admitiendo el uso de las <b>llamadas recursivas</b>.
+Entre las ventajas de usar funciones podemos encontrar que se obtiene código reutilizable y más prolijo o legible.
+Es importante notar también que se puede documentar, mediante la inserción de comentarios y el uso de la función help().
+
+->  def factorial(numero):<br>
+&nbsp;'''<br>
+&nbsp;Devuelve el factorial<br>
+&nbsp;'''<br>
+&nbsp;if (numero > 1):<br>
+&nbsp;&nbsp;numero = numero * factorial(numero - 1)<br>
+&nbsp;return numero<br><br>
+&nbsp;help(factorial)
+
+![unaImagenConBoxShadow](../_src/assets/02_imagen11.jpg)
+
+## Funciones Lambda
+
+La función Lambda es una forma conveniente de crear una función en una sola línea. También se las conoce como funciones anónimas, ya que no tienen nombre, sino que se asignan a una variable.
+
+* Pueden tener cualquier cantidad de argumentos, pero solo una expresión.
+* No necesitan un return.
+* Muy cómodas para crear funciones rápido.
+
+![unaImagenConBoxShadow](../_src/assets/02_imagen12.jpg)
 
 
 ```python
