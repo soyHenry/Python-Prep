@@ -32,6 +32,9 @@ Entonces, <b>programar, es armar una secuencia lógica de pasos a seguir, en pos
 Los primeros lenguajes de programación se escribían en instrucciones que podían interpretar las computadores muy facilmente, pero que resultaban menos amigables a las personas, tales como el lenguaje ensamblador (o Assembler) o Fortran, desarrollado en 1955. Con el tiempo, esto fue cambiando, se fueron desarrolando lenguajes de programación de más alto nivel y con diferentes aplicaciones, que por lo general eran comerciales o científicas, pero tambien con fines educativos, es decir, lenguajes desarrollados para aprender a programar, y consecuentemente, también sea más sencillo. 
 
 Éste último, es el caso de <b>Python</b>, que nace a finales de la década del 80, fue pensado para principiantes por su facilidad de aprendizaje y uso. Su código era compacto pero legible. Con el correr de los años fue incluyendo mejoras hasta llegar tambien a ser de licencia libre. Hoy por hoy, es usado desde en simples "scripts", hasta grandes servidores web que proveen servicio ininterrumpido las 24hs. Es utilizado para la programación de interfaces gráficas y bases de datos. Además tiene una amplia aceptación por científicos que hacen aplicaciones para las supercomputadores más rápidas del mundo y por los niños que recién están comenzando a programar.
+La generalización del Big Data en los últimos años, seguida de la explosión de la Inteligencia Artificial, Machine Learning y el surgimiento de la Ciencia de Datos como un nuevo área de trabajo con especialistas propios, ha revolucionado el panorama ya que muchas de las nuevas herramientas que han surgido han sido desarrolladas en Python o nos ofrecen Python como la forma predilecta de interactuar con ellas.
+Podemos hablar de tecnología para Big Data como PySpark, de herramientas para Data Science como Pandas, NumPy, Matplotlib o Jupyter. De herramientas del procesamiento del lenguaje natural como NLTK, y por último el área de Deep Learning como Tensorflow, MXNet o Scikit-Learn.
+
 
 ## Sintaxis
 
@@ -297,7 +300,7 @@ Es importante notar también que se puede documentar, mediante la inserción de 
 
 ![unaImagenConBoxShadow](../_src/assets/02_imagen11.jpg)
 
-## Funciones Lambda
+### Funciones Lambda
 
 La función Lambda es una forma conveniente de crear una función en una sola línea. También se las conoce como funciones anónimas, ya que no tienen nombre, sino que se asignan a una variable.
 
@@ -307,6 +310,64 @@ La función Lambda es una forma conveniente de crear una función en una sola l�
 
 ![unaImagenConBoxShadow](../_src/assets/02_imagen12.jpg)
 
+## Clases y objetos (POO)
+
+El alto grado de planificación y previsión que requiere la programación es contrario a la propia realidad. El hombre aprende y crea a través de la experimentación, no de la planeación. La Orientación a Objetos (POO) brinda estos métodos de experimentación, y logra que los lenguajes sean de más alto nivel, es decir, más cercanos a como los humanos pensamos el mundo. Es decir, vemos la realidad como objetos que se interrelacionan y realizan acciones, y esto, es lo que se intenta emular en la POO.
+Hasta 1966 la programación fue exclusivamente lineal, hasta que surgieron lenguajes como Simula, SmallTalk, C++, Ada, Delphi o Java. Hoy el lenguaje más popular es Python y su filosofía hace hincapié en la legibilidad de su código. 
+
+### Objeto
+
+Una estructura de datos que eventualmente tiene funciones asociadas, que están agrupados por razones de consistencia y comodidad conforman un <b>objeto</b>.
+En la composición de un objeto tenemos entonces <b>propiedades</b> (datos) y <b>métodos</b> (funciones asociadas).
+
+### Clase
+
+Hay una diferencia muy importante entre un objeto y una variable, y es que mientras que la variable 'se crea', el objeto 'se instancia', lo que implica, ademas de su creación propiamente dicha, que su creación se realiza en base a una definición preliminar, disponibilizando en memoria, no solo la estructura de datos asociada sino sus métodos. Por medio de esta mecánica, además, se puede instanciar más de un solo objeto con la misma definicion. Esta definición, es una generalización del objeto, es decir que especifica que estructura de datos va a tener y qué métodos asociados. Esto lo que se conoce como <b>clase</b>
+
+### Pilares de la Programación Orientada a Objetos
+
+* <b>Abstracción</b>: Es cuando separamos los datos de un objeto para luego generar un molde (una clase).
+* <b>Encapsulamiento</b>: Se utiliza cuando es necesario que ciertos métodos o propiedades sean inviolables o inalterables.
+Un ejemplo del encapsulamiento podría ser una cuenta de banco, donde el usuario no puede simplemente aumentar su balance de dinero, si no que debe depender de unos métodos previamente validados para aumentar dicho balance (depósitos, transferencias, etc).
+* <b>Herencia</b>: Permite crear nuevas clases a partir de otras. Si tuviéramos una clase “Autos” y quisiéramos crear unas clases “Auto deportivo” o “Auto clásico”, podríamos tomar varias propiedades y métodos de la clase “Autos”. Esto nos da una jerarquía de padre e hijo.
+* <b>Polimorfismo</b>: Proviene de Poli = muchas, morfismo = formas. Se utiliza para crear métodos con el mismo nombre pero con diferente comportamiento.
+
+### Ejemplos:
+
+* Clase Animal<br>
+&nbsp;&nbsp;- Especie<br>
+&nbsp;&nbsp;- Edad<br>
+&nbsp;&nbsp;- Color<br>
+&nbsp;&nbsp;- Correr()<br>
+&nbsp;&nbsp;- Dormir()<br>
+
+Se instancian distintos objetos a partir de una clase:
+
+* Objeto1<br>
+&nbsp;&nbsp;- Especie: 'Perro'<br>
+&nbsp;&nbsp;- Edad: 3<br>
+&nbsp;&nbsp;- Color: 'Blanco'<br>
+&nbsp;&nbsp;- Correr()<br>
+&nbsp;&nbsp;- Dormir()<br>
+
+* Objeto2
+&nbsp;&nbsp;- Especie: 'Caballo'<br>
+&nbsp;&nbsp;- Edad: 8<br>
+&nbsp;&nbsp;- Color: 'Marrón'<br>
+&nbsp;&nbsp;- Correr()<br>
+&nbsp;&nbsp;- Dormir()<br>
+
+* A partir de la sentencia <b>class</b> y el nombre de creamos la clase.
+* La función <b>__init__()</b> es el <b>constructor</b> de la clase, esta función se ejecuta cuando se instancia el objeto.
+* La clase posee atributos (especie, edad, color) y métodos que manipulan esos atributos (mePresento, cumplirAños).
+
+![unaImagenConBoxShadow](../_src/assets/02_imagen13.jpg)
+
+Creamos los objetos a1 y a2. Al hacerlo se envían los parámetros de inicialización de sus atributos.
+Utilizamos sus métodos para mostrar los atributos y/o modificarlos.
+Este formato de clases, objetos, métodos y parámetros es muy común en Python y lo utilizamos cada vez que invocamos alguna de sus <b>librerías</b>
+
+![unaImagenConBoxShadow](../_src/assets/02_imagen14.jpg)
 
 ```python
 ``` 
