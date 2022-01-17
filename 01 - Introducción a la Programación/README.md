@@ -369,5 +369,9 @@ Este formato de clases, objetos, métodos y parámetros es muy común en Python 
 
 ![unaImagenConBoxShadow](../_src/assets/02_imagen14.jpg)
 
+## Librerías
+
+Las librerías son proyectos con metodos o funciones puntuales, el cual es posible anexar a otros proyectos y complementarlo usando sus metodos especificos para una determinada solución. Son trozos de código hechos por terceros. Facilita mucho la programación y hace que nuestro programa sea más sencillo de hacer y luego de entender. También llamadas 'Frameworks', consiste en archivos de código a los que se invoca al proncipio de nuestro propio código.
+
 ```python
 ``` 
