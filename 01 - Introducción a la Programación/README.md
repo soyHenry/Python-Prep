@@ -25,13 +25,13 @@ Cualquiera de las siguiente, podrían ser una solución:
 * Derecha, Derecha, Derecha, Derecha, Derecha, Derecha, Arriba, Arriba, Arriba, Izquierda, Izquierda, Arriba, Arriba, Derecha, Arriba, Derecha
 * Arriba, Derecha, Derecha, Arriba, Arriba, Arriba, Arriba, Arriba, Derecha, Derecha, Derecha, Derecha, Arriba
 
-Lo importante, en principio, es que notemos que al resolver el problema planteado, lo que estamos haciendo, utilizando un pensamiento lógico, es precisamente, <b>programación</b>
+Lo importante, en principio, es que notemos que al resolver el problema planteado, lo que estamos haciendo, utilizando un pensamiento lógico, es precisamente, **programación**
 
-Entonces, <b>programar, es armar una secuencia lógica de pasos a seguir, en pos de cumplir un objetivo.</b> En el ejemplo visto, tuvimos un contexto que nos marcaba las posibilidades y restricciones del problema, por ejemplo moverse dentro del cuadrílatero ó no chocar con los arbustos. Y también un conjunto de instrucciones disponibles, que definian el lenguaje que teníamos que usar, para que el robot comprenda las instrucciones. Lo que usamos fue un lenguaje formal, muy básico y que fue suficiente para resolver el problema. Éstos lenguajes, se denominan lenguajes de programación, nos permiten plasmar esas instrucciones necesarias para darle una solución al problema que queremos resolver, generando así un programa (ó software).
+Entonces, **programar, es armar una secuencia lógica de pasos a seguir, en pos de cumplir un objetivo.** En el ejemplo visto, tuvimos un contexto que nos marcaba las posibilidades y restricciones del problema, por ejemplo moverse dentro del cuadrílatero ó no chocar con los arbustos. Y también un conjunto de instrucciones disponibles, que definian el lenguaje que teníamos que usar, para que el robot comprenda las instrucciones. Lo que usamos fue un lenguaje formal, muy básico y que fue suficiente para resolver el problema. Éstos lenguajes, se denominan lenguajes de programación, nos permiten plasmar esas instrucciones necesarias para darle una solución al problema que queremos resolver, generando así un programa (ó software).
 
 Los primeros lenguajes de programación se escribían en instrucciones que podían interpretar las computadores muy facilmente, pero que resultaban menos amigables a las personas, tales como el lenguaje ensamblador (o Assembler) o Fortran, desarrollado en 1955. Con el tiempo, esto fue cambiando, se fueron desarrolando lenguajes de programación de más alto nivel y con diferentes aplicaciones, que por lo general eran comerciales o científicas, pero tambien con fines educativos, es decir, lenguajes desarrollados para aprender a programar, y consecuentemente, también sea más sencillo. 
 
-Éste último, es el caso de <b>Python</b>, que nace a finales de la década del 80, fue pensado para principiantes por su facilidad de aprendizaje y uso. Su código era compacto pero legible. Con el correr de los años fue incluyendo mejoras hasta llegar tambien a ser de licencia libre. Hoy por hoy, es usado desde en simples "scripts", hasta grandes servidores web que proveen servicio ininterrumpido las 24hs. Es utilizado para la programación de interfaces gráficas y bases de datos. Además tiene una amplia aceptación por científicos que hacen aplicaciones para las supercomputadores más rápidas del mundo y por los niños que recién están comenzando a programar.
+Éste último, es el caso de **Python**, que nace a finales de la década del 80, fue pensado para principiantes por su facilidad de aprendizaje y uso. Su código era compacto pero legible. Con el correr de los años fue incluyendo mejoras hasta llegar tambien a ser de licencia libre. Hoy por hoy, es usado desde en simples "scripts", hasta grandes servidores web que proveen servicio ininterrumpido las 24hs. Es utilizado para la programación de interfaces gráficas y bases de datos. Además tiene una amplia aceptación por científicos que hacen aplicaciones para las supercomputadores más rápidas del mundo y por los niños que recién están comenzando a programar.
 La generalización del Big Data en los últimos años, seguida de la explosión de la Inteligencia Artificial, Machine Learning y el surgimiento de la Ciencia de Datos como un nuevo área de trabajo con especialistas propios, ha revolucionado el panorama ya que muchas de las nuevas herramientas que han surgido han sido desarrolladas en Python o nos ofrecen Python como la forma predilecta de interactuar con ellas.
 Podemos hablar de tecnología para Big Data como PySpark, de herramientas para Data Science como Pandas, NumPy, Matplotlib o Jupyter. De herramientas del procesamiento del lenguaje natural como NLTK, y por último el área de Deep Learning como Tensorflow, MXNet o Scikit-Learn.
 
@@ -40,7 +40,7 @@ Podemos hablar de tecnología para Big Data como PySpark, de herramientas para D
 
 Para el ejemplo se uso un lenguaje con el que era posible determinar los pasos a seguir por el robot abeja hasta llegar a la flor, y nos fue suficiente para poder entender como resolveríamos el problema. El hecho es que, los lenguajes de programación que utilizamos, deben ser más específicos todavía, necesitamos tener un nivel de detalle mayor en nuestras instrucciones, por ejemplo, en lugar de la instruccion "Arriba", podría ser, especificar la cantidad de celdas que hay que moverse, e incluso qué implica "moverse", que seguramente será cambiar el estado de la propia abeja. 
 Por otro lado tambien habrá un marco de referencia, es decir, el tablero donde se mueve la abeja y está la flor, en sí mismo, es algo que debemos conocer, saber donde hay ubicado un arbusto y donde no, saber cuales son los límites, y que pasa si con las instrucciones que le damos a la abeja, hacemos que rebase esos límites.
-Para solventar esa complejidad, necesitamos un <b>set de instrucciones</b> un poco más complejo para poder interactuar con el computador una forma de representar los datos de la realidad, es decir, dimensiones del tablero donde se mueve la abeja, posición de la abeja, posición de la flor, ubicaciones de los arbustos, y todo esto se hace mediante lo que se conoce como <b>estructuras</b> de datos, las cuales permiten entonces representar la realidad. De hecho, todos </b>los datos son una representación de la realidad</b>.
+Para solventar esa complejidad, necesitamos un **set de instrucciones** un poco más complejo para poder interactuar con el computador una forma de representar los datos de la realidad, es decir, dimensiones del tablero donde se mueve la abeja, posición de la abeja, posición de la flor, ubicaciones de los arbustos, y todo esto se hace mediante lo que se conoce como **estructuras** de datos, las cuales permiten entonces representar la realidad. De hecho, todos **los datos son una representación de la realidad**.
 La sintaxis de un programa, consiste en un conjunto de palabras reservadas a instrucciones, con una estructura específica, tal y como funciona un lenguaje como el que usamos los humanos para comunicarnos, como el español o el inglés. Los lenguajes de programación tambien tienen su sintaxis, que esta compuesta por diferentes elementos, como ser variables para representar el dato de la realidad, sentencias para representar las instrucciones ó estructuras de control que conforman el cuerpo del programa.
 
 ## Variables
@@ -93,12 +93,49 @@ Cuando tratamos con texto, podemos hacer otras operaciones:
 
 Algunos ejemplos en Python:
 
+```python
+>>> a = 'Hola '
+>>> b = 'Mundo !'
+>>> print(a + b)
+Hola Mundo !
 
-![unaImagenConBoxShadow](../_src/assets/02_imagen02.jpg)
+>>> x = 3
+>>> y = 12
+>>> print(x + y)
+15
+
+>>> print(a + x)
+---------------------------------------------------------------------------
+TypeError                                 Traceback (most recent call last)
+~\AppData\Local\Temp/ipykernel_18232/136165486.py in <module>
+----> 1 print(a + x)
+
+TypeError: can only concatenate str (not "int") to str
+```
 
 Notar que en la operaciones que no están permitidas arroja un error, que es muy descriptivo. En este caso no es posible sumar un valor entero con un valor alfanumérico.
 
-![unaImagenConBoxShadow](../_src/assets/02_imagen03.jpg)
+```python
+>>> # Dividir "y" entre "x"
+>>> y = 9
+>>> x = 3
+>>> print(y/x)
+3.0
+
+>>> # Potencia de "y" elevado a la "x"
+>>> y = 2
+>>> x = 4
+>>> print(y**x)
+16
+
+>>> # Devolver el resto de la división
+>>> y = 13
+>>> x = 3
+>>> print(y%x)
+1
+```
+
+Notar que anteponiendo el caracter numeral (#) es posible agregar comentarios en el código.
 
 Operaciones Lógicas
 
@@ -137,23 +174,59 @@ Tabla del operador lógico "Or Exclusiva", se verifica ((A and not(B)) or (not(A
 
 Los condicionales son bloques de código que se ejecutan únicamente si se cumple una condición. 
 El resultado de esta condición debe ser booleano (True o False).
-Esto se logra mediante la sentencia <b>if</b>.
-Con la sentencia <b>elif</b> se puede agregar un número arbitrario de condiciones. 
-Por otra parte, se puede ejecutar código si la/s condición/es no se cumple/n con la sentencia <b>else</b>.
+Esto se logra mediante la sentencia **if**.
+Con la sentencia **elif** se puede agregar un número arbitrario de condiciones. 
+Por otra parte, se puede ejecutar código si la/s condición/es no se cumple/n con la sentencia **else**.
 
-![unaImagenConBoxShadow](../_src/assets/02_imagen04.jpg)
+
+```python
+>>> valor = 0
+>>> if (valor < 0):
+>>>     print('El número es negativo')
+>>> elif (valor > 0):
+>>>     print('El número es positivo')
+>>> else:
+>>>     print('El número es igual a cero')
+El número es igual a cero
+```
 
 ### Ciclos Iterativos o Loops
 
 Son bloques de código que se repiten una cierta cantidad de veces en función de ciertas condiciones.
 
-Un ciclo <b>for</b> repite un bloque de código tantas veces como elementos haya dentro del rango entre 1 y 10:
+Un ciclo **for** repite un bloque de código tantas veces como elementos haya dentro del rango entre 1 y 10:
 
-![unaImagenConBoxShadow](../_src/assets/02_imagen05.jpg)
+```python
+>>> for n in range(1,10):
+>>>     print(n)
+1
+2
+3
+4
+5
+6
+7
+8
+9
+```
 
-Un ciclo <b>while</b> repite un bloque de código mientras que cierta condición se cumpla:
+Un ciclo **while** repite un bloque de código mientras que cierta condición se cumpla:
 
-![unaImagenConBoxShadow](../_src/assets/02_imagen06.jpg)
+```python
+>>> n = 1
+>>> while (n < 10):
+>>>     print(n)
+>>>     n = n + 1
+1
+2
+3
+4
+5
+6
+7
+8
+9
+```
 
 ### Consideraciones
 
@@ -177,7 +250,7 @@ Operaciones con listas:
 * Imprimir -> print(mi_lista)
 * Ver el tipo de dato -> type(mi_lista)
 
-Las listas, así como otras estructuras de datos que se verán en adelante, tienen varios elementos, motivo por el cual cuando se quiere acceder en específico se requiere de un <b>índice</b> que va a hacer referencia al elemento dentro de la lista:
+Las listas, así como otras estructuras de datos que se verán en adelante, tienen varios elementos, motivo por el cual cuando se quiere acceder en específico se requiere de un **índice** que va a hacer referencia al elemento dentro de la lista:
 
 * Imprimir el indice 3 de la lista -> print(mi_lista[2])
 * Acceder a un rango dentro de la lista -> print(mi_lista[0:2])  (el limite inferior se incluye y el superior se excluye)
@@ -197,7 +270,7 @@ La diferencia con la lista es que no se pueden modificar una vez creadas:
 
 * Convertir una lista a tupla -> mi_tupla=tuple(mi_lista)
 * Imprimir el índice 1 de la tupla -> print(mi_tupla[1])
-* Evaluar si un elemento está contenido en la tupla -> 'Rojo' <b>in</b> mi_tupla (Devuelve un valor booleano)
+* Evaluar si un elemento está contenido en la tupla -> 'Rojo' **in** mi_tupla (Devuelve un valor booleano)
 * Evaluar las veces que está un elemento específico -> mi_tupla.count('Rojo')
 * Tupla con un solo elemento -> mi_tupla_unitaria = ('Blanco',)
 * Empaquetado de tupla, tupla sin paréntesis -> mi_tupla='Gaspar', 5, 8, 1999
@@ -216,7 +289,7 @@ Un diccionario tiene una organización de 'clave' y 'valor':
 * Imprimir un valor a través de su clave -> print(mi_diccionario['Colores Secundarios'])
 * Agregar un valor -> mi_diccionario['Clave5']='Otro ejemplo'
 * Cambiar un valor -> mi_diccionario['Clave3']=2
-* Eliminar un elemento de un diccionario a través de su clave -> <b>del</b> mi_diccionario['Clave4']
+* Eliminar un elemento de un diccionario a través de su clave -> **del** mi_diccionario['Clave4']
 * Utilizar una tupla como clave de un diccionario -> mi_tupla=("Argentina", "Italia", "Inglaterra")
                                                     mi_diccionario={mi_tupla[0]:"Buenos Aires", 
                                                                     mi_tupla[1]:"Roma", 
@@ -230,12 +303,12 @@ Un diccionario tiene una organización de 'clave' y 'valor':
 
 #### Consideraciones
 
-* La funcionalidad <b>del</b> permite eliminar cualquier estructura de datos
-* La funcionalidad <b>len</b> permite obtener el tamaño de la estructura de datos
+* La funcionalidad **del** permite eliminar cualquier estructura de datos
+* La funcionalidad **len** permite obtener el tamaño de la estructura de datos
 
 ## Funciones
 
-Las funciones son una secuencia de comandos que ejecutan una sección de código. En Python las funciones se definen usando la palabra reservada <b>def</b> y luego el nombre de la función con paréntesis y dos puntos que indican que lo que sigue son las sentencias, eventualmente una función debe retornar un valor, para esto se usa la palabra reservada <b>return</b>.
+Las funciones son una secuencia de comandos que ejecutan una sección de código. En Python las funciones se definen usando la palabra reservada **def** y luego el nombre de la función con paréntesis y dos puntos que indican que lo que sigue son las sentencias, eventualmente una función debe retornar un valor, para esto se usa la palabra reservada **return**.
 
 ### Limites al declarar funciones
 
@@ -267,23 +340,19 @@ Declarar una función es escribir su estructura y ejecutar una función es llama
 ### Donde se puede acceder a las variables
 
 Cada vez que una función se ejecuta se genera un contenedor donde las variables de la función van a vivir, una vez se sale de la función estas variables dejan de existir, esto se denomina espacio de nombres, alcance o scope de la función.
-Dentro de una función puede haber una variable que solo se pueda utilizar dentro del cuerpo de la función, son <b>variables locales</b>. Mientras que las variables en el código desde el cual se llama a la función, son <b>variables globales</b>.
+Dentro de una función puede haber una variable que solo se pueda utilizar dentro del cuerpo de la función, son **variables locales**. Mientras que las variables en el código desde el cual se llama a la función, son **variables globales**.
 
 ![unaImagenConBoxShadow](../_src/assets/02_imagen07.jpg)
 
-![unaImagenConBoxShadow](../_src/assets/02_imagen08.jpg)
-
-
 ``` python
-def dividir(dividendo, divisor = 1):
-    if (divisor == 0):
-        return 'No se puede dividir por cero'
-    else:
-        return dividendo / divisor
-
-print(dividir(10))
-
-print(divisor)
+>>> def dividir(dividendo, divisor = 1):
+>>>     if (divisor == 0):
+>>>         return 'No se puede dividir por cero'
+>>>     else:
+>>>         return dividendo / divisor
+>>> print(dividir(10))
+10.0
+>>> print(divisor)
 ---------------------------------------------------------------------------
 NameError                                 Traceback (most recent call last)
 ~\AppData\Local\Temp/ipykernel_10044/1862935505.py in <module>
@@ -294,30 +363,58 @@ NameError: name 'divisor' is not defined
 
 En este caso, 'divisor' es una variable local dentro de la función. Deja de existir cuando termina el llamado a la función, lo que denota el mensaje de error es que no encuentra esa variable para imprimir, porque de hecho, solo existió dentro del espacio de nombres de la función.
 
-![unaImagenConBoxShadow](../_src/assets/02_imagen09.jpg)
+``` python
+>>> divisor = 5
+>>> def dividir(dividendo):
+>>>     if (divisor == 0):
+>>>         return 'No se puede dividir por cero'
+>>>     else:
+>>>         return dividendo / divisor
+>>> print(dividir(10))
+2.0
+>>> print(divisor)
+5
+``` 
 
 En este caso 'divisor' es una variable global. En el llamado de la función, como no encuentra una variable local llamada 'divisor', busca una variable global llamada 'divisor'. Desde dentro de la función, si se tiene acceso al espacio de nombres que la invoca.
 
-![unaImagenConBoxShadow](../_src/assets/02_imagen10.jpg)
+``` python
+>>> divisor = 5
+>>> def dividir(dividendo, divisor = 1):
+>>>     if (divisor == 0):
+>>>         return 'No se puede dividir por cero'
+>>>     else:
+>>>         return dividendo / divisor
+>>> print(dividir(10))
+10.0
+>>> print(divisor)
+5
+``` 
 
 En este caso existe 'divisor' como variable global y 'divisor' como variable local. El llamado a la función usa siempre primero la variable local.
 
 ### Recursividad
 
-En ocasiones, según la problemática que se quiera resolver, podemos utilizar la recursividad, que consiste en una función que hace referencia a sí misma. Python lo permite admitiendo el uso de las <b>llamadas recursivas</b>.
+En ocasiones, según la problemática que se quiera resolver, podemos utilizar la recursividad, que consiste en una función que hace referencia a sí misma. Python lo permite admitiendo el uso de las **llamadas recursivas**.
 Entre las ventajas de usar funciones podemos encontrar que se obtiene código reutilizable y más prolijo o legible.
 Es importante notar también que se puede documentar, mediante la inserción de comentarios y el uso de la función help().
 
-->  def factorial(numero):<br>
-&nbsp;'''<br>
-&nbsp;Devuelve el factorial<br>
-&nbsp;'''<br>
-&nbsp;if (numero > 1):<br>
-&nbsp;&nbsp;numero = numero * factorial(numero - 1)<br>
-&nbsp;return numero<br><br>
-&nbsp;help(factorial)
+``` python
+>>> def factorial(numero):
+>>>     '''
+>>>     Devuelve el factorial
+>>>     '''
+>>>     if (numero > 1):
+>>>         numero = numero * factorial(numero - 1)
+>>>     return numero
+>>> factorial(3)
+6
+>>> help(factorial)
+Help on function factorial in module __main__:
 
-![unaImagenConBoxShadow](../_src/assets/02_imagen11.jpg)
+factorial(numero)
+    Devuelve el factorial
+``` 
 
 ### Funciones Lambda
 
@@ -327,7 +424,11 @@ La función Lambda es una forma conveniente de crear una función en una sola l�
 * No necesitan un return.
 * Muy cómodas para crear funciones rápido.
 
-![unaImagenConBoxShadow](../_src/assets/02_imagen12.jpg)
+``` python
+>>> lambda_producto = lambda x, y: x * y
+>>> lambda_producto(3, 4)
+12
+``` 
 
 ## Clases y objetos (POO)
 
@@ -336,20 +437,20 @@ Hasta 1966 la programación fue exclusivamente lineal, hasta que surgieron lengu
 
 ### Objeto
 
-Una estructura de datos que eventualmente tiene funciones asociadas, que están agrupados por razones de consistencia y comodidad conforman un <b>objeto</b>.
-En la composición de un objeto tenemos entonces <b>propiedades</b> (datos) y <b>métodos</b> (funciones asociadas).
+Una estructura de datos que eventualmente tiene funciones asociadas, que están agrupados por razones de consistencia y comodidad conforman un **objeto**.
+En la composición de un objeto tenemos entonces **propiedades** (datos) y **métodos** (funciones asociadas).
 
 ### Clase
 
-Hay una diferencia muy importante entre un objeto y una variable, y es que mientras que la variable 'se crea', el objeto 'se instancia', lo que implica, ademas de su creación propiamente dicha, que su creación se realiza en base a una definición preliminar, disponibilizando en memoria, no solo la estructura de datos asociada sino sus métodos. Por medio de esta mecánica, además, se puede instanciar más de un solo objeto con la misma definicion. Esta definición, es una generalización del objeto, es decir que especifica que estructura de datos va a tener y qué métodos asociados. Esto lo que se conoce como <b>clase</b>
+Hay una diferencia muy importante entre un objeto y una variable, y es que mientras que la variable 'se crea', el objeto 'se instancia', lo que implica, ademas de su creación propiamente dicha, que su creación se realiza en base a una definición preliminar, disponibilizando en memoria, no solo la estructura de datos asociada sino sus métodos. Por medio de esta mecánica, además, se puede instanciar más de un solo objeto con la misma definicion. Esta definición, es una generalización del objeto, es decir que especifica que estructura de datos va a tener y qué métodos asociados. Esto lo que se conoce como **clase**
 
 ### Pilares de la Programación Orientada a Objetos
 
-* <b>Abstracción</b>: Es cuando separamos los datos de un objeto para luego generar un molde (una clase).
-* <b>Encapsulamiento</b>: Se utiliza cuando es necesario que ciertos métodos o propiedades sean inviolables o inalterables.
+* **Abstracción**: Es cuando separamos los datos de un objeto para luego generar un molde (una clase).
+* **Encapsulamiento**: Se utiliza cuando es necesario que ciertos métodos o propiedades sean inviolables o inalterables.
 Un ejemplo del encapsulamiento podría ser una cuenta de banco, donde el usuario no puede simplemente aumentar su balance de dinero, si no que debe depender de unos métodos previamente validados para aumentar dicho balance (depósitos, transferencias, etc).
-* <b>Herencia</b>: Permite crear nuevas clases a partir de otras. Si tuviéramos una clase “Autos” y quisiéramos crear unas clases “Auto deportivo” o “Auto clásico”, podríamos tomar varias propiedades y métodos de la clase “Autos”. Esto nos da una jerarquía de padre e hijo.
-* <b>Polimorfismo</b>: Proviene de Poli = muchas, morfismo = formas. Se utiliza para crear métodos con el mismo nombre pero con diferente comportamiento.
+* **Herencia**: Permite crear nuevas clases a partir de otras. Si tuviéramos una clase “Autos” y quisiéramos crear unas clases “Auto deportivo” o “Auto clásico”, podríamos tomar varias propiedades y métodos de la clase “Autos”. Esto nos da una jerarquía de padre e hijo.
+* **Polimorfismo**: Proviene de Poli = muchas, morfismo = formas. Se utiliza para crear métodos con el mismo nombre pero con diferente comportamiento.
 
 ### Ejemplos:
 
@@ -376,17 +477,49 @@ Se instancian distintos objetos a partir de una clase:
 &nbsp;&nbsp;- Correr()<br>
 &nbsp;&nbsp;- Dormir()<br>
 
-* A partir de la sentencia <b>class</b> y el nombre de creamos la clase.
-* La función <b>__init__()</b> es el <b>constructor</b> de la clase, esta función se ejecuta cuando se instancia el objeto.
+* A partir de la sentencia **class** y el nombre de creamos la clase.
+* La función **__init__()** es el **constructor** de la clase, esta función se ejecuta cuando se instancia el objeto.
 * La clase posee atributos (especie, edad, color) y métodos que manipulan esos atributos (mePresento, cumplirAños).
 
-![unaImagenConBoxShadow](../_src/assets/02_imagen13.jpg)
+``` python
+>>> class Animal:
+>>> '''
+>>> En esta clase se crean los animales
+>>> '''
+>>> def __init__(self, especie, edad, color):
+>>>     self.especie = especie
+>>>     self.edad = edad
+>>>     self.color = color
+>>> def mePresento(self):
+>>>     print('Hola, soy ', self.especie, ', de color', self.color, ' y tengo ', self.edad, ' años')
+>>> def cumplirAños(self):
+>>>     self.edad = self.edad + 1
+>>> 
+>>> a1 = Animal('Ratón', 2, 'Marrón')
+>>> print(a1.especie)
+Ratón
+>>> print(a1.edad)
+2
+>>> a2 = Animal('Liebre', 3, 'Gris')
+>>> print(a2.especie)
+Liebre
+>>> print(a2.edad)
+3
+``` 
 
 Creamos los objetos a1 y a2. Al hacerlo se envían los parámetros de inicialización de sus atributos.
 Utilizamos sus métodos para mostrar los atributos y/o modificarlos.
-Este formato de clases, objetos, métodos y parámetros es muy común en Python y lo utilizamos cada vez que invocamos alguna de sus <b>librerías</b>
+Este formato de clases, objetos, métodos y parámetros es muy común en Python y lo utilizamos cada vez que invocamos alguna de sus **librerías**
 
-![unaImagenConBoxShadow](../_src/assets/02_imagen14.jpg)
+``` python
+>>> a1.mePresento()
+Hola, soy  Ratón , de color Marrón  y tengo  2  años
+>>> a2.mePresento()
+Hola, soy  Liebre , de color Gris  y tengo  3  años
+>>> a1.cumplirAños()
+>>> a1.mePresento()
+Hola, soy  Ratón , de color Marrón  y tengo  3  años
+```
 
 ## Librerías
 
@@ -405,39 +538,80 @@ Es una buena práctica realizar las pruebas antes de crear código, esto es por 
 En Python existe la posibilidad de realizar estas pruebas gracias a la libreria **unittest**.
 
 ```python
-import unittest
+>>> import unittest
 
-def suma(num_1, num_2):
-    return abs(num_1) + num_2
+>>> def suma(num_1, num_2):
+>>>     return abs(num_1) + num_2
 
+>>> class CajaNegraTest(unittest.TestCase):
+>>> 
+>>>     def test_suma_dos_positivos(self):
+>>>         num_1 = 10
+>>>         num_2 = 5
+>>> 
+>>>         resultado = suma(num_1, num_2)
+>>> 
+>>>         self.assertEqual(resultado, 15)
+>>> 
+>>>     def test_suma_dos_negativos(self):
+>>>         num_1 = -10
+>>>         num_2 = -7
+>>> 
+>>>         resultado = suma(num_1, num_2)
+>>> 
+>>>         self.assertEqual(resultado, -17)
 
-class CajaNegraTest(unittest.TestCase):
+>>> unittest.main(argv=[''], verbosity=2, exit=False)
+test_suma_dos_negativos (__main__.CajaNegraTest) ... ok
+test_suma_dos_positivos (__main__.CajaNegraTest) ... ok
 
-    def test_suma_dos_positivos(self):
-        num_1 = 10
-        num_2 = 5
+----------------------------------------------------------------------
+Ran 2 tests in 0.004s
 
-        resultado = suma(num_1, num_2)
-
-        self.assertEqual(resultado, 15)
-
-    def test_suma_dos_negativos(self):
-        num_1 = -10
-        num_2 = -7
-
-        resultado = suma(num_1, num_2)
-
-        self.assertEqual(resultado, -17)
-
-
-if __name__ == '__main__':
-    unittest.main()
+OK
+<unittest.main.TestProgram at 0x2226bd08400>
 ``` 
 
 ### Pruebas de caja de cristal
 
 Se basan en el flujo del programa, por lo que se asume que conocemos el funcionamiento del programa, por lo que podemos probar todos los caminos posibles de una función. Esto significa que vamos a probar las ramificaciones, bucles for y while, recursiónes, etc.
-Este tipo de pruebas son muy buenas cuando descubrimos un bug cuando corremos el programa, por lo que vamos a buscar el <b>bug</b> ó error de código gracias a que conocemos su estructura.
+Este tipo de pruebas son muy buenas cuando descubrimos un bug cuando corremos el programa, por lo que vamos a buscar el **bug** ó error de código gracias a que conocemos su estructura.
+
+```python
+>>> import unittest
+
+>>> def es_mayor_de_edad(edad):
+>>>     if edad >= 18:
+>>>         return True
+>>>     else:
+>>>         return False
+
+>>> class PruebaDeCristalTest(unittest.TestCase):
+>>> 
+>>>     def test_es_mayor_de_edad(self):
+>>>         edad = 20
+>>> 
+>>>         resultado = es_mayor_de_edad(edad)
+>>> 
+>>>         self.assertEqual(resultado, True)
+>>> 
+>>>     def test_es_menor_de_edad(self):
+>>>         edad = 15
+>>> 
+>>>         resultado = es_mayor_de_edad(edad)
+>>> 
+>>>         self.assertEqual(resultado, False)
+
+>>> unittest.main(argv=[''], verbosity=2, exit=False)
+test_es_mayor_de_edad (__main__.PruebaDeCristalTest) ... ok
+test_es_menor_de_edad (__main__.PruebaDeCristalTest) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.003s
+
+OK
+<unittest.main.TestProgram at 0x2226bd153d0>
+```
 
 ### Seguir el código paso a paso ó 'Debugging'
 
@@ -461,10 +635,34 @@ Existe un listado de errores comunes de los cuales también nos podemos apoyar:
 
 Los manejos de excepciones son muy comunes en la programación, no tienen nada de excepcional. Las excepciones de Python normalmente se relacionan con errores de semántica, también podemos crear nuestras propias excepciones, pero cuando una excepción no se maneja (unhandled exception), el programa termina en error.
 
-Las excepciones se manejan con los keywords: <b>try</b>, <b>except</b>, <b>finally</b>. Se pueden utilizar también para ramificar programas.
-No deben manejarse de manera silenciosa (por ejemplo, con print statements). Para crear tu propia excepción utiliza el keyword <b>raise</b>.
+Las excepciones se manejan con los keywords: **try**, **except**, **finally**. Se pueden utilizar también para ramificar programas.
+No deben manejarse de manera silenciosa (por ejemplo, con print statements). Para crear tu propia excepción utiliza el keyword **raise**.
 
-![unaImagenConBoxShadow](../_src/assets/02_imagen17.jpg)
+``` python
+>>> def divide_elementos_de_lista(lista, divisor):
+>>>     '''
+>>>     Cada elemento de una lista es dividida por un divisor definido.
+>>>     En caso de error de tipo ZeroDivisionError que
+>>>     significa error al dividir en cero
+>>>     la función devuelve la lista inicial
+>>>     '''
+>>>     try:
+>>>         return [i / divisor for i in lista]
+>>>     
+>>>     except ZeroDivisionError as e:
+>>>         print(e)
+>>>         return lista
+>>> 
+>>> lista = list(range(10))
+>>> divisor = 0
+>>> 
+>>> print(divide_elementos_de_lista(lista, divisor))
+division by zero
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+>>> divisor = 3
+>>> print(divide_elementos_de_lista(lista, divisor))
+[0.0, 0.3333333333333, 0.6666666666666, 1.0, 1.3333333333333, 1.6666666666667, 2.0, 2.3333333333335, 2.6666666666665, 3.0]
+```
 
 ### Excepciones y control de flujo
 
@@ -474,13 +672,36 @@ Hasta ahora hemos visto como las excepciones nos permiten controlar los posibles
 
 El principio EAFP es un estilo de programación común en Python en el cual se asumen llaves, índices o atributos válidos y se captura la excepción si la suposición resulta ser falsa. Es importante resaltar que otros lenguajes de programación favorecen el principio LBYL (look before you leap, revisa antes de saltar) en el cual el código verifica de manera explícita las precondiciones antes de realizar llamadas.
 
-![unaImagenConBoxShadow](../_src/assets/02_imagen16.jpg)
+``` python
+#Python
+def busca_pais(paises, pais):
+'''
+Paises es un diccionario. Pais es la llave.
+Codigo con el principio EAFP.
+'''
 
-![unaImagenConBoxShadow](../_src/assets/02_imagen15.jpg)
+try:
+    return paises[pais]
+except KeyError:
+     return None
+```
+
+``` javascript
+// Javascript
+
+/**
+* Paises es un objeto. Pais es la llave.
+* Codigo con el principio LBYL.
+*/
+function buscaPais(paises, pais) {
+  if(!Object.keys(paises).includes(pais)) {
+    return null;
+  }
+
+  return paises[pais];
+}
+``` 
 
 Como se puede ver, el código de Python accede directamente a la llave y únicamente si dicho acceso falla, entonces se captura la excepción y se provee el código necesario. En el caso de JavaScript, se verifica primero que la llave exista en el objeto y únicamente con posterioridad se accede.
 
 Es importante resaltar que ambos estilos pueden utilizarse en Python, pero el estilo EAFP es mucho más propio de este lenguaje.
-
-```python
-``` 
