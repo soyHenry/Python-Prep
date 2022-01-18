@@ -408,5 +408,30 @@ Existe un listado de errores comunes de los cuales también nos podemos apoyar:
 * Explícale el problema a otra persona. De preferencia que no tenga contexto.
 * Lleva un registro de lo que has tratado, preferentemente en la forma de tests.
 
+### Manejo de excepciones
+
+Los manejos de excepciones son muy comunes en la programación, no tienen nada de excepcional. Las excepciones de Python normalmente se relacionan con errores de semántica, también podemos crear nuestras propias excepciones, pero cuando una excepción no se maneja (unhandled exception), el programa termina en error.
+
+Las excepciones se manejan con los keywords: <b>try</b>, <b>except</b>, <b>finally</b>. Se pueden utilizar también para ramificar programas.
+No deben manejarse de manera silenciosa (por ejemplo, con print statements). Para crear tu propia excepción utiliza el keyword <b>raise</b>.
+
+![unaImagenConBoxShadow](../_src/assets/02_imagen17.jpg)
+
+### Excepciones y control de flujo
+
+Hasta ahora hemos visto como las excepciones nos permiten controlar los posibles errores que pueden ocurrir en nuestro código. Sin embargo, dentro de la comunidad de Python tienen otro uso: control de flujo.
+
+¿Por qué es necesaria otra modalidad para controlar el flujo? Una razón muy específica: el principio EAFP (easier to ask for forgiveness than permission, es más fácil pedir perdón que permiso, por sus siglas en inglés).
+
+El principio EAFP es un estilo de programación común en Python en el cual se asumen llaves, índices o atributos válidos y se captura la excepción si la suposición resulta ser falsa. Es importante resaltar que otros lenguajes de programación favorecen el principio LBYL (look before you leap, revisa antes de saltar) en el cual el código verifica de manera explícita las precondiciones antes de realizar llamadas.
+
+![unaImagenConBoxShadow](../_src/assets/02_imagen16.jpg)
+
+![unaImagenConBoxShadow](../_src/assets/02_imagen15.jpg)
+
+Como se puede ver, el código de Python accede directamente a la llave y únicamente si dicho acceso falla, entonces se captura la excepción y se provee el código necesario. En el caso de JavaScript, se verifica primero que la llave exista en el objeto y únicamente con posterioridad se accede.
+
+Es importante resaltar que ambos estilos pueden utilizarse en Python, pero el estilo EAFP es mucho más propio de este lenguaje.
+
 ```python
 ``` 
