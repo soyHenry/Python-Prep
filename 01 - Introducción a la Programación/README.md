@@ -383,7 +383,37 @@ Hay dos tipos de pruebas muy importantes:
 * Pruebas de Integración: Se valida quee todos los módulos funcionan entre sí.
 
 Es una buena práctica realizar las pruebas antes de crear código, esto es por que cualquier cambio que se realice a futuro los test estaran incorporados para determinar si los cambios cumplen lo esperado.
-En Python existe la posibilidad de realizar estas pruebas gracias a la libreria <b>unittest</b>.
+En Python existe la posibilidad de realizar estas pruebas gracias a la libreria **unittest**.
+
+```python
+import unittest
+
+def suma(num_1, num_2):
+    return abs(num_1) + num_2
+
+
+class CajaNegraTest(unittest.TestCase):
+
+    def test_suma_dos_positivos(self):
+        num_1 = 10
+        num_2 = 5
+
+        resultado = suma(num_1, num_2)
+
+        self.assertEqual(resultado, 15)
+
+    def test_suma_dos_negativos(self):
+        num_1 = -10
+        num_2 = -7
+
+        resultado = suma(num_1, num_2)
+
+        self.assertEqual(resultado, -17)
+
+
+if __name__ == '__main__':
+    unittest.main()
+``` 
 
 ### Pruebas de caja de cristal
 
