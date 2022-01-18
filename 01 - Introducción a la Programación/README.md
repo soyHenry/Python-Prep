@@ -246,65 +246,316 @@ Anteriormente se menciono que un dato representa la realidad, y se presento el c
 Una estructura de dato muy importante en Python es la lista, que consiste en una serie de elementos ordenados.
 Esos elementos pueden ser de distinto tipo, e incluso pueden ser de tipo lista también:
 Operaciones con listas:
-* Creacion -> mi_lista = ['Rojo','Azul','Amarillo','Naranja','Violeta','Verde']
-* Imprimir -> print(mi_lista)
-* Ver el tipo de dato -> type(mi_lista)
+* Creacion 
+```python
+mi_lista = ['Rojo','Azul','Amarillo','Naranja','Violeta','Verde']
+```
+* Imprimir
+```python
+print(mi_lista)
+```
+* Ver el tipo de dato 
+```python
+type(mi_lista)
+```
 
 Las listas, así como otras estructuras de datos que se verán en adelante, tienen varios elementos, motivo por el cual cuando se quiere acceder en específico se requiere de un **índice** que va a hacer referencia al elemento dentro de la lista:
 
-* Imprimir el indice 3 de la lista -> print(mi_lista[2])
-* Acceder a un rango dentro de la lista -> print(mi_lista[0:2])  (el limite inferior se incluye y el superior se excluye)
-* Al no poner primer valor, Python asume que es un 0 -> print(mi_lista[:2])
-* Al no poner segundo valor, Python asume que se trata de todos los elementos a partir del primero -> print(mi_lista[0:])
-* Agregar un elemento al final de la lista -> mi_lista.append('Blanco') (Si el elemento ya existe va a quedar duplicado)
-* Agregar un elemento especificando el indice -> mi_lista.insert(3,'Negro')
-* Concatenar una nueva lista a la lista previamente creada -> mi_lista.extend(['Marrón','Gris'])
-* Encontrar el índice de un valor específico -> print(mi_lista.index('Azul'))
-* Eliminar un elemento de la lista -> mi_lista.remove('Blanco') (Si el elemento no existe va a arrojar un error)
-* Extraer y recuperar el último elemento de la lista -> ulitmo = mi_lista.pop()
-* Multiplicar la lista 3 veces -> print(mi_lista[:] * 3)
+* Imprimir el indice 3 de la lista
+```python
+print(mi_lista[2])
+```
+* Acceder a un rango dentro de la lista (el limite inferior se incluye y el superior se excluye)
+```python
+print(mi_lista[0:2])
+```
+* Al no poner primer valor, Python asume que es un 0
+```python
+>>> print(mi_lista[:2])
+['Rojo', 'Azul']
+```
+* Al no poner segundo valor, Python asume que se trata de todos los elementos a partir del primero 
+```python
+ >>> print(mi_lista[0:])
+ ['Rojo', 'Azul', 'Amarillo', 'Naranja', 'Violeta', 'Verde']
+ ```
+* Agregar un elemento al final de la lista (Si el elemento ya existe va a quedar duplicado)
+```python
+mi_lista.append('Blanco') 
+```
+* Agregar un elemento especificando el indice 
+```python
+ >>> mi_lista.insert(3,'Negro')
+ >>> print(mi_lista[:])
+['Rojo', 'Azul', 'Amarillo', 'Negro', 'Naranja', 'Violeta', 'Verde']
+```
+* Concatenar una nueva lista a la lista previamente creada 
+```python
+mi_lista.extend(['Marrón','Gris'])
+```
+* Encontrar el índice de un valor específico 
+```python
+>>> print(mi_lista.index('Azul'))
+1
+```
+* Eliminar un elemento de la lista (Si el elemento no existe va a arrojar un error)
+```python 
+>>> mi_lista.remove('Blanco') 
+---------------------------------------------------------------------------
+ValueError                                Traceback (most recent call last)
+~\AppData\Local\Temp/ipykernel_10044/308548076.py in <module>
+----> 1 mi_lista.remove('Blanco')
+
+ValueError: list.remove(x): x not in list
+>>> mi_lista.remove('Negro') 
+```
+* Extraer y recuperar el último elemento de la lista 
+```python 
+>>> ultimo = mi_lista.pop()
+>>> print(ultimo)
+Gris
+```
+* Multiplicar la lista 3 veces 
+```python 
+>>> print(['a','b','c'] * 3)
+['a', 'b', 'c', 'a', 'b', 'c', 'a', 'b', 'c']
+```
 
 ### Tupla
 
 La diferencia con la lista es que no se pueden modificar una vez creadas:
 
-* Convertir una lista a tupla -> mi_tupla=tuple(mi_lista)
-* Imprimir el índice 1 de la tupla -> print(mi_tupla[1])
-* Evaluar si un elemento está contenido en la tupla -> 'Rojo' **in** mi_tupla (Devuelve un valor booleano)
-* Evaluar las veces que está un elemento específico -> mi_tupla.count('Rojo')
-* Tupla con un solo elemento -> mi_tupla_unitaria = ('Blanco',)
-* Empaquetado de tupla, tupla sin paréntesis -> mi_tupla='Gaspar', 5, 8, 1999
-* Desempaquetado de tupla, se guardan los valores en orden de las variables -> nombre, dia, mes, año = mi_tupla
-* Convertir una tupla en una lista -> mi_lista=list(mi_tupla)
+* Convertir una lista a tupla 
+```python 
+mi_tupla=tuple(mi_lista)
+```
+* Imprimir el índice 1 de la tupla 
+```python 
+>>> print(mi_tupla[1])
+Azul
+```
+* Evaluar si un elemento está contenido en la tupla (Devuelve un valor booleano)
+```python
+>>> 'Rojo' in mi_tupla
+True
+```
+* Evaluar las veces que está un elemento específico 
+```python
+>>> mi_tupla.count('Rojo')
+1
+```
+* Tupla con un solo elemento 
+```python
+mi_tupla_unitaria = ('Blanco',)
+```
+* Empaquetado de tupla, tupla sin paréntesis 
+```python
+mi_tupla='Gaspar', 5, 8, 1999
+```
+* Desempaquetado de tupla, se guardan los valores en orden de las variables 
+```python
+>>> nombre, dia, mes, año = mi_tupla
+>>> print("Nombre: ", nombre, " - Dia:", dia, " - Mes: ", mes, " - Año: ", año)
+Nombre:  Gaspar  - Dia: 5  - Mes:  8  - Año:  1999
+```
+* Convertir una tupla en una lista 
+```python
+mi_lista=list(mi_tupla)
+```
 
 ### Diccionario
 
 Un diccionario tiene una organización de 'clave' y 'valor':
 
-* Crear un diccionario ->
-    mi_diccionario = {  'Colores Primarios': ['Rojo','Azul','Amarillo'], 
-                        'Colores secundarios': ['Naranja','Violeta','Verde'], 
-                        'Clave3': 10,
-                        'Clave4': False}
-* Imprimir un valor a través de su clave -> print(mi_diccionario['Colores Secundarios'])
-* Agregar un valor -> mi_diccionario['Clave5']='Otro ejemplo'
-* Cambiar un valor -> mi_diccionario['Clave3']=2
-* Eliminar un elemento de un diccionario a través de su clave -> **del** mi_diccionario['Clave4']
-* Utilizar una tupla como clave de un diccionario -> mi_tupla=("Argentina", "Italia", "Inglaterra")
-                                                    mi_diccionario={mi_tupla[0]:"Buenos Aires", 
-                                                                    mi_tupla[1]:"Roma", 
-                                                                    mi_tupla[2]:"Londres"}
-* Colocar una tupla dentro de un diccionario -> mi_diccionario={'Clave1':'Valor1', 'Clave2':(1,2,3,4,5)}
-* Colocar una lista dentro de un diccionario -> mi_diccionario={'Clave1':'Valor1', 'Clave2':[1,2,3,4,5]} (Notar que la diferencia está en el paréntesis '()' y el corchete '[]')
-* Colocar un diccionario dentro de un diccionario -> mi_diccionario={'Clave1':'Valor1', 'Clave2':{'numeros':[1,2,3,4,5]}}
-* Imprimir las claves del diccionario -> print(mi_diccionario.keys())
-* Imprimir las claves del diccionario -> print(mi_diccionario.values())
-* Imprimir la longitud del diccionario -> len(mi_diccionario)
+* Crear un diccionario 
+```python
+mi_diccionario = {  'Colores Primarios': ['Rojo','Azul','Amarillo'], 
+                    'Colores secundarios': ['Naranja','Violeta','Verde'], 
+                    'Clave3': 10,
+                    'Clave4': False}
+```
+* Imprimir un valor a través de su clave 
+```python
+>>> print(mi_diccionario['Colores secundarios'])
+['Naranja', 'Violeta', 'Verde']
+```
+* Agregar un valor 
+```python
+mi_diccionario['Clave5']='Otro ejemplo'
+```
+* Cambiar un valor 
+```python
+mi_diccionario['Clave3']=2
+```
+* Eliminar un elemento de un diccionario a través de su clave 
+```python
+del mi_diccionario['Clave4']
+```
+* Utilizar una tupla como clave de un diccionario 
+```python
+mi_tupla=("Argentina", "Italia", "Inglaterra")
+mi_diccionario={mi_tupla[0]:"Buenos Aires", 
+                mi_tupla[1]:"Roma", 
+                mi_tupla[2]:"Londres"}
+```
+* Colocar una tupla dentro de un diccionario 
+```python
+mi_diccionario={'Clave1':'Valor1', 'Clave2':(1,2,3,4,5)}
+```
+* Colocar una lista dentro de un diccionario (Notar que la diferencia está en el paréntesis '()' y el corchete '[]')
+```python
+ mi_diccionario={'Clave1':'Valor1', 'Clave2':[1,2,3,4,5]} 
+ ```
+* Colocar un diccionario dentro de un diccionario 
+```python
+mi_diccionario={'Clave1':'Valor1', 'Clave2':{'numeros':[1,2,3,4,5]}}
+```
+* Imprimir las claves del diccionario 
+```python
+ >>> print(mi_diccionario.keys())
+ dict_keys(['Clave1', 'Clave2'])
+ ```
+* Imprimir los valores del diccionario 
+```python
+ >>> print(mi_diccionario.values())
+ dict_values(['Valor1', {'numeros': [1, 2, 3, 4, 5]}])
+ ```
+* Imprimir la longitud del diccionario 
+```python
+ >>> len(mi_diccionario)
+ 2
+ ```
 
 #### Consideraciones
 
 * La funcionalidad **del** permite eliminar cualquier estructura de datos
 * La funcionalidad **len** permite obtener el tamaño de la estructura de datos
+
+## Iteradores e iterables
+
+Permiten iterar colecciones de datos que sean iterables. Si tenemos una determinada colección de datos, en este caso una lista con varios valores, y queremos mostrar sus valores uno a uno por pantalla podría resolverse de la siguiente manera con un while.
+
+```python
+>>> lista = [5, 4, 9, 2]
+>>> i = 0
+>>> while i < len(lista):
+>>>     elemento = lista[i]
+>>>     print(elemento)
+>>>     i += 1
+5
+4
+9
+2
+```
+
+Aunque es una forma válida, en Python existe una forma mucho más fácil de iterar una lista. Dicha forma es la siguiente.
+
+```python
+>>> lista = [5, 4, 9, 2]
+>>> for elemento in lista:
+>>>     print(elemento)
+5
+4
+9
+2
+```
+
+### Iterables
+
+Una clase iterable es una clase que puede ser iterada. Dentro de Python hay gran cantidad de clases iterables como las listas, strings, diccionarios o archivos. Si tenemos una clase iterable, podemos usarla a la derecha del for de la siguiente manera.
+
+```python
+for elemento in [clase_iterable]:
+```
+
+En el ciclo for, como se puede ver, la variable elemento irá tomando los valores de cada elemento presente en la clase iterable. De esta manera, ya no tenemos que ir accediendo manualmente con [] a cada elemento.
+Anteriormente hemos visto un ejemplo iterando una lista, pero también podemos iterar una cadena, ya que es una clase iterable. Al iterar una cadena se nos devuelve cada letra presente en la misma. La sintaxis se asemeja bastante al lenguaje natural, sería algo así como decir “poner en c cada elemento presente en la cadena”.
+
+```python
+>>> cadena = "Hola"
+>>> for c in cadena:
+>>>     print(c)
+H
+o
+l
+a
+```
+
+Para saber si una clase es iterable o no hay dos opciones. La primera sería consultar la documentación oficial de Python. La segunda es ver si la clase u objeto en cuestión hereda de Iterable. Con isinstance() podemos comprobar si una clase hereda de otra.
+
+```python
+>>> from collections import Iterable
+>>> cadena = "Hola"
+>>> numero = 3
+>>> print("cadena", isinstance(cadena, Iterable))
+>>> print("numero", isinstance(numero, Iterable))
+cadena True
+numero False
+```
+
+Python nos ofrece también diferentes métodos que pueden ser usados sobre clases iterables como los que se muestran a continuación:
+
+* list() convierte a lista una clase iterable
+* sum() para sumar
+* join() permite unir cada elemento de una clase iterable con el primer argumento usado.
+
+```python
+>>> print(list("Hola"))
+['H', 'o', 'l', 'a']
+
+>>> print(sum([1, 2, 3]))
+6
+
+>>> print("-".join("Hola"))
+H-o-l-a
+```
+
+De la misma forma que iteramos una cadena o una lista, también podemos iterar un diccionario. El iterador del diccionario devuelve las claves o keys del mismo.
+
+```python
+>>> mi_dict = {'a':1, 'b':2, 'c':3}
+>>> for i in mi_dict:
+>>>     print(i)
+a
+b
+c
+```
+
+### Iteradores
+
+Se podría explicar la diferencia entre iteradores e iterables usando un libro como analogía. El libro sería nuestra clase iterable, ya que tiene diferentes páginas a las que podemos acceder. El libro podría ser una lista, y cada página un elemento de la lista. Por otro lado, el iterador sería un marcapáginas, es decir, una referencia que nos indica en qué posición estamos del libro, y que puede ser usado para “navegar” por él.
+Es posible obtener un iterador a partir de una clase iterable con la función iter(). En el siguiente ejemplo podemos ver como obtenemos el iterador del libro.
+
+```python
+>>> libro = ['página1', 'página2', 'página3', 'página4']
+>>> marcapaginas = iter(libro)
+```
+
+Llegados a este punto, nuestro marcapaginas almacena un iterador. Se trata de un objeto que podemos usar para navegar a través del libro. Usando la función next() sobre el iterador, podemos ir accediendo secuencialmente a cada elemento de nuestra lista (las páginas de libro).
+
+```python
+>>> print(next(marcapaginas))
+>>> print(next(marcapaginas))
+>>> print(next(marcapaginas))
+>>> print(next(marcapaginas))
+página1
+página2
+página3
+página4
+```
+
+Algo parecido a esto es lo que sucede por debajo cuando usamos el for sobre una clase iterable. Se va accediendo secuencialmente a los elementos hasta que la excepción StopIteration es lanzada. Dicha excepción se lanza cuando hemos llegado al final, y no existen más elementos que iterar.
+
+```python
+>>> print(next(marcapaginas))
+---------------------------------------------------------------------------
+StopIteration                             Traceback (most recent call last)
+~\AppData\Local\Temp/ipykernel_10044/1391636315.py in <module>
+----> 1 print(next(marcapaginas))
+```
+
+Una nota muy importante es que cuando el iterador es obtenido con iter() como hemos visto, apunta por defecto fuera de la lista. Es decir, si queremos acceder al primer elemento de la lista, deberemos llamar una vez a next().
+Por otro lado, a diferencia de un marcapáginas de un libro, el iterador sólo puede ir hacia delante. No es posible retroceder.
 
 ## Funciones
 
@@ -322,16 +573,20 @@ Las funciones son una secuencia de comandos que ejecutan una sección de código
 
 Para poder imprimir el valor de una variable dentro de un string podemos hacerlo así:
 
-->  def imprimir_valor_variable(var):<br>
-&nbsp;print('El valor de la variable es' + str(var))
+```python  
+>>> def imprimir_valor_variable(var):
+>>>     print('El valor de la variable es' + str(var))
+```
 
 Para devolver dos números ordenados de menor a mayor podemos hacerlo así:
 
-->  def ordenar_dos_numeros(num1=0, num2=0):<br>
-&nbsp;if (num1 > num2):<br>
-&nbsp;&nbsp;return num2, num1<br>
-&nbsp;else:<br>
-&nbsp;&nbsp;return num1, num2<br>
+```python
+>>> def ordenar_dos_numeros(num1=0, num2=0):
+>>>     if (num1 > num2):
+>>>         return num2, num1
+>>>     else:
+>>>         return num1, num2
+```
 
 ### Declarar y Ejecutar
 
