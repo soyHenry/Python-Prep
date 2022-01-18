@@ -275,15 +275,15 @@ Dentro de una función puede haber una variable que solo se pueda utilizar dentr
 
 
 ``` python
->>> def dividir(dividendo, divisor = 1):
->>>     if (divisor == 0):
->>>         return 'No se puede dividir por cero'
->>>     else:
->>>         return dividendo / divisor
+def dividir(dividendo, divisor = 1):
+    if (divisor == 0):
+        return 'No se puede dividir por cero'
+    else:
+        return dividendo / divisor
 
->>> print(dividir(10))
+print(dividir(10))
 
->>> print(divisor)
+print(divisor)
 ---------------------------------------------------------------------------
 NameError                                 Traceback (most recent call last)
 ~\AppData\Local\Temp/ipykernel_10044/1862935505.py in <module>
