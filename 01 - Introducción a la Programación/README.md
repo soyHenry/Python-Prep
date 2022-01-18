@@ -1,5 +1,277 @@
 ![HenryLogo](https://henry-11ty-resources.s3.sa-east-1.amazonaws.com/Assets/logo-henry-white-lg.png)
 
+# Primeros Pasos
+
+#### Preparando tu compu
+
+<div class="iframeContainer">
+  <iframe src="https://player.vimeo.com/video/638636752" title="Instructivo de Primeros Pasos" allow="autoplay; fullscreen"></iframe>
+</div>
+
+> **Importante**: Github cambió el método de autenticación, ahora es por PAT (Personal Access Token), para crearlo pueden seguir este [link](https://docs.github.com/es/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token). Pueden elegir expiration infinita para hacerlo una sóla vez.
+
+## Cómo usar SLACK
+
+<div class="iframeContainer">
+  <iframe src="https://player.vimeo.com/video/548902078" title="Cómo usar SLACK" allow="autoplay; fullscreen; picture-in-picture"></iframe>
+</div>
+
+> Gracias [Nico Constantin (FT#12)](https://github.com/NicoConstantin) por el video y la explicación!
+
+## Editores de Texto
+
+Para poder escribir código que pueda ser interpretado por un lenguaje de programación, necesitamos utilizar un editor de texto.
+
+Hay varios, puedes probarlos y optar por el que te sientas más a gusto.
+
+A continuación veremos una lista de los más populares:
+
+### Sublime Text
+
+![Sublime Text](/_src/assets/00-PrimerosPasos/sublimeText_screen.png)
+
+Es un editor de texto liviano, que cuenta con una serie de plugins para adaptarlo a las necesidades de cada desarrollador.
+
+Es multiplataforma, por lo que se puede instalar tanto en Windows, como Linux y OS X.
+
+Para instalarlo, realizaremos los siguientes pasos:
+
+#### En Windows o en OS X
+
+1. Nos dirigimos a la página oficial de [Sublime Text](https://www.sublimetext.com).
+
+2. Al ingresar, detectará automáticamente el sistema operativo que tenemos, y nos sugerirá descargar el instalador apropiado.
+
+3. Presionamos el botón **_Download_**.
+
+4. Elegimos la opción adecuada según nuestro sistema operativo e iniciamos la descarga.
+
+![Sublime Text Download](/_src/assets/00-PrimerosPasos/sublimeText_download.png)
+
+5. Finalizada la descarga, ejecutamos el instalador, seleccionamos las opciones **_siguiente, siguiente, etc_**, hasta completar el proceso.
+
+#### En Linux, en la distribución Ubuntu y derivados
+
+1. Nos dirigimos al sitio oficial de Sublime Text. Aquí encontrarás las instrucciones para instalarlo:
+
+[Descargar Sublime Text para Linux](https://www.sublimetext.com/docs/3/linux_repositories.html)
+
+2. En la terminal, ejecutamos el siguiente comando, para instalar la clave GPG:
+
+```shell
+wget -q0 - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
+```
+
+3. Para asegurarnos de que `apt` esté configurado para trabajar con orígenes https, ejecutamos:
+
+```shell
+sudo apt-get install apt-transport-https
+```
+
+4. Luego para agregar el repositorio estable, ejecutamos:
+
+```shell
+echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
+```
+
+5. Finalmente, procedemos a instalar el programa:
+
+```shell
+sudo apt-get install sublime-text
+```
+
+Ahora, si en el **Menú de inicio** buscamos **Sublime text**, veremos la siguiente imagen:
+
+![Sublime Text Linux](/_src/assets/00-PrimerosPasos/sublimeText_linux.png)
+
+### Atom
+
+![Atom Site](/_src/assets/00-PrimerosPasos/atom_site.png)
+
+Es un editor de código abierto, disponible tanto para Windows, como Linux y para OS X.
+
+Tiene integrada una consola de Git y Github, para llevar un control de versiones de tus proyectos.
+Para comenzar el proceso de instalación, realizamos los siguientes pasos:
+
+En Windows, Linux o en OS X, nos dirigimos al sitio oficial, mediante el siguiente enlace:
+
+<https://atom.io/>
+
+Al ingresar, el navegador detecta automáticamente el instalador que necesitamos bajar, según nuestro sistema operativo.
+
+Allí, presionamos el botón Download para almacenarlo en nuestra computadora.
+
+#### En Windows
+
+Una vez finalizada la descarga, hacemos doble click en el instalador y esperamos a que finalice el proceso de instalación.
+
+#### En Ubuntu y derivados
+
+Descomprimimos el instalador, hacemos doble click, y nos dirigimos a: `/usr/bin/atom`
+
+Al hacer doble click, se abrirá el editor.
+
+### Visual Studio Code
+
+![VSC Console](/_src/assets/00-PrimerosPasos/vsc_console.png)
+
+Es un editor desarrollado por Microsoft.
+
+Tiene integrado el control de versiones mediante Git y Github para tener un seguimiento de tus proyectos. Brinda una cantidad de extensiones que facilitan el trabajo de un desarrollador.
+
+Para descargarlo, nos dirigimos al sitio oficial, en la sección Dowload y descargamos el instalador según nuestro Sistema Operativo:
+
+<https://code.visualstudio.com/download>
+
+![VSC Download](/_src/assets/00-PrimerosPasos/vsc_download.png)
+
+Una vez finalizada la descarga, procedemos a ejecutar el instalador.
+
+## Git
+
+### ¿Qué es Git?
+
+Git es un sistema de control de versiones, distribuido y open source. Un control de versiones es un sistema que registra los cambios realizados en un archivo o conjunto de archivos a lo largo del tiempo, de modo que puedas recuperar versiones específicas más adelante.
+
+### Instalación
+
+#### Para Mac y Linux
+
+Ver estos enlaces:
+
+<https://git-scm.com/book/es/v2/Inicio---Sobre-el-Control-de-Versiones-Instalaci%C3%B3n-de-Git>
+
+<https://www.youtube.com/watch?v=PSULlxUk744>
+
+<https://www.youtube.com/watch?v=oV0spTF71AI>
+
+#### Para Windows
+
+Ingreso a <https://git-scm.com> y descargo la útlima versión.
+
+![installGit](/_src/assets/00-PrimerosPasos/instalar_window.png)
+
+Una vez descargado, se abre el archivo .exe y van a visualizar la siguiente ventana
+
+![installGit](/_src/assets/00-PrimerosPasos/1.png)
+
+Clickeamos “Next” hasta que llegamos a esta parte:
+
+![installGit](/_src/assets/00-PrimerosPasos/2.png)
+
+En este momento de la instalación si quieres puedes elegir el editor de texto que van a usar. (Importante, ténganlo instalado antes de instalar Git)
+
+Seguimos clickeando “Next” y luego “Install”
+
+![installGit](/_src/assets/00-PrimerosPasos/3.png)
+
+Por último, finalizar! Si seleccionan la opción "Launch Git Bash", una vez que finalizan la instalación se va a abrir la consola
+
+![installGit](/_src/assets/00-PrimerosPasos/4.png)
+
+Otra forma de abrir la consola es haciendo click derecho sobre el escritorio y elegir la opción "Git Bash Here"
+
+![installGit](/_src/assets/00-PrimerosPasos/consola.png)
+
+Una vez instalado Git van a poder visualizar la consola: ingresamos el comando `git --version` para chequear que está instalado. Si ven la consola así, ya están listos para comenzar a trabajar!
+
+![installGit](/_src/assets/00-PrimerosPasos/5.png)
+
+## GitHub
+
+### ¿Qué es GitHub?
+
+Es una red para almacenar tus repositorios, sería un repositorio de repositorios. Es uno de los tantos disponibles en internet, y el más popular. GitHub **NO** es lo mismo que Git, aunque funcionen muy bien juntos. Github es un lugar donde podés compartir tu código o encontrar otros proyectos. También actúa como portfolio para cualquier código en el que hayas trabajado.
+
+### Comenzando
+
+1. Para comenzar nos creamos una cuenta --- > <https://github.com> 🚀
+
+![GitHub-Register](/_src/assets/00-PrimerosPasos/github_register.png)
+
+2. Una vez registrados, ingresamos con usuario y contraseña:
+
+![GitHub-Login](/_src/assets/00-PrimerosPasos/github_login.png)
+
+3. Listo! Ahora vemos una página de inicio como la siguiente:
+
+![GitHub-Home](/_src/assets/00-PrimerosPasos/github_home.png)
+
+A la izquierda tenemos un acceso rápido a **mis repositorios**.
+
+En el centro vemos la actividad de los usuarios a quienes seguimos.
+
+En la parte superior derecha, vemos nuestra imagen de perfil. Desde ahí podemos desplegar opciones para gestionar nuestro perfil, repositorios y configuración. Si accedemos a nuestro perfil encontramos algo parecido a esto:
+
+![GitHub-profile](/_src/assets/00-PrimerosPasos/github_profile.png)
+
+Podemos poner una foto de perfil, editar el nombre, agregar la ubicación, link y organizaciones a las que pertenecemos. En el centro podemos fijar los repositorios que queremos mostrar para que estén visibles en nuestro perfil.
+
+Más abajo se muestra un diagrama de todas las contribuciones que vamos haciendo a los repositorios.
+
+Si accedemos a la pestaña de arriba que dice `repositorios` veremos una lista de todos ellos. Cuando elegimos un repositorio para ver, nos lleva a una página como esta:
+
+![GitHub-repo](/_src/assets/00-PrimerosPasos/github_repo.png)
+
+Así se ve un repositorio. Arriba a la izquierda tenemos el `nombre de usuario/nombre del repo`.
+
+En el centro podemos ver todos los archivos que tiene dentro el repo. El botón verde que dice `Code` es importante, si clickeamos ahí vamos a poder obtener la url del repo, para así poder **_clonarlo_** (esto lo veremos más adelante).
+
+Arriba a la derecha encontramos tres botones. `Watch` nos permite seguir un repositorio, mientras que con `Star` podemos marcar como favorito un repo que nos guste. Por último tenemos `Fork`, este es **muy** importante, lo vamos a necesitar cuando hagamos el **_Challenge!_**
+
+Ya tenemos todo para empezar... Éxitos!!! 🍀
+
+## Instalación de Python si estás usando Windows:
+
+Python 3.7 (o superior
+1. Para obtener el instalador dirígete a [https://www.python.org/downloads/](https://www.python.org/downloads/)
+2. Descarga el instalador y ejecútalo en tu computadora.
+3. Habilita la casilla de verificación en Install launcher for all users y Add Python 3.8 to PATH. A continuación presiona en Install Now. Windows te solicitará permisos para instalar Python en tu computadora.
+4. Al finalizar la instalación se abrirá una ventana, en ella deberás presionar en la opción Disable path length limit. Windows te solicitará permisos para realizar este cambio.
+
+Visual Studio Code
+
+Visual Studio Code es un editor de textos que tiene integradas varias herramientas que te ayudarán a desarrollar tus ejercicios con facilidad. Para obtenerlo en tu computadora, dirígete a: [https://code.visualstudio.com/](https://code.visualstudio.com/)
+
+1. Realiza una instalación normal de Visual Studio code.
+2. En Visual Studio Code dirígete al panel de Extensiones, se encuentra en el panel lateral izquierdo. Ahí deberás buscar la extensión llamada Python.
+3. Selecciona la extensión creada por Microsoft. Una vez seleccionada, instálala.
+4. Una vez instalada, reinicia Visual Studio Code.
+
+Listo con esto podrás correr los programas que escribas en python en la terminal de Visual Studio Code.
+
+## Instalación de Python si estás usando Mac:
+
+Dirígete a: [https://es.wikibooks.org/wiki/Python/Instalaci%C3%B3n_de_Python/Python_en_Mac_OS_X](https://es.wikibooks.org/wiki/Python/Instalaci%C3%B3n_de_Python/Python_en_Mac_OS_X)
+
+## Instalación de Python si estás usando Linux:
+
+En una distribución estándar Linux dispone por defecto el interprete Python instalado, para comprobar la correcta instalación solamente debería ejecutar el comando en la consola:
+
+```bash
+python
+Python 2.7.13 (default, Sep 26 2018, 18:42:22)
+[GCC 6.3.0 20170516] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+```
+
+Si le muestra los mensajes anteriores esta correctamente instalado el interprete Python en su Linux.
+
+Si al ejecutar el comando anterior muestra el mensaje:
+
+```bash
+python
+bash: python: no se encontró la orden
+```
+
+Esto es debido a que no tiene instalado el interprete, así que debe ejecutar el siguiente comando:
+```bash
+sudo apt-get install -y python-dev
+```
+
+De nuevo vuelva a ejecutar en su consola de comando el comando python.
+
 # Introducción a la Programación
 
 ## ¿Qué es la Programación?
@@ -35,13 +307,36 @@ Los primeros lenguajes de programación se escribían en instrucciones que podí
 La generalización del Big Data en los últimos años, seguida de la explosión de la Inteligencia Artificial, Machine Learning y el surgimiento de la Ciencia de Datos como un nuevo área de trabajo con especialistas propios, ha revolucionado el panorama ya que muchas de las nuevas herramientas que han surgido han sido desarrolladas en Python o nos ofrecen Python como la forma predilecta de interactuar con ellas.
 Podemos hablar de tecnología para Big Data como PySpark, de herramientas para Data Science como Pandas, NumPy, Matplotlib o Jupyter. De herramientas del procesamiento del lenguaje natural como NLTK, y por último el área de Deep Learning como Tensorflow, MXNet o Scikit-Learn.
 
-
 ## Sintaxis
 
 Para el ejemplo se uso un lenguaje con el que era posible determinar los pasos a seguir por el robot abeja hasta llegar a la flor, y nos fue suficiente para poder entender como resolveríamos el problema. El hecho es que, los lenguajes de programación que utilizamos, deben ser más específicos todavía, necesitamos tener un nivel de detalle mayor en nuestras instrucciones, por ejemplo, en lugar de la instruccion "Arriba", podría ser, especificar la cantidad de celdas que hay que moverse, e incluso qué implica "moverse", que seguramente será cambiar el estado de la propia abeja. 
 Por otro lado tambien habrá un marco de referencia, es decir, el tablero donde se mueve la abeja y está la flor, en sí mismo, es algo que debemos conocer, saber donde hay ubicado un arbusto y donde no, saber cuales son los límites, y que pasa si con las instrucciones que le damos a la abeja, hacemos que rebase esos límites.
 Para solventar esa complejidad, necesitamos un **set de instrucciones** un poco más complejo para poder interactuar con el computador una forma de representar los datos de la realidad, es decir, dimensiones del tablero donde se mueve la abeja, posición de la abeja, posición de la flor, ubicaciones de los arbustos, y todo esto se hace mediante lo que se conoce como **estructuras** de datos, las cuales permiten entonces representar la realidad. De hecho, todos **los datos son una representación de la realidad**.
 La sintaxis de un programa, consiste en un conjunto de palabras reservadas a instrucciones, con una estructura específica, tal y como funciona un lenguaje como el que usamos los humanos para comunicarnos, como el español o el inglés. Los lenguajes de programación tambien tienen su sintaxis, que esta compuesta por diferentes elementos, como ser variables para representar el dato de la realidad, sentencias para representar las instrucciones ó estructuras de control que conforman el cuerpo del programa.
+
+### El Zen de Python 
+
+Es una colección de los 19 principios que influyen en el diseño del lenguaje. De alguna manera, muestran la filosofía del mismo:
+
+1) Bello es mejor que feo.
+2) Explícito es mejor que implícito.
+3) Simple es mejor que complejo.
+4) Complejo es mejor que complicado.
+5) Plano es mejor que anidado.
+6) Espaciado es mejor que denso.
+7) La legibilidad es importante.
+8) Los casos especiales no son lo suficientemente especiales como para romper las reglas.
+9) Sin embargo la practicidad gana a la pureza.
+10) Los errores nunca deben pasar silenciosamente.
+11) A menos que se silencien explícitamente.
+12) Frente a la ambigüedad, evitar la tentación de adivinar.
+13) Debería haber una, y preferiblemente solo una, manera obvia de hacerlo.
+14) A pesar de que esa manera no sea obvia a menos que seas Holandés (el creador lo era)
+15) Ahora es mejor que nunca.
+16) A pesar de que nunca es muchas veces mejor que ahora mismo.
+17) Si la implementación es difícil de explicar, es una mala idea.
+18) Si la implementación es fácil de explicar, puede que sea una buena idea.
+19) Los namespaces son una gran idea, ¡tengamos más de esos!
 
 ## Variables
 
@@ -50,6 +345,13 @@ Una variable es un espacio de memoria donde guardamos un dato, ese espacio de me
 ![unaImagenConBoxShadow](../_src/assets/02_imagen01.jpg)
 
 Y esto conforma la estructura de datos más simple que podemos encontrar.
+
+Por otro lado existen ciertas normas a la hora de nombrar variables:
+
+* El nombre no puede empezar por un número
+* No se permite el uso de guiones -
+* No se permite el uso de espacios.
+* No usar nombres reservados para Python. Las palabras reservadas son utilizadas por Python internamente, por lo que no podemos usarlas para nuestras variables o funciones.
 
 ## Constantes
 
@@ -62,7 +364,7 @@ Es importante notar, que podemos encontrarnos con datos de tipos distintos, es d
 En Python tenemos los siguientes:
  * Enteros: El conjunto de números naturales
  * Floats: El conjunto de números reales o de punto flotante
- * Strings: Es texto, caracteres alfanuméricos que se introducen entre comillas dobles o simples
+ * Cadenas o Strings: Es texto, caracteres alfanuméricos que se introducen entre comillas dobles o simples
  * Booleanos: Representan Verdadero ó Falso
  * Complejos: El conjunto de números complejos
 
@@ -83,6 +385,17 @@ Tipos de datos numéricos:
 | División (Cociente) | -  | 4 - 1 = 3  |
 | División (parte entera) | -  | 4 - 1 = 3  |
 | División (resto) | -  | 4 - 1 = 3  |
+
+Operadores relacionales
+
+| Operacion | Operador | Ejemplo |
+| :---      |  :----:  |    ---: |
+| == | Igual | x == y = False |
+| != | Distinto | x != y = True |
+| >	| Mayor	| x > y = False |
+| < | Menor	| x < y = True |
+| >= | Mayor o igual | x >= y = False |
+| <= | Menor o igual | x <= y = True |
 
 Cuando tratamos con texto, podemos hacer otras operaciones:
 
@@ -671,6 +984,81 @@ factorial(numero)
     Devuelve el factorial
 ``` 
 
+### Pasaje de parámetros por valor y referencia
+
+En muchos lenguajes de programación existen los conceptos de paso por valor y por referencia que aplican a la hora de como trata una función a los parámetros que se le pasan como entrada. Su comportamiento es el siguiente:
+
+Si usamos un parámetro pasado por **valor**, se creará una copia local de la variable, lo que implica que cualquier modificación sobre la misma no tendrá efecto sobre la original.
+Con una variable pasada como **referencia**, se actuará directamente sobre la variable pasada, por lo que las modificaciones afectarán a la variable original.
+En Python las cosas son un poco distintas, y el comportamiento estará definido por el tipo de variable con la que estamos tratando. 
+
+Veamos un ejemplo de paso por valor.
+``` python
+>>> x = 10
+>>> def funcion(entrada):
+>>>     entrada = 0
+>>> funcion(x)
+>>> print(x)
+10
+``` 
+
+Iniciamos la x a 10 y se la pasamos a funcion(). Dentro de la función hacemos que la variable valga 0. Dado que Python trata a los int como pasados por valor, dentro de la función se crea una copia local de x, por lo que la variable original no es modificada.
+
+No pasa lo mismo si por ejemplo x es una lista como en el siguiente ejemplo. En este caso Python lo trata como si estuviese pasada por referencia, lo que hace que se modifique la variable original. La variable original x ha sido modificada.
+
+``` python
+>>> x = [10, 20, 30]
+>>> def funcion(entrada):
+>>>     entrada.append(40)
+>>> 
+>>> funcion(x)
+>>> print(x)
+[10, 20, 30, 40]
+```
+
+El ejemplo anterior nos podría llevar a pensar que si en vez de añadir un elemento a x, hacemos x=[], estaríamos destruyendo la lista original. Sin embargo esto no es cierto.
+
+``` python
+>>> x = [10, 20, 30]
+>>> def funcion(entrada):
+>>>     entrada = []
+>>> funcion(x)
+>>> print(x)
+[10, 20, 30]
+``` 
+
+Una forma muy útil de saber lo que pasa por debajo de Python, es haciendo uso de la función id(). Esta función nos devuelve un identificador único para cada objeto. Volviendo al primer ejemplo podemos ver como los objetos a los que “apuntan” x y entrada son distintos.
+
+``` python
+>>> x = 10
+>>> print(id(x))
+4349704528
+>>> def funcion(entrada):
+>>>     entrada = 0
+>>>     print(id(entrada))
+>>> funcion(x)
+4349704208
+>>> print(x)
+10
+``` 
+
+Sin embargo si hacemos lo mismo cuando la variable de entrada es una lista, podemos ver que en este caso el objeto con el que se trabaja dentro de la función es el mismo que tenemos fuera.
+
+``` python
+>>> x = [10, 20, 30]
+>>> print(id(x))
+4422423560
+>>> def funcion(entrada):
+>>>     entrada.append(40)
+>>>     print(id(entrada))
+>>> funcion(x)
+4422423560
+>>> print(x)
+[10, 20, 30, 40]
+```
+
+Entonces, en Python por defecto los valores simples se pasan por valor (int, float, string, bool, complex)
+
 ### Funciones Lambda
 
 La función Lambda es una forma conveniente de crear una función en una sola línea. También se las conoce como funciones anónimas, ya que no tienen nombre, sino que se asignan a una variable.
@@ -960,3 +1348,67 @@ function buscaPais(paises, pais) {
 Como se puede ver, el código de Python accede directamente a la llave y únicamente si dicho acceso falla, entonces se captura la excepción y se provee el código necesario. En el caso de JavaScript, se verifica primero que la llave exista en el objeto y únicamente con posterioridad se accede.
 
 Es importante resaltar que ambos estilos pueden utilizarse en Python, pero el estilo EAFP es mucho más propio de este lenguaje.
+
+``` python
+#All possible errors
+
+except TypeError:
+    print("is thrown when an operation or function is applied to an object of an inappropriate type.")
+except IndexError:
+   	print("is thrown when trying to access an item at an invalid index.")
+except KeyError:
+    print("is thrown when a key is not found.")
+except ImportError:
+  	print("Raised when the imported module is not found.")
+except StopIteration:
+  	print("is thrown when the next() function goes beyond the iterator items.")
+except ValueError:
+  	print("is thrown when a function's argument is of an inappropriate type.")
+except NameError:
+  	print("is thrown when an object could not be found.")	
+except ZeroDivisionError:
+  	print("is thrown when the second operator in the division is zero.")
+except KeyboardInterrupt:
+  	print("is thrown when the user hits the interrupt key (normally Control-C) during the execution of the program.")
+except MemoryError:
+  	print("Raised when an operation runs out of memory.")
+except FloatingPointError:
+  	print("Raised when a floating point operation fails.")
+except OverflowError:
+  	print("Raised when the result of an arithmetic operation is too large to be represented.")
+except ReferenceError:
+  	print("Raised when a weak reference proxy is used to access a garbage collected referent.")
+except TabError:
+  	print("Raised when the indentation consists of inconsistent tabs and spaces.")
+except SystemError:
+  	print("Raised when the interpreter detects internal error.")
+except RuntimeError:
+  	print("Raised when an error does not fall under any other category.")
+except:
+ 	print("Error detected can't be handled nor clasified.")
+```
+
+## Ptyhon
+
+* Se trata de un lenguaje fácil de aprender, con una sintaxis muy sencilla que se asemeja bastante al pseudocódigo. En otras palabras, poco código hace mucho.
+* Su uso no está ligado a un sector concreto.
+* Tiene una comunidad enorme.
+* Es un lenguaje multiplataforma, por lo que el mismo código es compatible en cualquier plataforma (Windows, macOS, Linux) sin hacer nada.
+* Por lo general se puede hacer desarrollos en Python más rápidamente que en otros lenguajes, acortando la duración de los proyectos.
+
+Python es también usado para fines muy diversos como son los siguientes:
+
+- **Desarrollo Web**: Existen frameworks como Django, Pyramid, Flask o Bottle que permiten desarrollar páginas web a todos los niveles.
+- **Ciencia y Educación**: Debido a su sintaxis tan sencilla, es una herramienta perfecta para enseñar conceptos de programación a todos los niveles. En lo relativo a ciencia y cálculo numérico, existen gran cantidad de librerías como SciPy o Pandas.
+- **Desarrollo de Interfaces Gráficos**: Gran cantidad de los programas que utilizamos tienen un interfaz gráfico que facilita su uso. Python también puede ser usado para desarrollar GUIs con librerías como Kivy o pyqt.
+- **Desarrollo Software**: También es usado como soporte para desarrolladores, como para testing.
+- **Machine Learning**: En los último años ha crecido el número de implementaciones en Python de librerías de aprendizaje automático como Keras, TensorFlow, PyTorch o sklearn.
+- **Visualización de Datos**: Existen varias librerías muy usadas para mostrar datos en gráficas, como matplotlib, seaborn o plotly.
+Finanzas y Trading: Gracias a librerías como QuantLib o qtpylib y a su facilidad de uso, es cada vez más usado en estos sectores.
+
+## Características de Python
+
+- Es un lenguaje interpretado, no compilado.
+- Usa tipado dinámico, lo que significa que una variable puede tomar valores de distinto tipo.
+- Es fuertemente tipado, lo que significa que el tipo no cambia de manera repentina. Para que se produzca un cambio de tipo tiene que hacer una conversión explícita.
+- Es multiplataforma, ya que un código escrito en macOS funciona en Windows o Linux y vice versa.
