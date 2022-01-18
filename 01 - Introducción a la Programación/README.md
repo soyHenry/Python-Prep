@@ -273,6 +273,25 @@ Dentro de una función puede haber una variable que solo se pueda utilizar dentr
 
 ![unaImagenConBoxShadow](../_src/assets/02_imagen08.jpg)
 
+
+``` python
+>>> def dividir(dividendo, divisor = 1):
+>>>     if (divisor == 0):
+>>>         return 'No se puede dividir por cero'
+>>>     else:
+>>>         return dividendo / divisor
+
+>>> print(dividir(10))
+
+>>> print(divisor)
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+~\AppData\Local\Temp/ipykernel_10044/1862935505.py in <module>
+----> 1 print(divisor)
+
+NameError: name 'divisor' is not defined
+``` 
+
 En este caso, 'divisor' es una variable local dentro de la función. Deja de existir cuando termina el llamado a la función, lo que denota el mensaje de error es que no encuentra esa variable para imprimir, porque de hecho, solo existió dentro del espacio de nombres de la función.
 
 ![unaImagenConBoxShadow](../_src/assets/02_imagen09.jpg)
