@@ -380,11 +380,11 @@ Tipos de datos numéricos:
 | :---      |  :----:  |    ---: |
 | Suma      | + | 3 + 5.5 = 8.5 |
 | Resta   | -  | 4 - 1 = 3  |
-| Multiplicación | -  | 4 * 2 = 8  |
-| Potenciación | -  | 4**2 = 16  |
-| División (Cociente) | -  | 4 / 2 = 2  |
-| División (parte entera) | -  | 14 // 3 = 4  |
-| División (resto) | -  | 14 % 3 =  2 |
+| Multiplicación | *  | 4 * 2 = 8  |
+| Potenciación | 4<sup>2</sup>  | 4**2 = 16  |
+| División (Cociente) | /  | 4 / 2 = 2  |
+| División (parte entera) | //  | 14 // 3 = 4  |
+| División (resto) | %  | 14 % 3 =  2 |
 
 Operadores relacionales
 
