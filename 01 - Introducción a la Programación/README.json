@@ -1,8 +1,8 @@
 {
   "lessonTitle": "Introducción a la Programación",
-  "permalink": "/Tema_Uno/",
+  "permalink": "/Clase_Uno/",
   "eleventyNavigation": {
-    "key": "Tema 1",
+    "key": "Clase 1",
     "order": 1
   }
 }
