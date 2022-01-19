@@ -410,10 +410,14 @@ Operaciones de asignación:
 | //=  | x//=2  | x=x//2 = 3  |
 | **=  | x**=2  | x=x**2 = 49  |
 | &=  | x&=2  | x=x&2 = 2  |
-| |=  | x|=2  | x=x|2 = 7  |
 | ^=  | x^=2  | x=x^2 = 5  |
 | >>=  | x>>=2  | x=x>>2 = 1  |
 | <<= | x<<=2 | x=x<<=2 = 28  |
+
+
+Operacion: |=   <br>
+Operador: x|=2  <br>
+Ejemplo: x=x|2 = 7  <br>
 
 Cuando tratamos con texto, podemos hacer otras operaciones:
 
