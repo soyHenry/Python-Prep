@@ -337,3 +337,19 @@ Es una colección de los 19 principios que influyen en el diseño del lenguaje P
 17) Si la implementación es difícil de explicar, es una mala idea.
 18) Si la implementación es fácil de explicar, puede que sea una buena idea.
 19) Los namespaces son una gran idea, ¡tengamos más de esos!
+
+## Homework
+
+Completa la tarea descrita en el archivo [README](https://github.com/soyHenry/Prep-Course/tree/main/02-JS-I/homework)
+
+<table class="hide" width="100%" style='table-layout:fixed;'>
+  <tr>
+    <td>
+      <a href="https://airtable.com/shrSzEYT4idEFGB8d?prefill_clase=00-PrimerosPasos">
+        <img src="https://static.thenounproject.com/png/204643-200.png" width="100"/>
+        <br>
+        Hacé click acá para dejar tu feedback sobre esta clase.
+      </a>
+    </td>
+  </tr>
+</table>
