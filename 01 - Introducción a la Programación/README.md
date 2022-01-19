@@ -397,6 +397,24 @@ Operadores relacionales
 | >= | Mayor o igual | 10 >= 3 = True |
 | <= | Menor o igual | 10 <= 3 = False |
 
+Operaciones de asignación:
+
+| Operacion | Operador | Ejemplo |
+| :---      |  :----:  |    ---: |
+| =   | x=7  | x=7  |
+| +=  | x+=2  | x=x+2 = 9  |
+| -=  | x-=2  | x=x-2 = 5  |
+| *=  | x*=2  | x=x*2 = 14  |
+| /=  | x/=2  | x=x/2 = 3.5  |
+| %=  | x%=2  | x=x%2 = 1  |
+| //=  | x//=2  | x=x//2 = 3  |
+| **=  | x**=2  | x=x**2 = 49  |
+| &=  | x&=2  | x=x&2 = 2  |
+| |=  | x|=2  | x=x|2 = 7  |
+| ^=  | x^=2  | x=x^2 = 5  |
+| >>=  | x>>=2  | x=x>>2 = 1  |
+| <<= | x<<=2 | x=x<<=2 = 28  |
+
 Cuando tratamos con texto, podemos hacer otras operaciones:
 
 | Operacion | Operador | Ejemplo |
@@ -550,6 +568,74 @@ Hemos llegado hasta este punto y se repasaron algunos de los conceptos más fund
 * En Python hay algunas funcionalidades ya presentes por defecto, como por ejemplo la funcion print() que permite mostrar una salida por pantalla y la función range() que devuelve un rango numérico según los parámetros que recibe y con la función type() es posible ver el tipo de dato de una variable
 * En Python, cada vez que hagamos referencia a un rango, por ejemplo "1,10" el primer numero se incluye y el último no.
 
+### Sentencia Break
+
+La sentencia break permite alterar el comportamiento de los bucles while y for. Concretamente, permite terminar con la ejecución del bucle. Esto significa que una vez se encuentra la palabra break, el bucle se habrá terminado.
+Veamos como podemos usar el break con bucles for. El range(5) generaría 5 iteraciones, donde la i valdría de 0 a 4. Sin embargo, en la primera iteración, terminamos el bucle prematuramente.
+El break hace que nada más empezar el bucle, se rompa y se salga sin haber hecho nada.
+
+```python
+>>> for i in range(5):
+>>>   print(i)
+>>>   break
+0
+```
+
+Un ejemplo un poco más útil, sería el de buscar una letra en una palabra. Se itera toda la palabra y en el momento en el que se encuentra la letra que buscábamos, se rompe el bucle y se sale. Esto es algo muy útil porque si ya encontramos lo que estábamos buscando, no tendría mucho sentido seguir iterando la lista, ya que desperdiciaríamos recursos.
+
+```python
+>>> cadena = 'Python'
+>>> for letra in cadena:
+>>>     if letra == 'h':
+>>>         print("Se encontró la h")
+>>>         break
+>>>     print(letra)
+P
+y
+t
+Se encontró la h
+```
+
+El break también nos permite alterar el comportamiento del while. En el ejemplo, la condición while True haría que la sección de código se ejecutara indefinidamente, pero al hacer uso del break, el bucle se romperá cuando x valga cero.
+
+```python
+>>> x = 5
+>>> while True:
+>>>     x -= 1
+>>>     print(x)
+>>>     if x == 0:
+>>>         break
+>>>     print("Fin del bucle")
+4
+3
+2
+1
+0
+Fin del bucle
+```
+
+Por norma general, y salvo casos muy concretos, si ves un while True, es probable que haya un break dentro del bucle.
+
+### Sentencia Continue
+
+El uso de continue al igual que el ya visto break, permite modificar el comportamiento de de los bucles while y for.
+Concretamente, continue se salta todo el código restante en la iteración actual y vuelve al principio en el caso de que aún queden iteraciones por completar.
+La diferencia entre el break y continue es que el continue no rompe el bucle, si no que pasa a la siguiente iteración saltando el código pendiente.
+En el siguiente ejemplo vemos como al encontrar la letra P se llama al continue, lo que hace que se salte el print(). Es por ello por lo que no vemos la letra P impresa en pantalla.
+
+```python
+>>> cadena = 'Python'
+>>> for letra in cadena:
+>>>     if letra == 'P':
+>>>         continue
+>>>     print(letra)
+y
+t
+h
+o
+n
+```
+
 ## Estructuras de datos
 
 Anteriormente se menciono que un dato representa la realidad, y se presento el concepto de variable, que es un elemento que nos permite guardar un dato dentro de nuestro programa. Sin embargo, rápidamente vamos a llegar a la conclusión de que una variable puede llegar a quedar insuficiente para ciertas representaciones. Ante esta situación, en los lenguajes de programación tenemos estructuras de datos más complejas, en el caso de Python contamos con listas, tuplas y diccionarios.
@@ -557,7 +643,8 @@ Anteriormente se menciono que un dato representa la realidad, y se presento el c
 ### Lista
 
 Una estructura de dato muy importante en Python es la lista, que consiste en una serie de elementos ordenados.
-Esos elementos pueden ser de distinto tipo, e incluso pueden ser de tipo lista también:
+Esos elementos pueden ser de distinto tipo, e incluso pueden ser de tipo lista también.<br>
+
 Operaciones con listas:
 * Creacion 
 ```python
@@ -574,7 +661,7 @@ type(mi_lista)
 
 Las listas, así como otras estructuras de datos que se verán en adelante, tienen varios elementos, motivo por el cual cuando se quiere acceder en específico se requiere de un **índice** que va a hacer referencia al elemento dentro de la lista:
 
-* Imprimir el indice 3 de la lista
+* Imprimir el tercer elemento de la lista (el índice comienza en cero)
 ```python
 print(mi_lista[2])
 ```
@@ -636,7 +723,7 @@ Gris
 
 ### Tupla
 
-La diferencia con la lista es que no se pueden modificar una vez creadas:
+La diferencia con la lista es que no se pueden modificar una vez creadas, es decir que son **inmutables**:
 
 * Convertir una lista a tupla 
 ```python 
@@ -870,6 +957,41 @@ StopIteration                             Traceback (most recent call last)
 Una nota muy importante es que cuando el iterador es obtenido con iter() como hemos visto, apunta por defecto fuera de la lista. Es decir, si queremos acceder al primer elemento de la lista, deberemos llamar una vez a next().
 Por otro lado, a diferencia de un marcapáginas de un libro, el iterador sólo puede ir hacia delante. No es posible retroceder.
 
+
+### Sentencia zip
+
+Si pasamos dos listas a zip como entrada, el resultado será una tupla donde cada elemento tendrá todos y cada uno de los elementos i-ésimos de las listas pasadas como entrada.
+
+```python
+>>> a = [1, 2]
+>>> b = ["Uno", "Dos"]
+>>> c = zip(a, b)
+>>> type(c)
+zip
+>>> list(c)
+[(1, 'Uno'), (2, 'Dos')]
+```
+
+### Añadiendo condicionales
+
+Hemos visto como modificar todos los elementos de un iterable (como una lista) de diferentes maneras, pero ¿y si quisiéramos realizar la operación sobre el elemento sólo si una determinada condición se cumple? Debemos añadir un condicional if. 
+La expresión genérica sería la siguiente.
+
+lista = [expresión for elemento in iterable if condición]
+
+Por lo tanto la expresión sólo se aplicará al elemento si se cumple la condición. Veamos un ejemplo con una frase, de la que queremos saber el número de erres que tiene.
+
+```python
+>>> frase = "El perro de san roque no tiene rabo"
+>>> erres = [i for i in frase if i == 'r']
+>>> print(errores)
+['r', 'r', 'r', 'r']
+>>> print(len(erres))
+4
+```
+
+Lo que hace el código anterior es iterar cada letra de la frase, y si es una r, se añade a la lista. De esta manera el resultado es una lista con tantas letras r como la frase original tiene, y podemos calcular las veces que se repite con len().
+
 ## Funciones
 
 Las funciones son una secuencia de comandos que ejecutan una sección de código. En Python las funciones se definen usando la palabra reservada **def** y luego el nombre de la función con paréntesis y dos puntos que indican que lo que sigue son las sentencias, eventualmente una función debe retornar un valor, para esto se usa la palabra reservada **return**.
@@ -1059,6 +1181,61 @@ Sin embargo si hacemos lo mismo cuando la variable de entrada es una lista, pode
 
 Entonces, en Python por defecto los valores simples se pasan por valor (int, float, string, bool, complex)
 
+### Consideraciones
+
+Es importante notar que cuando se hacen asignaciones entre variables, si no usamos el método copy(), lo que vamos a estar haciendo en realidad, es referenciar al mismo valor con dos variables distintas, pero esto ocurre sólo ante tipos de datos complejos. 
+Sigamos el ejemplo:
+
+
+```python
+>>> # Se crea la variable x con el valor 1
+>>> x = 1
+>>> # Se asigna x a la variable y
+>>> y = x
+>>> # Se modifica la variable y asignándole el valor 2
+>>> y = 2
+>>> # ¿Qué valor ahora tienen ambas?
+>>> print(x)
+1
+>>> print(y)
+2
+```
+
+Vamos a hacer el mismo proceso, pero asignando una lista:
+
+```python
+>>> # Se crea la variable x con la lista [1,2]
+>>> x = [1,2]
+>>> # Se asigna x a la variable y
+>>> y = x
+>>> # Se modifica la variable y agregando un elemento
+>>> y.append(3)
+>>> # ¿Qué valores ahora tienen ambas?
+>>> print(x)
+[1,2,3]
+>>> print(y)
+[1,2,3]
+```
+
+Notar que ahora x e y referencian al mismo espacio de memoria, el cuál contiene la lista [1,2,3].<br>
+Ahora se utiliza el método copy():
+
+```python
+>>> # Se crea la variable x con la lista [1,2]
+>>> x = [1,2]
+>>> # Se asigna x a la variable y
+>>> y = x.copy()
+>>> # Se modifica la variable y agregando un elemento
+>>> y.append(3)
+>>> # ¿Qué valores ahora tienen ambas?
+>>> print(x)
+[1,2]
+>>> print(y)
+[1,2,3]
+```
+
+Notar que ahora x e y referencian a espacios de memoria distintos.
+
 ### Funciones Lambda
 
 La función Lambda es una forma conveniente de crear una función en una sola línea. También se las conoce como funciones anónimas, ya que no tienen nombre, sino que se asignan a una variable.
@@ -1167,6 +1344,220 @@ Hola, soy  Ratón , de color Marrón  y tengo  3  años
 ## Librerías
 
 Las librerías son proyectos con metodos o funciones puntuales, el cual es posible anexar a otros proyectos y complementarlo usando sus metodos especificos para una determinada solución. Son trozos de código hechos por terceros. Facilita mucho la programación y hace que nuestro programa sea más sencillo de hacer y luego de entender. También llamadas 'Frameworks', consiste en archivos de código a los que se invoca al proncipio de nuestro propio código.
+
+### Módulos
+
+Un módulo en Python es un archivo con extensión ".py" que alberga un conjunto de funciones, variables o clases y que puede ser usado por otros módulos. Nos permiten reutilizar código y organizarlo mejor en namespaces. Por ejemplo, podemos definir un módulo mimodulo.py con dos funciones suma() y resta().
+
+
+``` python
+>>> # mimodulo.py
+>>> def suma(a, b):
+>>>     return a + b
+>>> 
+>>> def resta(a, b):
+>>>     return a - b
+```
+
+Una vez definido, dicho módulo puede ser usado o importado en otro código usando **import**, con lo que se puede acceder a todo el contenido.
+
+``` python
+>>> # otromodulo.py
+>>> import mimodulo
+>>> 
+>>> print(mimodulo.suma(4, 3))
+7
+>>> print(mimodulo.resta(10, 9))
+1
+``` 
+
+También podemos importar únicamente los componentes que nos interesen como mostramos a continuación.
+
+``` python
+>>> from mimodulo import suma, resta
+>>> 
+>>> print(suma(4, 3))   # 7
+>>> print(resta(10, 9)) # 1
+```
+
+Por último, podemos importar todo el módulo haciendo uso de *, sin necesidad de usar mimodulo.*.
+
+``` python
+>>> from mimodulo import *
+>>> 
+>>> print(suma(4, 3))
+7
+>>> print(resta(10, 9))
+1
+```
+
+### Consideraciones
+
+Los módulos o librerías, permiten que Python pueda ser utilizado en diferentes entornos:
+
+- **Desarrollo Web**: Existen frameworks como Django, Pyramid, Flask o Bottle que permiten desarrollar páginas web a todos los niveles.
+- **Ciencia y Educación**: Debido a su sintaxis tan sencilla, es una herramienta perfecta para enseñar conceptos de programación a todos los niveles. En lo relativo a ciencia y cálculo numérico, existen gran cantidad de librerías como SciPy o Pandas.
+- **Desarrollo de Interfaces Gráficos**: Gran cantidad de los programas que utilizamos tienen un interfaz gráfico que facilita su uso. Python también puede ser usado para desarrollar GUIs con librerías como Kivy o pyqt.
+- **Desarrollo Software**: También es usado como soporte para desarrolladores, como para testing.
+- **Machine Learning**: En los último años ha crecido el número de implementaciones en Python de librerías de aprendizaje automático como Keras, TensorFlow, PyTorch o sklearn.
+- **Visualización de Datos**: Existen varias librerías muy usadas para mostrar datos en gráficas, como matplotlib, seaborn o plotly.
+Finanzas y Trading: Gracias a librerías como QuantLib o qtpylib y a su facilidad de uso, es cada vez más usado en estos sectores.
+
+### Rutas y Uso de sys.path
+
+Normalmente los módulos que importamos están en la misma carpeta, pero es posible acceder también a módulos ubicados en una subcarpeta. Imaginemos la siguiente estructura:
+
+``` bash
+.
+├── ejemplo.py
+├── carpeta
+│   └── modulo.py
+```
+
+Donde modulo.py contiene lo siguiente:
+
+``` python
+>>> # modulo.py
+>>> def hola():
+>>> 	print("Hola")
+```
+
+Desde nuestro ejemplo.py, podemos importar el módulo modulo.py de la siguiente manera:
+
+``` python
+>>> from carpeta.modulo import *
+>>> print(hola())
+Hola
+```
+
+Es importante notar que Python busca los módulos en las rutas indicadas por el **sys.path**. Es decir, cuando se importa un módulo, lo intenta buscar en dichas carpetas. Puedes ver tu sys.path de la siguiente manera:
+
+``` python
+>>> import sys
+>>> print(sys.path)
+```
+
+Como es obvio, verás que la carpeta de tu proyecta está incluida, pero ¿y si queremos importar un módulo en una ubicación distinta? Pues bien, podemos añadir al sys.path la ruta en la que queremos que Python busque.
+
+``` python
+>>> import sys
+>>> sys.path.append(r'/ruta/de/tu/modulo')
+``` 
+
+Una vez realizado esto, los módulos contenidos en dicha carpeta podrán ser importados sin problema como hemos visto anteriormente.
+
+Por otro lado, es posible cambiar el nombre del módulo usando **as**. Imaginemos que tenemos un módulo moduloconnombrelargo.py.
+
+``` python
+>>> # moduloconnombrelargo.py
+>>> hola = "hola"
+```
+
+En vez de usar el siguiente import, tal vez queramos asignar un nombre más corto al módulo.
+
+``` python
+>>> import moduloconnombrelargo
+>>> print(moduloconnombrelargo.hola)
+```
+
+Podemos hacerlo de la siguiente manera con as:
+
+``` python
+>>> import moduloconnombrelargo as m
+>>> print(m.hola)
+``` 
+
+La función **dir()** nos permite ver los nombres (variables, funciones, clases, etc) existentes en nuestro namespace. Si probamos en un módulo vacío, podemos ver como tenemos varios nombres rodeados de __. Se trata de nombres que Python crea por debajo.
+
+``` python
+>>> print(dir())
+['__annotations__', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__']
+```
+
+Por ejemplo, __file__ es creado automáticamente y alberga el nombre del archivo .py.
+
+``` python
+>>> print(__file__)
+/tu/ruta/tufichero.py
+```
+
+Imaginemos ahora que tenemos alguna variable y función definida en nuestro script. Como era de esperar, dir() ahora nos muestra también los nuevos nombres que hemos creado, y que por supuesto pueden ser usados.
+
+``` python
+>>> mi_variable = "Python"
+>>> def mi_funcion():
+>>>     pass
+>>> print(dir())
+['__annotations__', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', 'mi_funcion', 'mi_variable']
+``` 
+
+Por último, vamos a importar el contenido de un módulo externo. Podemos ver que en el namespace tenemos también los nombres resta y suma, que han sido tomados de mimodulo.
+
+``` python
+>>> from mimodulo import *
+>>> print(dir())
+['__annotations__', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', 'resta', 'suma']
+```
+
+El uso de dir() también acepta parámetros de entrada, por lo que podemos por ejemplo pasar nuestro modulo y nos dará más información sobre lo que contiene.
+
+``` python
+>>> import mimodulo
+>>> print(dir(mimodulo))
+['__builtins__', '__cached__', '__doc__', '__file__','__loader__', '__name__', '__package__', '__spec__', 'resta', 'suma']
+>>> print(mimodulo.__name__)
+mimodulo
+>>> print(mimodulo.__file__)
+/tu/ruta/mimodulo.py
+```
+
+Importar un módulo puede lanzar la excepción "ImportError", cuando se intenta importar un módulo que no ha sido encontrado. Se trata de ModuleNotFoundError.
+
+``` python
+>>> import moduloquenoexiste
+ModuleNotFoundError: No module named 'moduloquenoexiste'
+``` 
+
+Dicha excepción puede ser capturada para evitar la interrupción del programa.
+Un problema muy recurrente es cuando creamos un módulo con una función como en el siguiente ejemplo, y añadimos algunas sentencias a ejecutar.
+
+``` python
+>>> # modulo.py
+>>> def suma(a, b):
+>>>     return a + b
+>>> c = suma(1, 2)
+>>> print("La suma es:", c)
+```
+
+Si en otro módulo importamos nuestro modulo.py, tal como está nuestro código el contenido se ejecutará, y esto puede no ser lo que queramos.
+
+
+``` python
+>>> # otromodulo.py
+>>> import modulo
+La suma es: 3
+```
+
+Dependiendo de la situación, puede ser importante especificar que únicamente queremos que se ejecute el código si el módulo es el __main__. Con la siguiente modificación, si hacemos import modulo desde otro módulo, este fragmento ya no se ejecutará al ser el módulo main otro.
+
+``` python
+>>> # modulo.py
+>>> def suma(a, b):
+>>>     return a + b
+>>> if (__name__ == '__main__'):
+>>>     c = suma(1, 2)
+>>>     print("La suma es:", c)
+```
+
+Es importante notar que los módulos solamente son cargados una vez. Es decir, no importa el número de veces que llamemos a import mimodulo, que sólo se importará una vez.
+Si queremos que el módulo sea recargado, tenemos que ser explícitos, haciendo uso de reload.
+
+``` python
+>>> import mimodulo
+>>> import importlib
+>>> importlib.reload(mimodulo)
+>>> importlib.reload(mimodulo)
+``` 
 
 ## Manejo de Errores
 
@@ -1387,24 +1778,6 @@ except RuntimeError:
 except:
  	print("Error detected can't be handled nor clasified.")
 ```
-
-## Ptyhon
-
-* Se trata de un lenguaje fácil de aprender, con una sintaxis muy sencilla que se asemeja bastante al pseudocódigo. En otras palabras, poco código hace mucho.
-* Su uso no está ligado a un sector concreto.
-* Tiene una comunidad enorme.
-* Es un lenguaje multiplataforma, por lo que el mismo código es compatible en cualquier plataforma (Windows, macOS, Linux) sin hacer nada.
-* Por lo general se puede hacer desarrollos en Python más rápidamente que en otros lenguajes, acortando la duración de los proyectos.
-
-Python es también usado para fines muy diversos como son los siguientes:
-
-- **Desarrollo Web**: Existen frameworks como Django, Pyramid, Flask o Bottle que permiten desarrollar páginas web a todos los niveles.
-- **Ciencia y Educación**: Debido a su sintaxis tan sencilla, es una herramienta perfecta para enseñar conceptos de programación a todos los niveles. En lo relativo a ciencia y cálculo numérico, existen gran cantidad de librerías como SciPy o Pandas.
-- **Desarrollo de Interfaces Gráficos**: Gran cantidad de los programas que utilizamos tienen un interfaz gráfico que facilita su uso. Python también puede ser usado para desarrollar GUIs con librerías como Kivy o pyqt.
-- **Desarrollo Software**: También es usado como soporte para desarrolladores, como para testing.
-- **Machine Learning**: En los último años ha crecido el número de implementaciones en Python de librerías de aprendizaje automático como Keras, TensorFlow, PyTorch o sklearn.
-- **Visualización de Datos**: Existen varias librerías muy usadas para mostrar datos en gráficas, como matplotlib, seaborn o plotly.
-Finanzas y Trading: Gracias a librerías como QuantLib o qtpylib y a su facilidad de uso, es cada vez más usado en estos sectores.
 
 ## Características de Python
 
