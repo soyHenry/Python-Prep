@@ -130,9 +130,16 @@ Notar que en la operaciones que no están permitidas arroja un error, que es muy
 >>> x = 3
 >>> print(y%x)
 1
+
+>>> # Imprimir el tipo de dato de una variable y una constante
+>>> y = 2.5
+>>> type(y)
+float
+>>> type(2.5)
+float
 ```
 
-Notar que anteponiendo el caracter numeral (#) es posible agregar comentarios en el código.
+Notar que anteponiendo el caracter numeral (#) es posible agregar comentarios en el código. Por otra parte, la función **type()** es muy útil para saber a que tipo de dato corresponde un elemento.
 
 Operaciones Lógicas
 
