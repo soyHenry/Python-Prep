@@ -229,17 +229,6 @@ Python 3.7 (o superior
 3. Habilita la casilla de verificación en Install launcher for all users y Add Python 3.8 to PATH. A continuación presiona en Install Now. Windows te solicitará permisos para instalar Python en tu computadora.
 4. Al finalizar la instalación se abrirá una ventana, en ella deberás presionar en la opción Disable path length limit. Windows te solicitará permisos para realizar este cambio.
 
-Visual Studio Code
-
-Visual Studio Code es un editor de textos que tiene integradas varias herramientas que te ayudarán a desarrollar tus ejercicios con facilidad. Para obtenerlo en tu computadora, dirígete a: [https://code.visualstudio.com/](https://code.visualstudio.com/)
-
-1. Realiza una instalación normal de Visual Studio code.
-2. En Visual Studio Code dirígete al panel de Extensiones, se encuentra en el panel lateral izquierdo. Ahí deberás buscar la extensión llamada Python.
-3. Selecciona la extensión creada por Microsoft. Una vez seleccionada, instálala.
-4. Una vez instalada, reinicia Visual Studio Code.
-
-Listo con esto podrás correr los programas que escribas en python en la terminal de Visual Studio Code.
-
 ## Instalación de Python si estás usando Mac:
 
 Dirígete a: [https://es.wikibooks.org/wiki/Python/Instalaci%C3%B3n_de_Python/Python_en_Mac_OS_X](https://es.wikibooks.org/wiki/Python/Instalaci%C3%B3n_de_Python/Python_en_Mac_OS_X)

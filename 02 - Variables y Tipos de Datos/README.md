@@ -24,7 +24,7 @@ Sin embargo, cuando ese dato no lo alojamos en una variable y lo utilizamos dire
 Es importante notar, que podemos encontrarnos con datos de tipos distintos, es decir numéricos, alfanuméricos o booleanos.
 
 En Python tenemos los siguientes:
- * Enteros: El conjunto de números naturales
+ * Enteros: El conjunto de números enteros
  * Floats: El conjunto de números reales o de punto flotante
  * Cadenas o Strings: Es texto, caracteres alfanuméricos que se introducen entre comillas dobles o simples
  * Booleanos: Representan Verdadero ó Falso
