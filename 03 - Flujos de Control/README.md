@@ -66,7 +66,6 @@ Hemos llegado hasta este punto y se repasaron algunos de los conceptos más fund
 
 * En Python es importante la indentación, notar que el codigo que se ejecuta dentro de una sentencia if, for o while está indentado.
 * Tambien es importante notar los ":"
-* En Python hay algunas funcionalidades ya presentes por defecto, como por ejemplo la funcion print() que permite mostrar una salida por pantalla y la función range() que devuelve un rango numérico según los parámetros que recibe y con la función type() es posible ver el tipo de dato de una variable
 * En Python, cada vez que hagamos referencia a un rango, por ejemplo "1,10" el primer numero se incluye y el último no.
 
 ### Sentencia Break
