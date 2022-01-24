@@ -86,7 +86,7 @@ Cuando tratamos con texto, podemos hacer otras operaciones:
 | Operacion | Operador | Ejemplo |
 | :---      |  :----:  |    ---: |
 | Concatenar | + | 'hola ' + 'mundo !' = 'hola mundo!' |
-| Multiplicar | * | 'ja ' + 3 = 'ja ja ja' |
+| Multiplicar | * | 'ja ' * 3 = 'ja ja ja' |
 
 Algunos ejemplos en Python:
 
@@ -171,6 +171,27 @@ Tabla del operador lógico "Or Exclusiva", se verifica ((A and not(B)) or (not(A
 | 0 | 0 | 0 |
 | 0 | 1 | 1 |
 | 1 | 1 | 0 |
+
+### Conversión de tipos de datos
+
+Puede haber ocasiones en las que desee especificar un tipo en una variable. Esto se puede hacer con lo que se denomina **casting**. 
+La conversión de tipo de dato en python se realiza mediante funciones:
+
+int(): Construye un número entero a partir de un literal entero, un literal flotante (eliminando todos los decimales) o un literal de cadena (siempre que la cadena represente un número entero)
+float(): construye un número flotante a partir de un literal entero, un literal flotante o un literal de cadena (siempre que la cadena represente un flotante o un entero)
+str(): construye una cadena a partir de una amplia variedad de tipos de datos, incluidas cadenas, literales enteros y literales flotantes
+
+```python
+>>> x = '2'
+>>> print(type(x))
+<class 'str'>
+>>> x = int(x)
+>>> print(type(x))
+<class 'int'>
+>>> y = int(2.8)
+>>> print(y)
+2
+```
 
 ## Homework
 
