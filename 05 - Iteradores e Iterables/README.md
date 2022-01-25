@@ -50,6 +50,18 @@ l
 a
 ```
 
+Además de obtener el elemento dentro del iterable, también es posible obtener el índice en el que está posicionado utilizando la función **enumerate**
+
+```python
+>>> cadena = "Hola"
+>>> for i, c in enumerate(cadena):
+>>>   print(i, c)
+0 H
+1 o
+2 l
+3 a
+```
+
 Para saber si una clase es iterable o no hay dos opciones. La primera sería consultar la documentación oficial de Python. La segunda es ver si la clase u objeto en cuestión hereda de Iterable. Con isinstance() podemos comprobar si una clase hereda de otra.
 
 ```python
