@@ -84,6 +84,20 @@ Gris
 >>> print(['a','b','c'] * 3)
 ['a', 'b', 'c', 'a', 'b', 'c', 'a', 'b', 'c']
 ```
+* Ordenar una lista de menor a mayor
+```python 
+>>> lista= [1,4,3,6,8,2]
+>>> lista.sort()
+>>> print(lista)
+[1,2,3,4,6,8]
+```
+* Ordenar una lista de mayor a menor
+```python 
+>>> lista= [1,4,3,6,8,2]
+>>> lista.sort(reverse=True)
+>>> print(lista)
+[8,6,4,3,2,1]
+```
 
 ### Tupla
 
