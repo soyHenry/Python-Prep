@@ -41,6 +41,7 @@ module.exports = function (eleventyConfig) {
   })
 
   eleventyConfig.addPassthroughCopy('_src/assets')
+  eleventyConfig.addPassthroughCopy('_src/localStyles')
 
   eleventyConfig.addNunjucksFilter('bootstrapNav', toBootstrapNav)
 
@@ -66,7 +67,6 @@ module.exports = function (eleventyConfig) {
       layouts: '/_src/layouts',
       data: '/_src/data',
       output: '_dist',
-      pathPrefix: '/Prep-Course/',
     },
   }
 }
