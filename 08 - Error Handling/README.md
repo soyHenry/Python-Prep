@@ -229,7 +229,7 @@ except:
 
 ## Homework
 
-Completa la tarea descrita en el archivo [README](https://github.com/soyHenry/Prep-Course/tree/main/02-JS-I/homework)
+Completa la tarea descrita en el archivo [README](https://github.com/soyHenry/Python-Prep/blob/4aec1885136fdcff98899d2be13c8908b39f8b21/08%20-%20Error%20Handling/Prep_Course_Homework_08.md)
 
 <table class="hide" width="100%" style='table-layout:fixed;'>
   <tr>

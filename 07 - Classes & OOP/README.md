@@ -311,7 +311,7 @@ Si queremos que el módulo sea recargado, tenemos que ser explícitos, haciendo 
 
 ## Homework
 
-Completa la tarea descrita en el archivo [README](https://github.com/soyHenry/Prep-Course/tree/main/02-JS-I/homework)
+Completa la tarea descrita en el archivo [README](https://github.com/soyHenry/Python-Prep/blob/4aec1885136fdcff98899d2be13c8908b39f8b21/07%20-%20Classes%20&%20OOP/Prep_Course_Homework_07.md)
 
 <table class="hide" width="100%" style='table-layout:fixed;'>
   <tr>

@@ -218,7 +218,7 @@ str(): construye una cadena a partir de una amplia variedad de tipos de datos, i
 
 ## Homework
 
-Completa la tarea descrita en el archivo [README](https://github.com/soyHenry/Prep-Course/tree/main/02-JS-I/homework)
+Completa la tarea descrita en el archivo [README](https://github.com/soyHenry/Python-Prep/blob/4aec1885136fdcff98899d2be13c8908b39f8b21/02%20-%20Variables%20y%20Tipos%20de%20Datos/Prep_Course_Homework_02.md)
 
 <table class="hide" width="100%" style='table-layout:fixed;'>
   <tr>
