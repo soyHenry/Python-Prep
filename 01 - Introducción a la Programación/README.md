@@ -261,6 +261,17 @@ sudo apt-get install -y python-dev
 
 De nuevo vuelva a ejecutar en su consola de comando el comando python.
 
+# Temario del Curso
+
+1) Introducción a la programación
+2) Variables y Tipos de Datos
+3) Flujos de Control
+4) Estructuras de Datos
+5) Iteradores e Iterables
+6) Funciones
+7) Clases y POO
+8) Manejo de Errores
+
 # Introducción a la Programación
 
 ## ¿Qué es la Programación?
