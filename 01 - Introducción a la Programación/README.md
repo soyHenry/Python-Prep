@@ -2,7 +2,14 @@
 
 # Primeros Pasos
 
-#### Preparando tu compu
+#### Preparando tu computadora
+
+Antes de comenzar deberás descargar en tu computadora las siguientes herramientas de trabajo:
+1. Editor de texto
+2. Git
+3. Github
+4. Python
+Luego deberás realizar la clonación del repositorio, te explicamos cómo hacerlo en el tutorial:
 
 <div class="iframeContainer">
   <iframe src="https://player.vimeo.com/video/638636752" title="Instructivo de Primeros Pasos" allow="autoplay; fullscreen"></iframe>
