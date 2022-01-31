@@ -58,7 +58,7 @@ Tipos de datos numéricos:
 | División (parte entera) | //  | 14 // 3 = 4  |
 | División (resto) | %  | 14 % 3 =  2 |
 
-Operadores relacionales
+Operadores relacionales222
 
 | Operacion | Operador | Ejemplo |
 | :---      |  :----:  |    ---: |
