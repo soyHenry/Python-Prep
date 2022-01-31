@@ -203,11 +203,11 @@ mi_diccionario={'Clave1':'Valor1', 'Clave2':{'numeros':[1,2,3,4,5]}}
  >>> len(mi_diccionario)
  2
  ```
-
-#### Consideraciones
-
-* La funcionalidad **del** permite eliminar cualquier estructura de datos
-* La funcionalidad **len** permite obtener el tamaño de la estructura de datos
+<hr width="75%">
+  <p align="center">
+  Tips: La funcionalidad **del** permite eliminar cualquier estructura de datos y la funcionalidad **len** permite obtener el tamaño de la estructura de datos
+  </p>
+<hr width="75%">
 
 ## Homework
 

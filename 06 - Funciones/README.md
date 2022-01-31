@@ -189,11 +189,13 @@ Sin embargo si hacemos lo mismo cuando la variable de entrada es una lista, pode
 
 Entonces, en Python por defecto los valores simples se pasan por valor (int, float, string, bool, complex)
 
-### Consideraciones
+<hr width="75%">
+  <p align="center">
+  Es importante notar que cuando se hacen asignaciones entre variables, si no usamos el método copy(), lo que vamos a estar haciendo en realidad, es referenciar al mismo valor con dos variables distintas, pero esto ocurre sólo ante tipos de datos complejos. 
+  </p>
+<hr width="75%">
 
-Es importante notar que cuando se hacen asignaciones entre variables, si no usamos el método copy(), lo que vamos a estar haciendo en realidad, es referenciar al mismo valor con dos variables distintas, pero esto ocurre sólo ante tipos de datos complejos. 
 Sigamos el ejemplo:
-
 
 ```python
 >>> # Se crea la variable x con el valor 1

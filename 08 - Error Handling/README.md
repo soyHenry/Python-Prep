@@ -226,3 +226,19 @@ except:
 - Usa tipado dinámico, lo que significa que una variable puede tomar valores de distinto tipo.
 - Es fuertemente tipado, lo que significa que el tipo no cambia de manera repentina. Para que se produzca un cambio de tipo tiene que hacer una conversión explícita.
 - Es multiplataforma, ya que un código escrito en macOS funciona en Windows o Linux y vice versa.
+
+## Homework
+
+Completa la tarea descrita en el archivo [README](https://github.com/soyHenry/Prep-Course/tree/main/02-JS-I/homework)
+
+<table class="hide" width="100%" style='table-layout:fixed;'>
+  <tr>
+    <td>
+      <a href="https://airtable.com/shrSzEYT4idEFGB8d?prefill_clase=00-PrimerosPasos">
+        <img src="https://static.thenounproject.com/png/204643-200.png" width="100"/>
+        <br>
+        Hacé click acá para dejar tu feedback sobre esta clase.
+      </a>
+    </td>
+  </tr>
+</table>

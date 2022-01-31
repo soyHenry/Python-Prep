@@ -60,13 +60,15 @@ Un ciclo **while** repite un bloque de código mientras que cierta condición se
 9
 ```
 
-### Consideraciones
+<hr width="75%">
+  <p align="center">
+  Hemos llegado hasta este punto y se repasaron algunos de los conceptos más fundamentales de la programación y también de Python, pero es necesario detenerse en algunos detalles, que tienen que ver precisamente con el lenguaje que estamos utilizando:
 
-Hemos llegado hasta este punto y se repasaron algunos de los conceptos más fundamentales de la programación y también de Python, pero es necesario detenerse en algunos detalles, que tienen que ver precisamente con el lenguaje que estamos utilizando:
-
-* En Python es importante la indentación, notar que el codigo que se ejecuta dentro de una sentencia if, for o while está indentado.
-* Tambien es importante notar los ":"
-* En Python, cada vez que hagamos referencia a un rango, por ejemplo "1,10" el primer numero se incluye y el último no.
+  * En Python es importante la indentación, notar que el codigo que se ejecuta dentro de una sentencia if, for o while está indentado.
+  * Tambien es importante notar los ":"
+  * En Python, cada vez que hagamos referencia a un rango, por ejemplo "1,10" el primer numero se incluye y el último no.
+  </p>
+<hr width="75%">
 
 ### Sentencia Break
 
