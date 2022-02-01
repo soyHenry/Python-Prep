@@ -107,7 +107,7 @@ El break también nos permite alterar el comportamiento del while. En el ejemplo
 >>>     print(x)
 >>>     if x == 0:
 >>>         break
->>>     print("Fin del bucle")
+>>> print("Fin del bucle")
 4
 3
 2
