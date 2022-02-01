@@ -46,7 +46,7 @@ Todo valor que pueda ser asignado a una variable tiene asociado un tipo de dato 
 
 Con diferentes tipos de datos podemos hacer diferentes tipos de operaciones. Y hay operaciones no permitidas entre variables de diferentes tipos de datos.
 
-Tipos de datos numéricos:
+Operaciones aritméticas:
 
 | Operacion | Operador | Ejemplo |
 | :---      |  :----:  |    ---: |
