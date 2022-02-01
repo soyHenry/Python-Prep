@@ -2,11 +2,9 @@
 
 ## Variables
 
-Una variable es un espacio de memoria donde guardamos un dato, ese espacio de memoria a la vez recibe un nombre:
+Una variable es un espacio de memoria donde guardamos un dato, ese espacio de memoria a la vez recibe un nombre y esto conforma la estructura de datos más simple que podemos encontrar.
 
 ![unaImagenConBoxShadow](../_src/assets/02_imagen01.jpg)
-
-Y esto conforma la estructura de datos más simple que podemos encontrar.
 
 Por otro lado existen ciertas normas a la hora de nombrar variables:
 
