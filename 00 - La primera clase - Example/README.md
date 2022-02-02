@@ -2,15 +2,33 @@
 
 <!-- el logo de Henry se oculta en el build -->
 
-# Ejemplo de H1
+# Título de la clase
 
-#### Ejemplo de anexo del H1
+#### Anexo del título
 
 Este readme corresponde al contenido de una clase o lección.
 
-## Qué cambia en este layout?
+## Data de cada clase
 
-Para el contenido de las clases se utiliza el layout `lesson` por default (no hace falta setearlo).
+La ***data*** relacionada a esta clase se incluye en un archivo con su mismo nombre, pero con la extensión ***.json***:
+
+```json
+{
+  "lessonTitle": "Primera clase", // Se muestra en la ventana del navegador y en la navbar.
+  "feedbackID": "01-lesson1", // El pre-fill correspondiente a esta clase para el form de airtable (opcional).
+  "permalink": "/Tema_Uno/", // La ruta generada en el sitio estático para esta clase.
+  "quizzID" : "6057d0a5656c8d23c2e60e3e", // El indentificador correspondiente al quizz de la  clase actual (opcional).
+  "homeworkUrl": "https://github.com/soyHenry/Prep-Course/tree/main/05-JS-IV/homework", // La ruta a la carpeta del homework correspondiente a esta clase, en GitHub (opcional).
+  "eleventyNavigation": {
+    "key": "Tema 1", // El nombre corto con que queremos que aparezca en la nav esta clase.
+    "order": 1 // El nro de posición en el que queremos que aparezca esta clase en la nav.
+  }
+}
+```
+
+Para el contenido de las clases utilizamos el layout `lesson`. No hace falta setearlo, es el layout por default.
+
+## Qué cambia en este layout?
 
 Este layout incluye:
 
@@ -22,9 +40,13 @@ Se genera una TOC a la izquierda de la pantalla (solo en web) con links de naveg
 
 Se utiliza la librería personalizada `henry-reading-time` para establecer un tiempo de lectura aproximado.
 
+### Botón de Quizz
+
+En caso de que la clase tenga ***quizz*** (existencia de la variable `quizzID`) se genera un botón a continuación del tiempo de lectura, con el link correspondiente.
+
 ### Botón de Homework
 
-En caso de que la clase tenga homework (existencia de la variable `homeworkUrl`) se genera un botón junto al tiempo de lectura, con link a la homework.
+En caso de que la clase tenga ***homework*** (existencia de la variable `homeworkUrl`) se genera un botón a continuación del de quizz, con el link correspondiente.
 
 ### Botón de Feedback
 
@@ -44,11 +66,9 @@ Es ùtil especialmente para imagenes con fondo transparente, logos, etc.
 
 ![no-box](/_src/assets/2.png)
 
-Morbi ultricies euismod tortor, eu finibus massa. In vehicula diam iaculis, pulvinar leo sed, aliquet leo. Suspendisse at hendrerit nisi, vitae finibus enim. Donec id pretium urna. Ut ullamcorper tortor sit amet dolor blandit, quis venenatis urna tempus. Curabitur efficitur blandit blandit. Aliquam placerat justo leo, ut porttitor turpis gravida sed. Suspendisse varius varius urna quis faucibus. Proin lacus erat, mollis nec finibus eget, lobortis vel metus. In elit quam, euismod vitae magna condimentum, cursus condimentum tellus. Quisque vel dictum ante, vel laoreet dolor. Suspendisse eleifend ut nibh nec mollis. Pellentesque dignissim, tortor at pellentesque porttitor, nisi lorem viverra turpis, ut viverra enim ipsum bibendum arcu. Donec lacinia cursus consequat. Fusce quis ultrices magna.
-
 ## Contenido oculto en la web
 
-Si queremos mostrar contenido al visualizar el markdown desde nuestro editor de texto, o desde GitHub, pero *NO* cuando generamos el sitio web, debemos utilizar un elemento HTML con la clase `hide`.
+Si queremos mostrar contenido al visualizar el markdown desde nuestro editor de texto, o desde GitHub, pero **NO** cuando generamos el sitio web, debemos utilizar un elemento HTML con la clase `hide`.
 
 Por ejemplo, debemos incluir un link al feedback para quienes esten viendo el contenido desde el editor, pero no queremos que aparezca en la web porque ya tenemos un botón para ello.
 

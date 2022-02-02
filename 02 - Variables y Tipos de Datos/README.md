@@ -26,11 +26,11 @@ Sin embargo, cuando ese dato no lo alojamos en una variable y lo utilizamos dire
 Es importante notar, que podemos encontrarnos con datos de tipos distintos, es decir numéricos, alfanuméricos o booleanos.
 
 En Python tenemos los siguientes:
- * Enteros: El conjunto de números enteros
- * Floats: El conjunto de números reales o de punto flotante
- * Cadenas o Strings: Es texto, caracteres alfanuméricos que se introducen entre comillas dobles o simples
- * Booleanos: Representan Verdadero ó Falso
- * Complejos: El conjunto de números complejos
+ * Enteros: el conjunto de números enteros
+ * Floats: el conjunto de números reales o de punto flotante
+ * Cadenas o Strings: es texto, caracteres alfanuméricos que se introducen entre comillas dobles o simples
+ * Booleanos: representan Verdadero ó Falso
+ * Complejos: el conjunto de números complejos
 
 Todo valor que pueda ser asignado a una variable tiene asociado un tipo de dato y esto establece qué operaciones se pueden realizar sobre la misma.
 
@@ -44,9 +44,9 @@ Todo valor que pueda ser asignado a una variable tiene asociado un tipo de dato 
 
 Con diferentes tipos de datos podemos hacer diferentes tipos de operaciones. Y hay operaciones no permitidas entre variables de diferentes tipos de datos.
 
-Operaciones aritméticas:
+**Operaciones aritméticas:**
 
-| Operacion | Operador | Ejemplo |
+| Operación | Operador | Ejemplo |
 | :---      |  :----:  |    ---: |
 | Suma      | + | 3 + 5.5 = 8.5 |
 | Resta   | -  | 4 - 1 = 3  |
@@ -56,9 +56,9 @@ Operaciones aritméticas:
 | División (parte entera) | //  | 14 // 3 = 4  |
 | División (resto) | %  | 14 % 3 =  2 |
 
-Operadores relacionales
+**Operadores relacionales:**
 
-| Operacion | Operador | Ejemplo |
+| Operación | Operador | Ejemplo |
 | :---      |  :----:  |    ---: |
 | == | Igual | 10 == 3 = False |
 | != | Distinto | 10 != 3 = True |
@@ -67,9 +67,9 @@ Operadores relacionales
 | >= | Mayor o igual | 10 >= 3 = True |
 | <= | Menor o igual | 10 <= 3 = False |
 
-Operaciones de asignación:
+**Operaciones de asignación:**
 
-| Operacion | Operador | Ejemplo |
+| Operación | Operador | Ejemplo |
 | :---      |  :----:  |    ---: |
 | =   | x=7  | x=7  |
 | +=  | x+=2  | x=x+2 = 9  |
@@ -85,13 +85,13 @@ Operaciones de asignación:
 | <<= | x<<=2 | x=x<<=2 = 28  |
 
 
-Operacion: |=   <br>
+Operación: |=   <br>
 Operador: x|=2  <br>
 Ejemplo: x=x|2 = 7  <br>
 
 Cuando tratamos con texto, podemos hacer otras operaciones:
 
-| Operacion | Operador | Ejemplo |
+| Operación | Operador | Ejemplo |
 | :---      |  :----:  |    ---: |
 | Concatenar | + | 'hola ' + 'mundo !' = 'hola mundo!' |
 | Multiplicar | * | 'ja ' * 3 = 'ja ja ja' |
@@ -118,7 +118,7 @@ TypeError                                 Traceback (most recent call last)
 TypeError: can only concatenate str (not "int") to str
 ```
 
-Notar que en la operaciones que no están permitidas arroja un error, que es muy descriptivo. En este caso no es posible sumar un valor entero con un valor alfanumérico.
+Notar que en las operaciones que no están permitidas arroja un error, que es muy descriptivo. En este caso no es posible sumar un valor entero con un valor alfanumérico.
 
 ```python
 >>> # Dividir "y" entre "x"
@@ -147,12 +147,12 @@ float
 float
 ```
 
-Notar que anteponiendo el caracter numeral (#) es posible agregar comentarios en el código. Por otra parte, la función **type()** es muy útil para saber a que tipo de dato corresponde un elemento.
+Notar que anteponiendo el carácter numeral (#) es posible agregar comentarios en el código. Por otra parte, la función **type()** es muy útil para saber a qué tipo de dato corresponde un elemento.
 
-Operaciones Lógicas
+**Operaciones Lógicas**
 
-Son operaciones en las que entran en uso el tipo de datos booleano, es decir, que nos permiten representar valores verdadero ó falso. Para verlo mejor, es necesario recurrir a lo que llamamos tablas de verdad.
-Veremos muy comunmente representar verdadero con un "1" y falso con un "0".
+Son operaciones en las que entran en uso el tipo de datos booleano, es decir, que nos permiten representar valores verdadero o falso. Para verlo mejor, es necesario recurrir a lo que llamamos tablas de verdad.
+Veremos muy comúnmente representar verdadero con un "1" y falso con un "0".
 
 Tabla del operador lógico "and", se verifican que A y B sean verdaderas.  
 | A | B | A and B |
@@ -162,7 +162,7 @@ Tabla del operador lógico "and", se verifican que A y B sean verdaderas.
 | 0 | 1 | 0 |
 | 1 | 1 | 1 |
 
-Tabla del operador lógico "or", se verifican que A ó B sean verdaderas. 
+Tabla del operador lógico "or", se verifican que A o B sean verdaderas. 
 | A | B | A or B |
 | :- | :--: | -: |
 | 1 | 0 | 1 |
@@ -198,7 +198,7 @@ True
 Puede haber ocasiones en las que desee especificar un tipo en una variable. Esto se puede hacer con lo que se denomina **casting**. 
 La conversión de tipo de dato en python se realiza mediante funciones:
 
-int(): Construye un número entero a partir de un literal entero, un literal flotante (eliminando todos los decimales) o un literal de cadena (siempre que la cadena represente un número entero)
+int(): construye un número entero a partir de un literal entero, un literal flotante (eliminando todos los decimales) o un literal de cadena (siempre que la cadena represente un número entero)
 float(): construye un número flotante a partir de un literal entero, un literal flotante o un literal de cadena (siempre que la cadena represente un flotante o un entero)
 str(): construye una cadena a partir de una amplia variedad de tipos de datos, incluidas cadenas, literales enteros y literales flotantes
 
