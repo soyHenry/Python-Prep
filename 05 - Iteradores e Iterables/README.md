@@ -141,7 +141,7 @@ Por otro lado, a diferencia de un marcapáginas de un libro, el iterador sólo p
 
 ### Sentencia zip
 
-Si pasamos dos listas a zip como entrada, el resultado será una tupla donde cada elemento tendrá todos y cada uno de los elementos i-ésimos de las listas pasadas como entrada.
+Dadas dos listas, digamos lista1 y lista2, al pasarlas a **zip** como entrada, el elemento 1 de lista1 se asocia con el elemento 1 de lista2, el elemento 2 de lista1 se asocia con el elemento 2 de lista2, el elemento 3 de lista1 se asocia con el elemento 3 de lista2, y así sucesivamente. Es decir que el resultado será una tupla donde cada elemento tendrá todos y cada uno de los elementos i-ésimos de las listas pasadas como entrada.
 
 ```python
 >>> a = [1, 2]
