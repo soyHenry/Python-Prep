@@ -2,11 +2,11 @@
 
 ## Estructuras de datos
 
-Anteriormente se menciono que un dato representa la realidad, y se presento el concepto de variable, que es un elemento que nos permite guardar un dato dentro de nuestro programa. Sin embargo, rápidamente vamos a llegar a la conclusión de que una variable puede llegar a quedar insuficiente para ciertas representaciones. Ante esta situación, en los lenguajes de programación tenemos estructuras de datos más complejas, en el caso de Python contamos con listas, tuplas y diccionarios.
+Anteriormente se mencionó que un dato representa la realidad, y se presentó el concepto de variable, que es un elemento que nos permite guardar un dato dentro de nuestro programa. Sin embargo, rápidamente vamos a llegar a la conclusión de que una variable puede llegar a quedar insuficiente para ciertas representaciones. Ante esta situación, en los lenguajes de programación tenemos estructuras de datos más complejas, en el caso de Python contamos con listas, tuplas y diccionarios.
 
 ### Lista
 
-Una estructura de dato muy importante en Python es la lista, que consiste en una serie de elementos ordenados.
+Una estructura de datos muy importante en Python es la lista, que consiste en una serie de elementos ordenados.
 Esos elementos pueden ser de distinto tipo, e incluso pueden ser de tipo lista también.<br>
 
 Operaciones con listas:
@@ -29,7 +29,7 @@ Las listas, así como otras estructuras de datos que se verán en adelante, tien
 ```python
 print(mi_lista[2])
 ```
-* Acceder a un rango dentro de la lista (el limite inferior se incluye y el superior se excluye)
+* Acceder a un rango dentro de la lista (el límite inferior se incluye y el superior se excluye)
 ```python
 print(mi_lista[0:2])
 ```
@@ -47,7 +47,7 @@ print(mi_lista[0:2])
 ```python
 mi_lista.append('Blanco') 
 ```
-* Agregar un elemento especificando el indice 
+* Agregar un elemento especificando el índice 
 ```python
  >>> mi_lista.insert(3,'Negro')
  >>> print(mi_lista[:])
@@ -101,7 +101,7 @@ Gris
 
 ### Tupla
 
-La diferencia con la lista es que no se pueden modificar una vez creadas, es decir que son **inmutables**:
+Son una estructura similar a las listas, la diferencia está en que no se pueden modificar una vez creadas, es decir que son **inmutables**:
 
 * Convertir una lista a tupla 
 ```python 
