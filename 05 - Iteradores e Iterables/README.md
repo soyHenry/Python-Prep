@@ -112,7 +112,7 @@ Es posible obtener un iterador a partir de una clase iterable con la función it
 >>> marcapaginas = iter(libro)
 ```
 
-Llegados a este punto, nuestro marcapaginas almacena un iterador. Se trata de un objeto que podemos usar para navegar a través del libro. Usando la función next() sobre el iterador, podemos ir accediendo secuencialmente a cada elemento de nuestra lista (las páginas de libro).
+Llegados a este punto, nuestro marcapáginas almacena un iterador. Se trata de un objeto que podemos usar para navegar a través del libro. Usando la función next() sobre el iterador, podemos ir accediendo secuencialmente a cada elemento de nuestra lista (las páginas de libro).
 
 ```python
 >>> print(next(marcapaginas))
@@ -155,7 +155,7 @@ zip
 
 ### Añadiendo condicionales
 
-Hemos visto como modificar todos los elementos de un iterable (como una lista) de diferentes maneras, pero ¿y si quisiéramos realizar la operación sobre el elemento sólo si una determinada condición se cumple? Debemos añadir un condicional if. 
+Hemos visto cómo modificar todos los elementos de un iterable (como una lista) de diferentes maneras, pero ¿y si quisiéramos realizar la operación sobre el elemento sólo si una determinada condición se cumple? Debemos añadir un condicional if. 
 La expresión genérica sería la siguiente.
 
 lista = [expresión for elemento in iterable if condición]
