@@ -4,14 +4,14 @@
 
 Las funciones son una secuencia de comandos que ejecutan una sección de código. En Python las funciones se definen usando la palabra reservada **def** y luego el nombre de la función con paréntesis y dos puntos que indican que lo que sigue son las sentencias, eventualmente una función debe retornar un valor, para esto se usa la palabra reservada **return**.
 
-### Limites al declarar funciones
+### Límites al declarar funciones
 
-* Los nombres no pueden comenzar con digitos
+* Los nombres no pueden comenzar con dígitos
 * No pueden utilizar una palabra reservada
 * Las variables deben tener diferentes nombres
 * Los nombres de las funciones deben ser descriptivas de lo que hacen las funciones "Imprimir_valor_variable"
 * Los parámetros pueden tener valores por defecto.
-* Se puede devolver ningun, uno o más de un valor, y de diferentes tipos de datos.
+* Puede devolver ningún, uno o más de un valor, y de diferentes tipos de datos.
 * Se puede asignar a variables, el resultado de retorno de una función.
 
 Para poder imprimir el valor de una variable dentro de un string podemos hacerlo así:
@@ -116,7 +116,7 @@ factorial(numero)
 
 ### Pasaje de parámetros por valor y referencia
 
-En muchos lenguajes de programación existen los conceptos de paso por valor y por referencia que aplican a la hora de como trata una función a los parámetros que se le pasan como entrada. Su comportamiento es el siguiente:
+En muchos lenguajes de programación existen los conceptos de paso por valor y por referencia que aplican a la hora de cómo trata una función a los parámetros que se le pasan como entrada. Su comportamiento es el siguiente:
 
 Si usamos un parámetro pasado por **valor**, se creará una copia local de la variable, lo que implica que cualquier modificación sobre la misma no tendrá efecto sobre la original.
 Con una variable pasada como **referencia**, se actuará directamente sobre la variable pasada, por lo que las modificaciones afectarán a la variable original.
@@ -134,7 +134,7 @@ Veamos un ejemplo de paso por valor.
 
 Iniciamos la x a 10 y se la pasamos a funcion(). Dentro de la función hacemos que la variable valga 0. Dado que Python trata a los int como pasados por valor, dentro de la función se crea una copia local de x, por lo que la variable original no es modificada.
 
-No pasa lo mismo si por ejemplo x es una lista como en el siguiente ejemplo. En este caso Python lo trata como si estuviese pasada por referencia, lo que hace que se modifique la variable original. La variable original x ha sido modificada.
+No pasa lo mismo si por ejemplo x es una lista como en el siguiente ejemplo. En este caso Python lo trata como si estuviera pasada por referencia, lo que hace que se modifique la variable original. La variable original x ha sido modificada.
 
 ``` python
 >>> x = [10, 20, 30]
@@ -172,7 +172,7 @@ Una forma muy útil de saber lo que pasa por debajo de Python, es haciendo uso d
 10
 ``` 
 
-Sin embargo si hacemos lo mismo cuando la variable de entrada es una lista, podemos ver que en este caso el objeto con el que se trabaja dentro de la función es el mismo que tenemos fuera.
+Sin embargo, si hacemos lo mismo cuando la variable de entrada es una lista, podemos ver que en este caso el objeto con el que se trabaja dentro de la función es el mismo que tenemos fuera.
 
 ``` python
 >>> x = [10, 20, 30]
