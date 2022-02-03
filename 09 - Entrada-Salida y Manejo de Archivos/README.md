@@ -23,7 +23,7 @@ Azul
 ```
 <hr width="75%">
   <p align="center">
-  Tips: Notar que **input** devuelve un tipo de dato string, motivo por el cual al preguntar la igualdad con el 6, lo convertimos a entero
+  Tips: Notar que input() devuelve un tipo de dato string, motivo por el cual al preguntar la igualdad con el 6, lo convertimos a entero
   </p>
 <hr width="75%">
 
