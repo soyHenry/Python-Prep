@@ -1,9 +1,9 @@
 {
-  "lessonTitle": "Mamejo de Errores",
-  "permalink": "/Clase_Ocho/",
+  "lessonTitle": "Entrada-Salida y Manejo de Archivos",
+  "permalink": "/Clase_Nueve/",
   "eleventyNavigation": {
-    "key": "Clase 8",
-    "order": 8
+    "key": "Clase 9",
+    "order": 9
   }
 }
 
