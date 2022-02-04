@@ -6,11 +6,11 @@
 
 Las pruebas de caja negra se basan en la especificación de la función o el programa, aquí debemos probar sus inputs y validar los outputs. Se llama caja negra por que no necesitamos saber necesariamente los procesos internos del programa, solo contrastar sus resultados.
 Hay dos tipos de pruebas muy importantes:
-* Pruebas Unitarias: Se realizan pruebas a cada uno de los módulos para determinar su correcto funcionamiento.
-* Pruebas de Integración: Se valida quee todos los módulos funcionan entre sí.
+* Pruebas Unitarias: se realizan pruebas a cada uno de los módulos para determinar su correcto funcionamiento.
+* Pruebas de Integración: se valida que todos los módulos funcionan entre sí.
 
-Es una buena práctica realizar las pruebas antes de crear código, esto es por que cualquier cambio que se realice a futuro los test estaran incorporados para determinar si los cambios cumplen lo esperado.
-En Python existe la posibilidad de realizar estas pruebas gracias a la libreria **unittest**.
+Es una buena práctica realizar las pruebas antes de crear código, esto es porque cualquier cambio que se realice a futuro los test estarán incorporados para determinar si los cambios cumplen lo esperado.
+En Python existe la posibilidad de realizar estas pruebas gracias a la librería **unittest**.
 
 ```python
 >>> import unittest
@@ -95,9 +95,9 @@ Existen unas reglas generales que nos ayudaran:
 No te molestes con el debugger. Aprende a utilizar el print statement.
 * Estudia los datos disponibles.
 * Utiliza los datos para crear hipótesis y experimentos. Método científico.
-* Ten una mente abierta. Si entendieras el programa, probablemente no habrían bugs.
+* Ten una mente abierta. Si entendes el programa, probablemente no habrán bugs.
 * Lleva un registro de lo que has tratado, preferentemente en la forma de tests.
-* Debuguear es un proceso de búsqueda de los bugs, por lo que al diseñar nuestros experimentos debemos acotar el espacio de búsqueda en cada prueba. Una forma ágil de debugear es utilizando una búsqueda binaria con print statements, esto significa que ejecutamos la mitad del código, si no falla entonces sabemos que el problema esta en la otra mitad, y en cada área que vamos acortando lo dividimos por mitades, de esta forma hallaremos rápidamente nuestro bug.
+* Debuguear es un proceso de búsqueda de los bugs, por lo que al diseñar nuestros experimentos debemos acotar el espacio de búsqueda en cada prueba. Una forma ágil de debugear es utilizando una búsqueda binaria con print statements, esto significa que ejecutamos la mitad del código, si no falla entonces sabemos que el problema está en la otra mitad, y en cada área que vamos acortando lo dividimos por mitades, de esta forma hallaremos rápidamente nuestro bug.
 
 Existe un listado de errores comunes de los cuales también nos podemos apoyar:
 * Encuentra a los sospechosos comunes (llamado a una función mal escrita, parámetros en orden incorrecto, etc.)
@@ -243,7 +243,7 @@ Para realizar una afirmación en nuestro programa lo hacemos con la expresión a
 - Es un lenguaje interpretado, no compilado.
 - Usa tipado dinámico, lo que significa que una variable puede tomar valores de distinto tipo.
 - Es fuertemente tipado, lo que significa que el tipo no cambia de manera repentina. Para que se produzca un cambio de tipo tiene que hacer una conversión explícita.
-- Es multiplataforma, ya que un código escrito en macOS funciona en Windows o Linux y vice versa.
+- Es multiplataforma, ya que un código escrito en macOS funciona en Windows o Linux y viceversa.
 
 ## Homework
 

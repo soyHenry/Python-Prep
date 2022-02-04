@@ -2,7 +2,7 @@
 
 ## Clases y objetos (POO)
 
-El alto grado de planificación y previsión que requiere la programación es contrario a la propia realidad. El hombre aprende y crea a través de la experimentación, no de la planeación. La Orientación a Objetos (POO) brinda estos métodos de experimentación, y logra que los lenguajes sean de más alto nivel, es decir, más cercanos a como los humanos pensamos el mundo. Es decir, vemos la realidad como objetos que se interrelacionan y realizan acciones, y esto, es lo que se intenta emular en la POO.
+El alto grado de planificación y previsión que requiere la programación es contrario a la propia realidad. El hombre aprende y crea a través de la experimentación, no de la planeación. La Orientación a Objetos (POO) brinda estos métodos de experimentación, y logra que los lenguajes sean de más alto nivel, es decir, más cercanos a como los humanos pensamos el mundo. Los seres humanos, vemos la realidad como objetos que se interrelacionan y realizan acciones, y esto, es lo que se intenta emular en la POO.
 Hasta 1966 la programación fue exclusivamente lineal, hasta que surgieron lenguajes como Simula, SmallTalk, C++, Ada, Delphi o Java. Hoy el lenguaje más popular es Python y su filosofía hace hincapié en la legibilidad de su código. 
 
 ### Objeto
@@ -12,15 +12,15 @@ En la composición de un objeto tenemos entonces **propiedades** (datos) y **mé
 
 ### Clase
 
-Hay una diferencia muy importante entre un objeto y una variable, y es que mientras que la variable 'se crea', el objeto 'se instancia', lo que implica, ademas de su creación propiamente dicha, que su creación se realiza en base a una definición preliminar, disponibilizando en memoria, no solo la estructura de datos asociada sino sus métodos. Por medio de esta mecánica, además, se puede instanciar más de un solo objeto con la misma definicion. Esta definición, es una generalización del objeto, es decir que especifica que estructura de datos va a tener y qué métodos asociados. Esto lo que se conoce como **clase**
+Hay una diferencia muy importante entre un objeto y una variable, y es que mientras que la variable 'se crea', el objeto 'se instancia'. Lo que implica que su creación se realiza en base a una definición preliminar, disponibilizando en la memoria, no solo la estructura de datos asociada sino sus métodos. Por medio de esta mecánica, además, se puede instanciar más de un solo objeto con la misma definicion. Esta definición, es una generalización del objeto, es decir, que especifica que estructura de datos va a tener y qué métodos asociados. Esto lo que se conoce como **clase**.
 
 ### Pilares de la Programación Orientada a Objetos
 
-* **Abstracción**: Es cuando separamos los datos de un objeto para luego generar un molde (una clase).
-* **Encapsulamiento**: Se utiliza cuando es necesario que ciertos métodos o propiedades sean inviolables o inalterables.
+* **Abstracción**: es cuando separamos los datos de un objeto para luego generar un molde (una clase).
+* **Encapsulamiento**: se utiliza cuando es necesario que ciertos métodos o propiedades sean inviolables o inalterables.
 Un ejemplo del encapsulamiento podría ser una cuenta de banco, donde el usuario no puede simplemente aumentar su balance de dinero, si no que debe depender de unos métodos previamente validados para aumentar dicho balance (depósitos, transferencias, etc).
-* **Herencia**: Permite crear nuevas clases a partir de otras. Si tuviéramos una clase “Autos” y quisiéramos crear unas clases “Auto deportivo” o “Auto clásico”, podríamos tomar varias propiedades y métodos de la clase “Autos”. Esto nos da una jerarquía de padre e hijo.
-* **Polimorfismo**: Proviene de Poli = muchas, morfismo = formas. Se utiliza para crear métodos con el mismo nombre pero con diferente comportamiento.
+* **Herencia**: permite crear nuevas clases a partir de otras. Si tuviéramos una clase “Autos” y quisiéramos crear unas clases “Auto deportivo” o “Auto clásico”, podríamos tomar varias propiedades y métodos de la clase “Autos”. Esto nos da una jerarquía de padre e hijo.
+* **Polimorfismo**: proviene de poli = muchas, morfismo = formas. Se utiliza para crear métodos con el mismo nombre pero con diferente comportamiento.
 
 ### Ejemplos:
 
@@ -93,7 +93,7 @@ Hola, soy  Ratón , de color Marrón  y tengo  3  años
 
 ## Librerías
 
-Las librerías son proyectos con metodos o funciones puntuales, el cual es posible anexar a otros proyectos y complementarlo usando sus metodos especificos para una determinada solución. Son trozos de código hechos por terceros. Facilita mucho la programación y hace que nuestro programa sea más sencillo de hacer y luego de entender. También llamadas 'Frameworks', consiste en archivos de código a los que se invoca al proncipio de nuestro propio código.
+Las librerías son proyectos con métodos o funciones puntuales, el cual es posible anexar a otros proyectos y complementarlo usando sus métodos específicos para una determinada solución. Son trozos de código hechos por terceros. Facilita mucho la programación y hace que nuestro programa sea más sencillo de hacer y luego de entender. También llamadas 'Frameworks', consiste en archivos de código a los que se invoca al principio de nuestro propio código.
 
 ### Módulos
 
@@ -145,13 +145,13 @@ Por último, podemos importar todo el módulo haciendo uso de *, sin necesidad d
 
 Los módulos o librerías, permiten que Python pueda ser utilizado en diferentes entornos:
 
-- **Desarrollo Web**: Existen frameworks como Django, Pyramid, Flask o Bottle que permiten desarrollar páginas web a todos los niveles.
-- **Ciencia y Educación**: Debido a su sintaxis tan sencilla, es una herramienta perfecta para enseñar conceptos de programación a todos los niveles. En lo relativo a ciencia y cálculo numérico, existen gran cantidad de librerías como SciPy o Pandas.
-- **Desarrollo de Interfaces Gráficos**: Gran cantidad de los programas que utilizamos tienen un interfaz gráfico que facilita su uso. Python también puede ser usado para desarrollar GUIs con librerías como Kivy o pyqt.
-- **Desarrollo Software**: También es usado como soporte para desarrolladores, como para testing.
-- **Machine Learning**: En los último años ha crecido el número de implementaciones en Python de librerías de aprendizaje automático como Keras, TensorFlow, PyTorch o sklearn.
-- **Visualización de Datos**: Existen varias librerías muy usadas para mostrar datos en gráficas, como matplotlib, seaborn o plotly.
-Finanzas y Trading: Gracias a librerías como QuantLib o qtpylib y a su facilidad de uso, es cada vez más usado en estos sectores.
+- **Desarrollo Web**: existen frameworks como Django, Pyramid, Flask o Bottle que permiten desarrollar páginas web a todos los niveles.
+- **Ciencia y Educación**: debido a su sintaxis tan sencilla, es una herramienta perfecta para enseñar conceptos de programación a todos los niveles. En lo relativo a ciencia y cálculo numérico, existen gran cantidad de librerías como SciPy o Pandas.
+- **Desarrollo de Interfaces Gráficos**: gran cantidad de los programas que utilizamos tienen un interfaz gráfico que facilita su uso. Python también puede ser usado para desarrollar GUIs con librerías como Kivy o pyqt.
+- **Desarrollo Software**: también es usado como soporte para desarrolladores, como para testing.
+- **Machine Learning**: en los último años ha crecido el número de implementaciones en Python de librerías de aprendizaje automático como Keras, TensorFlow, PyTorch o sklearn.
+- **Visualización de Datos**: existen varias librerías muy usadas para mostrar datos en gráficas, como matplotlib, seaborn o plotly.
+- **Finanzas y Trading**: gracias a librerías como QuantLib o qtpylib y a su facilidad de uso, es cada vez más usado en estos sectores.
 
 ### Rutas y Uso de sys.path
 
@@ -249,7 +249,7 @@ Por último, vamos a importar el contenido de un módulo externo. Podemos ver qu
 ['__annotations__', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', 'resta', 'suma']
 ```
 
-El uso de dir() también acepta parámetros de entrada, por lo que podemos por ejemplo pasar nuestro modulo y nos dará más información sobre lo que contiene.
+El uso de dir() también acepta parámetros de entrada, por lo que podemos por ejemplo pasar nuestro módulo y nos dará más información sobre lo que contiene.
 
 ``` python
 >>> import mimodulo
