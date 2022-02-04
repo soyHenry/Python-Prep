@@ -104,6 +104,99 @@ Tercera linea
 <hr width="75%">
 
 
+### Interactuar con el sistema de archivos
+
+El módulo **os** de Python permite realizar operaciones dependiente del Sistema Operativo como crear una carpeta, listar contenidos de una carpeta, conocer acerca de un proceso, finalizar un proceso, etc.
+
+* Crear una carpeta nueva
+``` python
+>>> import os
+>>> os.makedirs("Mi_Carpeta")
+```
+
+* Listar el contenido de una carpeta
+``` python
+>>> import os
+>>> os.listdir("./")
+['Mi_Carpeta']
+```
+
+* Mostrar el actual directorio de trabajo
+``` python
+>>> import os
+>>> os.getcwd()
+'/home/usuario/python/'
+```
+
+* Mostrar el tamaño en bytes del archivo pasado como parámetro
+``` python
+>>> import os
+>>> os.path.getsize("Mi_Archivo")
+4096
+```
+
+* Verificar si es un archivo el parámetro pasado
+``` python
+>>> import os
+>>> os.path.isfile("Mi_Archivo")
+True
+```
+
+* Verificar si es una carpeta el parámetro pasado
+``` python
+>>> import os
+>>> os.path.isdir("Mi_Carpeta")
+True
+```
+
+* Cambiar directorio/carpeta
+
+``` python
+>>> import os
+>>> os.chdir("Mi_Carpeta")
+>>> os.getcwd()
+'/home/usuario/python/Mi_Carpeta'
+>>> os.listdir("./")
+[]
+>>> os.chdir("../")
+>>> os.getcwd()
+'/home/usuario/python'
+```
+
+* Renombrar un archivo
+``` python
+>>> import os
+>>> os.rename("Mi_Archivo","Mi_Otro_Archivo")
+>>> os.listdir("./")
+['Mi_Otro_Archivo']
+```
+
+* Eliminar un archivo
+``` python
+>>> import os
+>>> os.chdir("Mi_Carpeta")
+>>> archivo = open(os.getcwd()+'/datos.txt', 'w')
+>>> archivo.write("Hola Mundo!")
+>>> archivo.close()
+>>> os.getcwd()
+'/home/usuario/python/Mi_Carpeta'
+>>> os.listdir("./")
+['datos.txt']
+>>> os.remove(os.getcwd()+"/datos.txt")
+>>> os.listdir("./")
+[]
+```
+
+* Eliminar una carpeta
+``` python
+>>> os.rmdir("Mi_Carpeta")
+>>> os.chdir("Mi_Carpeta")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+OSError: [Errno 2] No such file or directory: 'Mi_Carpeta'
+```
+
+Lanza una excepción OSError cuando intenta acceder al directorio que previamente elimino y este no encuentra.
 
 ### Extra - Web Scrapping
 
