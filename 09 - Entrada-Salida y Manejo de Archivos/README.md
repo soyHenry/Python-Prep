@@ -34,8 +34,8 @@ La **salida estándar** es la forma general de mostrar información por pantalla
 el resultado de raíz cuadrada de dos es: 1.41421356237
 ```
 
-Una forma escencial de escribir un programa es a través de archivos llamados scripts, que no es mas que lotes de instrucciones. Luego se envía este archivo al intérprete como parámetro desde la terminal de comando (si es un lenguaje interpretado como Python) y éste ejecutará todas las instrucciones en bloque.
-Una característica interesante de los scripts es que pueden recibir datos desde la propia terminal de comando en el momento de la ejecución, algo muy útil para agregar dinamismo los scripts a través de parámetros ó argumentos personalizables.
+Una forma esencial de escribir un programa es a través de archivos llamados scripts, que no son más que lotes de instrucciones. Luego se envía este archivo al intérprete como parámetro desde la terminal de comando (si es un lenguaje interpretado como Python) y éste ejecutará todas las instrucciones en bloque.
+Una característica interesante de los scripts es que pueden recibir datos desde la propia terminal de comando en el momento de la ejecución, algo muy útil para agregar dinamismo a los scripts a través de parámetros o argumentos personalizables.
 Para poder enviar información a un script y manejarla, tenemos que utilizar la librería de sistema **sys**. En ella encontraremos la lista **argv** que almacena los argumentos enviados al script.
 Suponiendo que creamos un script llamado "ejemplo_parametros.py" que tenga el siguiente código:
 
@@ -79,7 +79,7 @@ Un requisito muy común va a ser leer datos desde archivos de texto o también l
 >>> archivo.close()
 ```
 
-Es importante cerrar el archivo, ya que si no lo hacemos, el sistema opartivo interpreta que está en uso, tal como si estuviera abierto en cualquier editor de texto.
+Es importante cerrar el archivo, ya que si no lo hacemos, el sistema operativo interpreta que está en uso, tal como si estuviera abierto en cualquier editor de texto.
 
 * Abrir un archivo, e iterar en él para leerlo:
 
@@ -96,7 +96,7 @@ Tercera linea
 
 <hr width="75%">
   <p align="center">
-  Tips: Notar que la función open tiene como primer parámetro el nombre del archivo y como segundo parámetro un caracter que indica el modo de apertura:<br>
+  Tips: Notar que la función open tiene como primer parámetro el nombre del archivo y como segundo parámetro un carácter que indica el modo de apertura:<br>
   Con 'x' creará el archivo, sin embargo retorna error si ya existe<br>
   Con 'a' agregá contenido si el archivo existe, si no lo crea<br>
   Con 'w' crea el archivo directamente, si existe y tiene contenido lo pisa<br>
@@ -107,7 +107,7 @@ Tercera linea
 
 ### Extra - Web Scrapping
 
-Se utiliza esta técnica para extraer información desde sitios web, en primer lugar es necesario tener descargada una librería de Python, llamada Beautiful Soup que nos permite realizar esta accion:
+Se utiliza esta técnica para extraer información desde sitios web, en primer lugar es necesario tener descargada una librería de Python, llamada Beautiful Soup que nos permite realizar esta acción:
 
 ``` python
 >>> !pip install beautifulsoup4
@@ -115,7 +115,7 @@ Se utiliza esta técnica para extraer información desde sitios web, en primer l
 >>> import urllib.request
 ```
 
-Luego, vamos a extrar el HTML de un sitio web, por ejemplo de Wikipedia:
+Luego, vamos a extraer el HTML de un sitio web, por ejemplo de Wikipedia:
 
 ``` python
 response = urllib.request.urlopen('https://es.wikipedia.org/wiki/Python')
