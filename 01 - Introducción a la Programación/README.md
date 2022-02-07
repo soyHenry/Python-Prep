@@ -2,6 +2,12 @@
 
 # Primeros Pasos
 
+## Grabación de la Clase 1
+
+<div class="iframeContainer">
+  <iframe src="https://player.vimeo.com/video/674550186" allow="autoplay; fullscreen" allowfullscreen></iframe>
+</div>
+
 #### Preparando tu computadora
 Antes de comenzar deberás descargar en tu computadora las siguientes herramientas de trabajo:
 1. Editor de texto
@@ -373,12 +379,6 @@ Para conocer mejor el lenguaje que estaremos aprendiendo les compartimos una col
 17) Si la implementación es difícil de explicar, es una mala idea.
 18) Si la implementación es fácil de explicar, puede que sea una buena idea.
 19) Los namespaces son una gran idea, ¡tengamos más de esos!
-
-## Video de la clase grabada
-
-<div class="iframeContainer">
-  <iframe src="https://player.vimeo.com/video/674550186" allow="autoplay; fullscreen" allowfullscreen></iframe>
-</div>
 
 ## Homework
 
