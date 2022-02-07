@@ -303,6 +303,7 @@ De nuevo vuelva a ejecutar en su consola de comando el comando python. Ya están
 6) Funciones
 7) Clases y POO
 8) Manejo de Errores
+9) Vinculación con datos externos
 
 # Introducción a la Programación
 
