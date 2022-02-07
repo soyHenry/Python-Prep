@@ -377,7 +377,7 @@ Para conocer mejor el lenguaje que estaremos aprendiendo les compartimos una col
 
 ## Homework
 
-Completa la tarea descrita en el archivo [README](https://github.com/soyHenry/Prep-Course/tree/main/02-JS-I/homework)
+Instalar Visual Studio Code, GitHub y Python para poder comenzar!
 
 <table class="hide" width="100%" style='table-layout:fixed;'>
   <tr>
