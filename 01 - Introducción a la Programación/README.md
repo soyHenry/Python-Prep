@@ -376,6 +376,9 @@ Para conocer mejor el lenguaje que estaremos aprendiendo les compartimos una col
 
 ## Video de la clase grabada
 
+<div class="iframeContainer">
+  <iframe src="https://player.vimeo.com/video/674550186" allow="autoplay; fullscreen" allowfullscreen></iframe>
+</div>
 
 ## Homework
 
