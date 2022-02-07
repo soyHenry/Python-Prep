@@ -23,4 +23,4 @@ npm test {nombre del homework}.test.js
 Por ejemplo, para ejecutar los tests del homework 02, ejecutar: `npm test JSII.test.js`, el del homework 01: `npm test JSI.test.js`
 y así.
 
-> ¡Importante! No todos los homeworks tienen tests, está detallado en la descripción de cada uno.
+> Aclaración: No todos los homeworks tienen tests, está detallado en la descripción de cada uno.
