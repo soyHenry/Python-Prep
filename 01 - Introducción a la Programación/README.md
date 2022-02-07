@@ -374,6 +374,10 @@ Para conocer mejor el lenguaje que estaremos aprendiendo les compartimos una col
 18) Si la implementación es fácil de explicar, puede que sea una buena idea.
 19) Los namespaces son una gran idea, ¡tengamos más de esos!
 
+## Video de la clase grabada
+
+<iframe src="https://player.vimeo.com/video/674550186?h=5441063ead" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
 ## Homework
 
 Instalar Visual Studio Code, GitHub y Python para poder comenzar!
