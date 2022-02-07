@@ -9,7 +9,7 @@ Antes de comenzar deberás descargar en tu computadora las siguientes herramient
 3. Github
 4. Python
 
-Luego deberás realizar la clonación del repositorio, te explicamos cómo hacerlo en el tutorial: 
+Luego deberás realizar la clonación del [repositorio](https://github.com/soyHenry/Python-Prep). Te explicamos cómo hacerlo en el tutorial: 
 
 
 <div class="iframeContainer">
@@ -25,9 +25,8 @@ Slack es una plataforma de comunicación que utilizamos en Henry para estar cone
 ### ¿Cómo usar SLACK?
 
 A continuación te mostramos cómo funciona: 
-
 <div class="iframeContainer">
-  <iframe src="https://player.vimeo.com/video/548902078" title="Cómo usar SLACK" allow="autoplay; fullscreen; picture-in-picture"></iframe>
+ <iframe src="https://player.vimeo.com/video/548902078?h=e82a766bab&title=0&byline=0&portrait=0&speed=0&badge=0&autopause=0&player_id=0&app_id=58479" width="1264" height="720" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Prep Course - Intro a Slack"></iframe>
 </div>
 
 > Gracias [Nico Constantin (FT#12)](https://github.com/NicoConstantin) por el video y la explicación!
