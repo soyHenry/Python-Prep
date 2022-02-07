@@ -305,6 +305,10 @@ De nuevo vuelva a ejecutar en su consola de comando el comando python. Ya están
 8) Manejo de Errores
 9) Vinculación con datos externos
 
+## Repositorio del curso
+
+https://github.com/soyHenry/Python-Prep
+
 # Introducción a la Programación
 
 ## ¿Qué es la Programación?
