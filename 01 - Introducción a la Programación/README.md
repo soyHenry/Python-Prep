@@ -9,7 +9,7 @@ Antes de comenzar deberás descargar en tu computadora las siguientes herramient
 3. Github
 4. Python
 
-Luego deberás realizar la clonación del repositorio, te explicamos cómo hacerlo en el tutorial: 
+Luego deberás realizar la clonación del [repositorio](http://data.prep.soyhenry.com/). Te explicamos cómo hacerlo en el tutorial: 
 
 
 <div class="iframeContainer">
