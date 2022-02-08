@@ -3,8 +3,9 @@
 ## Grabación de la Clase 1
 
 <div class="iframeContainer">
-  <iframe src="https://player.vimeo.com/video/674888247" allow="autoplay; fullscreen"></iframe>
+  <iframe src="https://player.vimeo.com/video/674888247" allow="autoplay; fullscreen" allowfullscreen></iframe>
 </div>
+
 
 ## Variables
 
