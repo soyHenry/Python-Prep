@@ -1,5 +1,11 @@
 ![HenryLogo](https://d31uz8lwfmyn8g.cloudfront.net/Assets/logo-henry-white-lg.png)
 
+## Grabación de la Clase 3
+
+<div class="iframeContainer">
+  <iframe src="https://player.vimeo.com/video/675579686" allow="autoplay; fullscreen" allowfullscreen></iframe>
+</div>
+
 ## Flujos de Control
 
 ### Condicionales

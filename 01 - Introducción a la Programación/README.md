@@ -2,10 +2,10 @@
 
 # Primeros Pasos
 
-## Grabación de la Clase 1
+## Grabación de la Introducción
 
 <div class="iframeContainer">
-  <iframe src="https://player.vimeo.com/video/674550186" allow="autoplay; fullscreen" allowfullscreen></iframe>
+  <iframe src="https://player.vimeo.com/video/675579075" allow="autoplay; fullscreen" allowfullscreen></iframe>
 </div>
 
 #### Preparando tu computadora
@@ -309,6 +309,12 @@ De nuevo vuelva a ejecutar en su consola de comando el comando python. Ya están
 7) Clases y POO
 8) Manejo de Errores
 9) Vinculación con datos externos
+
+## Grabación de la Clase 1
+
+<div class="iframeContainer">
+  <iframe src="https://player.vimeo.com/video/675578368" allow="autoplay; fullscreen" allowfullscreen></iframe>
+</div>
 
 ## Repositorio del curso
 
