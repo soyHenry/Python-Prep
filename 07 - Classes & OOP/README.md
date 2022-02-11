@@ -7,7 +7,7 @@ Hasta 1966 la programación fue exclusivamente lineal, hasta que surgieron lengu
 
 ### Objeto
 
-Una estructura de datos que eventualmente tiene funciones asociadas, que están agrupados por razones de consistencia y comodidad conforman un **objeto**.
+Una estructura de datos que eventualmente tiene funciones asociadas, y que están agrupados por razones de consistencia y comodidad conforman un **objeto**.
 En la composición de un objeto tenemos entonces **propiedades** (datos) y **métodos** (funciones asociadas).
 
 ### Clase
@@ -149,7 +149,7 @@ Los módulos o librerías, permiten que Python pueda ser utilizado en diferentes
 - **Ciencia y Educación**: debido a su sintaxis tan sencilla, es una herramienta perfecta para enseñar conceptos de programación a todos los niveles. En lo relativo a ciencia y cálculo numérico, existen gran cantidad de librerías como SciPy o Pandas.
 - **Desarrollo de Interfaces Gráficos**: gran cantidad de los programas que utilizamos tienen un interfaz gráfico que facilita su uso. Python también puede ser usado para desarrollar GUIs con librerías como Kivy o pyqt.
 - **Desarrollo Software**: también es usado como soporte para desarrolladores, como para testing.
-- **Machine Learning**: en los último años ha crecido el número de implementaciones en Python de librerías de aprendizaje automático como Keras, TensorFlow, PyTorch o sklearn.
+- **Machine Learning**: en los últimos años ha crecido el número de implementaciones en Python de librerías de aprendizaje automático como Keras, TensorFlow, PyTorch o sklearn.
 - **Visualización de Datos**: existen varias librerías muy usadas para mostrar datos en gráficas, como matplotlib, seaborn o plotly.
 - **Finanzas y Trading**: gracias a librerías como QuantLib o qtpylib y a su facilidad de uso, es cada vez más usado en estos sectores.
 

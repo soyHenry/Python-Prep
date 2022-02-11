@@ -10,7 +10,7 @@
 
 5) Crear una variable que contenga un número entero y realizar un ciclo for la misma cantidad de ciclos
 
-6) Utilizar un ciclo while para realizar el factoreo de un número guardado en una variable, sólo si la variable contiene un número entero mayor a 0
+6) Utilizar un ciclo while para realizar el factorial de un número guardado en una variable, sólo si la variable contiene un número entero mayor a 0
 
 7) Crear un ciclo for dentro de un ciclo while
 
