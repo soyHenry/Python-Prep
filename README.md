@@ -2,7 +2,11 @@
 
 # Prep Course
 
+## Grabación de la Introducción
 
+<div class="iframeContainer">
+  <iframe src="https://player.vimeo.com/video/675579075" allow="autoplay; fullscreen" allowfullscreen></iframe>
+</div>
 
 ## Homeworks
 

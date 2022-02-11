@@ -1,5 +1,11 @@
 ![HenryLogo](https://d31uz8lwfmyn8g.cloudfront.net/Assets/logo-henry-white-lg.png)
 
+## Grabación de la Clase 5
+
+<div class="iframeContainer">
+  <iframe src="https://player.vimeo.com/video/676404775" allow="autoplay; fullscreen" allowfullscreen></iframe>
+</div>
+
 ## Iteradores e Iterables
 
 Permiten iterar colecciones de datos que sean iterables. Si tenemos una determinada colección de datos, en este caso una lista con varios valores, y queremos mostrar sus valores uno a uno por pantalla podría resolverse de la siguiente manera con un while.
