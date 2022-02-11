@@ -380,6 +380,14 @@ Para conocer mejor el lenguaje que estaremos aprendiendo les compartimos una col
 18) Si la implementación es fácil de explicar, puede que sea una buena idea.
 19) Los namespaces son una gran idea, ¡tengamos más de esos!
 
+## Recursos adicionales
+
+* [Introducción al Pensamiento Computacional] (https://github.com/karlbehrensg/introduccion-pensamiento-computacional)
+* [Entrenamiento Básico] (https://entrenamiento-python-basico.readthedocs.io/es/latest)
+* [El Libro de Python] (https://ellibrodepython.com/)
+* [Python para todos] (https://www.py4e.com)
+* [Curso Python Videos] (https://youtu.be/G2FCfQj-9ig)
+
 ## Homework
 
 Instalar Visual Studio Code, GitHub y Python para poder comenzar!
