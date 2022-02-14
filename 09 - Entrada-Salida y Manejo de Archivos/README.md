@@ -2,7 +2,7 @@
 
 ## Vinculación con Datos Externos
 
-Es muy importante tener en cuenta que va a ser necesario interactuar con el usuario y trabajar con datos que están alojados en medios externos, puede tratarse de un sistema de archivos ó de una tabla en una base datos entre otras fuentes.
+Es muy importante tener en cuenta que va a ser necesario interactuar con el usuario y trabajar con datos que están alojados en medios externos, puede tratarse de un sistema de archivos ó de una tabla en una base datos, entre otras fuentes.
 Es posible realizar operaciones de interacción con el usuario y manipular archivos usando métodos para leer y escribir desde y hacia el sistema de archivos.
 
 ### Entrada / Salida

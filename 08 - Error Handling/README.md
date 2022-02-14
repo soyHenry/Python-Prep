@@ -92,7 +92,7 @@ OK
 
 Los bugs son un problema que les sucede a todos, sin embargo si realizamos test a nuestro programa probablemente tendremos menos bugs, pero esto no es suficiente.
 Existen unas reglas generales que nos ayudaran:
-No te molestes con el debugger. Aprende a utilizar el print statement.
+* Aprende a utilizar el print statement.
 * Estudia los datos disponibles.
 * Utiliza los datos para crear hipótesis y experimentos. Método científico.
 * Ten una mente abierta. Si entendes el programa, probablemente no habrán bugs.

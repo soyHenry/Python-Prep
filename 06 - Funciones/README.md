@@ -1,5 +1,11 @@
 ![HenryLogo](https://d31uz8lwfmyn8g.cloudfront.net/Assets/logo-henry-white-lg.png)
 
+## Grabación de la Clase 6
+
+<div class="iframeContainer">
+  <iframe src="https://player.vimeo.com/video/677267773" allow="autoplay; fullscreen" allowfullscreen></iframe>
+</div>
+
 ## Funciones
 
 Las funciones son una secuencia de comandos que ejecutan una sección de código. En Python las funciones se definen usando la palabra reservada **def** y luego el nombre de la función con paréntesis y dos puntos que indican que lo que sigue son las sentencias, eventualmente una función debe retornar un valor, para esto se usa la palabra reservada **return**.
