@@ -1,5 +1,11 @@
 ![HenryLogo](https://d31uz8lwfmyn8g.cloudfront.net/Assets/logo-henry-white-lg.png)
 
+## Grabación de la Clase 7
+
+<div class="iframeContainer">
+  <iframe src="https://player.vimeo.com/video/678360524" allow="autoplay; fullscreen" allowfullscreen></iframe>
+</div>
+
 ## Clases y objetos (POO)
 
 El alto grado de planificación y previsión que requiere la programación es contrario a la propia realidad. El hombre aprende y crea a través de la experimentación, no de la planeación. La Orientación a Objetos (POO) brinda estos métodos de experimentación, y logra que los lenguajes sean de más alto nivel, es decir, más cercanos a como los humanos pensamos el mundo. Los seres humanos, vemos la realidad como objetos que se interrelacionan y realizan acciones, y esto, es lo que se intenta emular en la POO.

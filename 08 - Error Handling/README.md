@@ -1,5 +1,11 @@
 ![HenryLogo](https://d31uz8lwfmyn8g.cloudfront.net/Assets/logo-henry-white-lg.png)
 
+## Grabación de la Clase 8
+
+<div class="iframeContainer">
+  <iframe src="https://player.vimeo.com/video/678360802" allow="autoplay; fullscreen" allowfullscreen></iframe>
+</div>
+
 ## Manejo de Errores
 
 ### Pruebas de caja negra

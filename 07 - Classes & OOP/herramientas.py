@@ -3,6 +3,9 @@ class Herramientas:
         self.lista = lista_numeros
 
     def verifica_primo(self):
+        '''
+        Explico lo que hace la funcion
+        '''
         for i in self.lista:
             if (self.__verifica_primo(i)):
                 print('El elemento', i, 'SI es un numero primo')
