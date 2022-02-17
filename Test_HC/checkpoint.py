@@ -11,8 +11,7 @@ def ListaEnteros(inicio, tamanio):
         ListaEnteros(10,5) debe retornar [10,11,12,13,14]
     '''
     #Tu código aca:
-    pass
-    #return [1,2,3,4,5,6,7,8,9,10]
+    return None
 
 #Divisible
 #Binarios
