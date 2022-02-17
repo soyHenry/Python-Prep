@@ -20,8 +20,10 @@ class Herramientas:
         lista_conversion = []
         if str(origen) not in parametros_esperados:
             print('Los parametros esperados son:', parametros_esperados)
+            return lista_conversion
         if str(destino) not in parametros_esperados:
             print('Los parametros esperados son:', parametros_esperados)
+            return lista_conversion
         for i in self.lista:
             lista_conversion.append(self.__conversion_grados(i, origen, destino))
         return lista_conversion

@@ -1,5 +1,11 @@
 ![HenryLogo](https://d31uz8lwfmyn8g.cloudfront.net/Assets/logo-henry-white-lg.png)
 
+## Grabación de la Clase 9
+
+<div class="iframeContainer">
+  <iframe src="https://player.vimeo.com/video/678752961" allow="autoplay; fullscreen" allowfullscreen></iframe>
+</div>
+
 ## Vinculación con Datos Externos
 
 Es muy importante tener en cuenta que va a ser necesario interactuar con el usuario y trabajar con datos que están alojados en medios externos, puede tratarse de un sistema de archivos ó de una tabla en una base datos, entre otras fuentes.
