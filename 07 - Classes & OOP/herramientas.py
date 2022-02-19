@@ -12,7 +12,7 @@ class Herramientas:
     def conversion_grados(self, origen, destino):
         for i in self.lista:
             print(i, 'grados', origen, 'son', self.__conversion_grados(i, origen, destino),'grados',destino)
-    
+
     def factorial(self):
         for i in self.lista:
             print('El factorial de ', i, 'es', self.__factorial(i))

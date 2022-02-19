@@ -3,14 +3,19 @@ class calculador:
     Esta clase toma las funciones de ejercicios anteriores para utilizarlas en metodos, toma una lista
     '''
     def __init__(self, lista):
+        if type(lista) != list:
+                raise ValueError('El objeto solo se puede crear con una lista como parametro')
+        else:
+            for a in lista:
+                if type(a) != int:
+                    raise ValueError('La lista solo puede tener enteros')    
         self.lista = lista
     
     def es_primo(self):
+        lista_primos = []
         for x in self.lista:
-            if self.__es_primo(x):
-                print(x, "Es primo")
-            else:
-                print(x, "No es primo")
+            lista_primos.append(self.__es_primo(x))
+        return lista_primos
 
     def __es_primo(self, x):
         self.x = x
@@ -47,15 +52,20 @@ class calculador:
             return ((min(lista_cont, key=lista_cont.get),min(lista_cont.values())))
     
     def tempconv(self,o,d):
-        for x in self.lista:
-            self.__tempconv(x,o,d)
+        conversion = []
+        if o not in ['Celsius','Farenheit','Kelvin'] or d not in ['Celsius','Farenheit','Kelvin']:
+                raise ValueError("Los parametros admitidos para convertir grados son ['Celsius','Farenheit','Kelvin']")
+        else:
+            for x in self.lista:          
+                conversion.append(self.__tempconv(x,o,d))
+        return conversion
 
     def __tempconv(self,valor,origen,destino):
         self.valor = valor
         self.origen = origen
         self.destino = destino
         if origen == destino:
-            return None
+            raise ValueError("Los parametros admitidos para convertir grados son ['Celsius','Farenheit','Kelvin'] y debe ser distinto el parametro de origen y destino")
         if origen == "Celsius":
             if destino == "Farenheit":
                 temp = (valor * 9/5) + 32
@@ -71,18 +81,19 @@ class calculador:
                 temp = valor - 273.15
             if destino == "Farenheit":
                 temp = (valor - 273.15) * 9/5 + 32
-        if not valor:
-            print("Parametros incorrectos")
-        return print(valor,"°",origen[0],"=",temp,"°",destino[0])
+        return temp
 
     def factorial(self):
+        resultado = []
         for n in self.lista:
-            print(self.__factorial(n))
+            resultado.append(self.__factorial(n))
+        return resultado
+        
 
     def __factorial(self, n):
         self.n = n
         if n < 0 or type(n) is not int:
-            return print("Valor incorrecto")
+            raise ValueError("Esta funcion solo calcula factoriales de enteros popstivos")
         if n == 1:
             return 1
         else:
