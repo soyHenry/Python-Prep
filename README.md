@@ -2,6 +2,12 @@
 
 # Prep Course
 
+## Open House
+
+<div class="iframeContainer">
+  <iframe src="https://player.vimeo.com/video/682041440" allow="autoplay; fullscreen" allowfullscreen></iframe>
+</div>
+
 ## Grabación de la Introducción
 
 <div class="iframeContainer">
