@@ -3,7 +3,7 @@
 ## Grabación de la Clase 4
 
 <div class="iframeContainer">
-  <iframe src="https://player.vimeo.com/video/676013575" allow="autoplay; fullscreen" allowfullscreen></iframe>
+  <iframe src="https://player.vimeo.com/video/684814301" allow="autoplay; fullscreen" allowfullscreen></iframe>
 </div>
 
 ## Estructuras de datos
