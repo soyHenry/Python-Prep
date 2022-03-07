@@ -18,3 +18,5 @@ Se puede usar "raise ValueError()" en la creación de la clase para verificar el
 7) Agregar casos de pruebas para el método conversion_grados()
 
 8) Agregar casos de pruebas para el método factorial()
+
+9) Completar el código en las funciones del archivo "checkpoint.py" y probarlo a partir de la ejecución del script "tests.py"
