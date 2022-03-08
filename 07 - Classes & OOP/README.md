@@ -96,6 +96,198 @@ Hola, soy  Liebre , de color Gris  y tengo  3  años
 >>> a1.mePresento()
 Hola, soy  Ratón , de color Marrón  y tengo  3  años
 ```
+## Herencia
+
+Si existe una clase como versión especializada de una ya existente, se puede implementar una jerarquía de clases y así, compartir comportamiento y atributos de una clase "padre" ó superclase a una clase "hijo" ó subclase.
+
+Cuando una clase hereda de otra, adquiere atributos y métodos. Además de ello, una clase hija puede sobreescribirlos, o incluso definir unos nuevos.
+En el siguiente ejemplo vemos como se puede usar la herencia en Python, con la clase Perro que hereda de Animal:
+
+``` python
+>>> class Animal:
+>>>     def __init__(self, especie, edad):
+>>>         self.especie = especie
+>>>         self.edad = edad
+>>> 
+>>>     # Método genérico pero con implementación particular
+>>>     def hablar(self):
+>>>         # Método vacío
+>>>         pass
+>>> 
+>>>     # Método genérico pero con implementación particular
+>>>     def moverse(self):
+>>>         # Método vacío
+>>>         pass
+>>> 
+>>>     # Método genérico con la misma implementación
+>>>     def describeme(self):
+>>>         print("Soy un Animal del tipo", type(self).__name__)
+>>> 
+>>> 
+>>> class Perro(Animal):
+>>>     def hablar(self):
+>>>         print("Guau!")
+>>>     def moverse(self):
+>>>         print("Caminando con 4 patas")
+>>> 
+>>> class Vaca(Animal):
+>>>     def hablar(self):
+>>>         print("Muuu!")
+>>>     def moverse(self):
+>>>         print("Caminando con 4 patas")
+>>> 
+>>> class Abeja(Animal):
+>>>     def hablar(self):
+>>>         print("Bzzzz!")
+>>>     def moverse(self):
+>>>         print("Volando")
+>>> 
+>>>     # Nuevo método
+>>>     def picar(self):
+>>>         print("Picar!")
+```
+
+**¿Y para que queremos la herencia?** Dado que una clase hija hereda los atributos y métodos de la padre, nos puede ser muy útil cuando tengamos clases que se parecen entre sí pero tienen ciertas particularidades. En este caso en vez de definir un montón de clases para cada animal, podemos tomar los elementos comunes y crear una clase Animal de la que hereden el resto, respetando por tanto la filosofía DRY. Realizar estas abstracciones y buscar el denominador común para definir una clase de la que hereden las demás, es una tarea de lo más compleja en el mundo de la programación.
+
+Para saber más: El principio DRY (Don't Repeat Yourself) es muy aplicado en el mundo de la programación y consiste en no repetir código de manera innecesaria. Cuanto más código duplicado exista, más difícil será de modificar y más fácil será crear inconsistencias. Las clases y la herencia a no repetir código.
+
+### Extendiendo y modificando métodos
+
+Continuemos con nuestro ejemplo de perros y animales. Vamos a definir una clase padre Animal que tendrá todos los atributos y métodos genéricos que los animales pueden tener. Esta tarea de buscar el denominador común es muy importante en programación. Veamos los atributos:
+
+Tenemos la especie ya que todos los animales pertenecen a una.
+Y la edad, ya que todo ser vivo nace, crece, se reproduce y muere.
+Y los métodos o funcionalidades:
+
+Tendremos el método hablar, que cada animal implementará de una forma. Los perros ladran, las abejas zumban y los caballos relinchan. Un método moverse. Unos animales lo harán caminando, otros volando. Y por último un método descríbeme que será común.
+Definimos la clase padre, con una serie de atributos comunes para todos los animales como hemos indicado.
+
+``` python
+>>> class Animal:
+>>>     def __init__(self, especie, edad):
+>>>         self.especie = especie
+>>>         self.edad = edad
+>>> 
+>>>     # Método genérico pero con implementación particular
+>>>     def hablar(self):
+>>>         # Método vacío
+>>>         pass
+>>> 
+>>>     # Método genérico pero con implementación particular
+>>>     def moverse(self):
+>>>         # Método vacío
+>>>         pass
+>>> 
+>>>     # Método genérico con la misma implementación
+>>>     def describeme(self):
+>>>         print("Soy un Animal del tipo", type(self).__name__)
+``` 
+
+Tenemos ya por lo tanto una clase genérica Animal, que generaliza las características y funcionalidades que todo animal puede tener. Ahora creamos una clase Perro que hereda del Animal. Como primer ejemplo vamos a crear una clase vacía, para ver como los métodos y atributos son heredados por defecto.
+
+``` python
+>>> # Perro hereda de Animal
+>>> class Perro(Animal):
+>>>     pass
+>>> 
+>>> mi_perro = Perro('mamífero', 10)
+>>> mi_perro.describeme()
+>>> # Soy un Animal del tipo Perro
+``` 
+
+Con tan solo un par de líneas de código, hemos creado una clase nueva que tiene todo el contenido que la clase padre tiene, pero aquí viene lo que es de verdad interesante. Vamos a crear varios animales concretos y sobreescrbir algunos de los métodos que habían sido definidos en la clase Animal, como el hablar o el moverse, ya que cada animal se comporta de una manera distinta.
+
+Podemos incluso crear nuevos métodos que se añadirán a los ya heredados, como en el caso de la Abeja con picar().
+
+``` python
+>>> class Perro(Animal):
+>>>     def hablar(self):
+>>>         print("Guau!")
+>>>     def moverse(self):
+>>>         print("Caminando con 4 patas")
+>>> 
+>>> class Vaca(Animal):
+>>>     def hablar(self):
+>>>         print("Muuu!")
+>>>     def moverse(self):
+>>>         print("Caminando con 4 patas")
+>>> 
+>>> class Abeja(Animal):
+>>>     def hablar(self):
+>>>         print("Bzzzz!")
+>>>     def moverse(self):
+>>>         print("Volando")
+>>> 
+>>>     # Nuevo método
+>>>     def picar(self):
+>>>         print("Picar!")
+``` 
+
+Por lo tanto ya podemos crear nuestros objetos de esos animales y hacer uso de sus métodos que podrían clasificarse en tres:
+
+Heredados directamente de la clase padre: describeme()
+Heredados de la clase padre pero modificados: hablar() y moverse()
+Creados en la clase hija por lo tanto no existentes en la clase padre: picar()
+
+``` python
+>>> mi_perro = Perro('mamífero', 10)
+>>> mi_vaca = Vaca('mamífero', 23)
+>>> mi_abeja = Abeja('insecto', 1)
+>>> 
+>>> mi_perro.hablar()
+>>> mi_vaca.hablar()
+>>> # Guau!
+>>> # Muuu!
+>>> 
+>>> mi_vaca.describeme()
+>>> mi_abeja.describeme()
+>>> # Soy un Animal del tipo Vaca
+>>> # Soy un Animal del tipo Abeja
+>>> 
+>>> mi_abeja.picar()
+>>> # Picar!
+```
+
+### Uso de super()
+
+La función super() nos permite acceder a los métodos de la clase padre desde una de sus hijas. Volvamos al ejemplo de Animal y Perro.
+
+``` python
+>>> class Animal:
+>>>     def __init__(self, especie, edad):
+>>>         self.especie = especie
+>>>         self.edad = edad        
+>>>     def hablar(self):
+>>>         pass
+>>> 
+>>>     def moverse(self):
+>>>         pass
+>>> 
+>>>     def describeme(self):
+>>>         print("Soy un Animal del tipo", type(self).__name__)
+``` 
+
+Tal vez queramos que nuestro Perro tenga un parámetro extra en el constructor, como podría ser el dueño. Para realizar esto tenemos dos alternativas:
+
+Podemos crear un nuevo __init__ y guardar todas las variables una a una.
+O podemos usar super() para llamar al __init__ de la clase padre que ya aceptaba la especie y edad, y sólo asignar la variable nueva manualmente.
+
+``` python
+>>> class Perro(Animal):
+>>>     def __init__(self, especie, edad, dueño):
+>>>         # Alternativa 1
+>>>         # self.especie = especie
+>>>         # self.edad = edad
+>>>         # self.dueño = dueño
+>>> 
+>>>         # Alternativa 2
+>>>         super().__init__(especie, edad)
+>>>         self.dueño = dueño
+>>> mi_perro = Perro('mamífero', 7, 'Luis')
+>>> mi_perro.especie
+>>> mi_perro.edad
+>>> mi_perro..dueño
+``` 
 
 ## Librerías
 
