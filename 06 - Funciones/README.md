@@ -3,7 +3,7 @@
 ## Grabación de la Clase 6
 
 <div class="iframeContainer">
-  <iframe src="https://player.vimeo.com/video/677267773" allow="autoplay; fullscreen" allowfullscreen></iframe>
+  <iframe src="https://player.vimeo.com/video/685959607" allow="autoplay; fullscreen" allowfullscreen></iframe>
 </div>
 
 ## Funciones
