@@ -3,7 +3,7 @@
 ## Grabación de la Clase 8
 
 <div class="iframeContainer">
-  <iframe src="https://player.vimeo.com/video/678360802" allow="autoplay; fullscreen" allowfullscreen></iframe>
+  <iframe src="https://player.vimeo.com/video/686791076" allow="autoplay; fullscreen" allowfullscreen></iframe>
 </div>
 
 ## Manejo de Errores
