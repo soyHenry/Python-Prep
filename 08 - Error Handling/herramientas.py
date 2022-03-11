@@ -99,17 +99,3 @@ class Herramientas:
         if (numero > 1):
             numero = numero * self.__factorial(numero - 1)
         return numero
-
-import sys
-
-#var1 = input('Ingresar un numero')
-#var1 = int(var1)
-#print('Tipo de dato del numero ingresado',type(var1))
-
-lista_elementos = []
-for i, e in enumerate(sys.argv):
-    if (i > 0):
-        lista_elementos.append(e)
-
-h = Herramientas(lista_elementos)
-print(h.lista)
