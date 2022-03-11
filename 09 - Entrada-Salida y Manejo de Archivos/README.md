@@ -3,7 +3,7 @@
 ## Grabación de la Clase 9
 
 <div class="iframeContainer">
-  <iframe src="https://player.vimeo.com/video/678752961" allow="autoplay; fullscreen" allowfullscreen></iframe>
+  <iframe src="https://player.vimeo.com/video/687171116" allow="autoplay; fullscreen" allowfullscreen></iframe>
 </div>
 
 ## Vinculación con Datos Externos

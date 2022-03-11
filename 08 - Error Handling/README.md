@@ -22,7 +22,7 @@ En Python existe la posibilidad de realizar estas pruebas gracias a la librería
 >>> import unittest
 >>>
 >>> def suma(num_1, num_2):
->>>     return abs(num_1) + num_2
+>>>     return num_1 + num_2
 >>>
 >>> class CajaNegraTest(unittest.TestCase):
 >>> 

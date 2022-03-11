@@ -1,8 +1,8 @@
 class Herramientas:
     def __init__(self, lista_numeros):
         if (type(lista_numeros) != list):
-            self.lista = [0]
-            raise ValueError('Se ha creado con un elemento 0. Se esperaba una lista de núemeros enteros')  
+            self.lista = []
+            raise ValueError('Se ha creado una lista vacía. Se esperaba una lista de núemeros enteros')  
         else:
             self.lista = lista_numeros
 
@@ -99,3 +99,17 @@ class Herramientas:
         if (numero > 1):
             numero = numero * self.__factorial(numero - 1)
         return numero
+
+import sys
+
+#var1 = input('Ingresar un numero')
+#var1 = int(var1)
+#print('Tipo de dato del numero ingresado',type(var1))
+
+lista_elementos = []
+for i, e in enumerate(sys.argv):
+    if (i > 0):
+        lista_elementos.append(e)
+
+h = Herramientas(lista_elementos)
+print(h.lista)
