@@ -252,6 +252,12 @@ Ahora se utiliza el método copy():
 
 Notar que ahora x e y referencian a espacios de memoria distintos.
 
+
+En el ejemplo siguiente, pasamos una referencia a la taza y en nuestra función la llenamos de café. Al ser una referencia al objeto `cup`, vemos que se ve reflejado el cambio en ella (se llena de café) ya que son el __mismo__ objeto!.
+En cambio, cuando pasamos algo por valor, estamos pasando el elemento por sí mismo, o una copia de él. En el ejemplo de la tasa, pasamos la tasa por valor, es decir que pasamos una tasa nueva, que existe por si misma (no es una referencia, si no la tasa misma). Por eso, cuando llenamos esa tasa de café, la otra se mantiene igual, ya que son dos _objetos distintos_.
+
+![unaImagenConBoxShadow](../_src/assets/06_Referencia_Valor.gif)
+
 ### Funciones Lambda
 
 La función Lambda es una forma conveniente de crear una función en una sola línea. También se las conoce como funciones anónimas, ya que no tienen nombre, sino que se asignan a una variable.
