@@ -388,6 +388,7 @@ Para conocer mejor el lenguaje que estaremos aprendiendo les compartimos una col
 * [Python para todos] (https://www.py4e.com)
 * [Curso Python Videos] (https://youtu.be/G2FCfQj-9ig)
 * [Visualizar tu código] (https://memlayout.com/)
+* [Visualizar tu código] (https://pythontutor.com/visualize.html#mode=edit)
 
 ## Homework
 

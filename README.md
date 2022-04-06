@@ -14,7 +14,7 @@
   <iframe src="https://player.vimeo.com/video/683357530" allow="autoplay; fullscreen" allowfullscreen></iframe>
 </div>
 
-## PASOS PARA RESOLVER EL HERNY CHALLENGE:
+## PASOS PARA RESOLVER EL HENRY CHALLENGE:
 
 ### 1. FORK
 
@@ -26,7 +26,7 @@ Una vez que tengas una copia de este repo en tu cuenta de `github`, cloná el re
 
 >Si ves los tests fallando, estás listo para comenzar, si no lee bien el output para identificar el error.
 
-### 2. RESOLVER EL HERNY CHALLENGE
+### 2. RESOLVER EL HENRY CHALLENGE
 
 Tu tarea es completar el código en `checkpoint.py` de tal forma que pasen la mayoría de los tests, incluido el extra credit.
 
