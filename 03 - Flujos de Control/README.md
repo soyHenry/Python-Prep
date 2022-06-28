@@ -148,6 +148,13 @@ n
 
 Completa la tarea descrita en el archivo [README](https://github.com/soyHenry/Python-Prep/blob/4aec1885136fdcff98899d2be13c8908b39f8b21/03%20-%20Flujos%20de%20Control/Prep_Course_Homework_03.md)
 
+## Clase de apoyo
+Bajada: Los martes/jueves (segun corresponda) a las 17HS ARG cada dos semanas hacemos una clase de apoyo en vivo sobre este tema. Puedes acceder desde este link de aqui en el horario en vivo: LINK KOON
+<div class="iframeContainer">
+  <iframe src="https://vimeo.com/724876516" allow="autoplay; fullscreen" allowfullscreen></iframe>
+</div>
+
+
 <table class="hide" width="100%" style='table-layout:fixed;'>
   <tr>
     <td>
