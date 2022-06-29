@@ -152,17 +152,8 @@ Completa la tarea descrita en el archivo [README](https://github.com/soyHenry/Py
 Bajada: Los martes/jueves (segun corresponda) a las 17HS ARG cada dos semanas hacemos una clase de apoyo en vivo sobre este tema. Puedes acceder desde este link de aqui en el horario en vivo: LINK KOON
 
 <div class="iframeContainer">
-  <iframe src="https://vimeo.com/724876516/05506abb7e" allow="autoplay; fullscreen" allowfullscreen></iframe>
-</div>
-<div class="iframeContainer">
   <iframe src="https://player.vimeo.com/video/724876516?h=05506abb7e" 
   allow="autoplay; fullscreen" allowfullscreen></iframe>
-</div>
-<div>
-  <iframe src="https://player.vimeo.com/video/724876516?h=05506abb7e" 
-    width="640" height="564" frameborder="0" 
-    allow="autoplay; fullscreen" allowfullscreen>
-  </iframe>
 </div>
 
 <table class="hide" width="100%" style='table-layout:fixed;'>
