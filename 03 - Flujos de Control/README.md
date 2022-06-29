@@ -151,7 +151,7 @@ Completa la tarea descrita en el archivo [README](https://github.com/soyHenry/Py
 ## Clase de apoyo
 Bajada: Los martes/jueves (segun corresponda) a las 17HS ARG cada dos semanas hacemos una clase de apoyo en vivo sobre este tema. Puedes acceder desde este link de aqui en el horario en vivo: LINK KOON
 <div class="iframeContainer">
-  <iframe src="https://vimeo.com/724876516/05506abb7e" allow="autoplay; fullscreen" allowfullscreen></iframe>
+  <iframe src="https://player.vimeo.com/724876516/05506abb7e" allow="autoplay; fullscreen" allowfullscreen></iframe>
 </div>
 
 
