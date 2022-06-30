@@ -276,6 +276,11 @@ La función Lambda es una forma conveniente de crear una función en una sola l�
 
 Completa la tarea descrita en el archivo [README](https://github.com/soyHenry/Python-Prep/blob/4aec1885136fdcff98899d2be13c8908b39f8b21/06%20-%20Funciones/Prep_Course_Homework_06.md)
 
+## Clase de apoyo
+Los martes/jueves (segun corresponda) a las 17HS ARG cada dos semanas hacemos una clase de apoyo en vivo sobre este tema. Puedes acceder desde este link de aqui en el horario en vivo: https://us02web.zoom.us/j/88561062589
+<div class="iframeContainer">
+  <iframe src="https://player.vimeo.com/video/725657909?h=bb1f71def2&amp" allow="autoplay; fullscreen" allowfullscreen></iframe>
+</div>
 <table class="hide" width="100%" style='table-layout:fixed;'>
   <tr>
     <td>
