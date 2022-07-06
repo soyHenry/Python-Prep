@@ -219,6 +219,8 @@ mi_diccionario={'Clave1':'Valor1', 'Clave2':{'numeros':[1,2,3,4,5]}}
 
 Completa la tarea descrita en el archivo [README](https://github.com/soyHenry/Python-Prep/blob/4aec1885136fdcff98899d2be13c8908b39f8b21/04%20-%20Estructuras%20de%20datos/Prep_Course_Homework_04.md)
 
+Si tienes dudas sobre este tema, puedes consultarlas en el canal #python de Slack
+
 <table class="hide" width="100%" style='table-layout:fixed;'>
   <tr>
     <td>
