@@ -236,6 +236,8 @@ En la variable 'text' ahora tenemos el texto del sitio web al que consultamos.
 
 Completa la tarea descrita en el archivo [README](https://github.com/soyHenry/Python-Prep/blob/main/09%20-%20Entrada-Salida%20y%20Manejo%20de%20Archivos/Prep_Course_Homework_09.md)
 
+Si tienes dudas sobre este tema, puedes consultarlas en el canal #python de Slack
+
 <table class="hide" width="100%" style='table-layout:fixed;'>
   <tr>
     <td>
