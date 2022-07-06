@@ -35,6 +35,8 @@ A continuación te mostramos cómo funciona:
  <iframe src="https://player.vimeo.com/video/548902078?h=e82a766bab&title=0&byline=0&portrait=0&speed=0&badge=0&autopause=0&player_id=0&app_id=58479" width="1264" height="720" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Prep Course - Intro a Slack"></iframe>
 </div>
 
+Para ingresar al espacio de Slack del Prep Course de Henry, por favor revisa el los mails que recibiste al avanzar con el proceso de admisión dado que ahí encontrarás el link de acceso
+
 > Gracias [Nico Constantin (FT#12)](https://github.com/NicoConstantin) por el video y la explicación!
 
 ## Editores de Texto
@@ -393,6 +395,8 @@ Para conocer mejor el lenguaje que estaremos aprendiendo les compartimos una col
 ## Homework
 
 Instalar Visual Studio Code, GitHub y Python para poder comenzar!
+
+Si tienes dudas sobre este tema, puedes consultarlas en el canal #python de Slack
 
 <table class="hide" width="100%" style='table-layout:fixed;'>
   <tr>
