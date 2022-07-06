@@ -511,6 +511,8 @@ Si queremos que el módulo sea recargado, tenemos que ser explícitos, haciendo 
 
 Completa la tarea descrita en el archivo [README](https://github.com/soyHenry/Python-Prep/blob/4aec1885136fdcff98899d2be13c8908b39f8b21/07%20-%20Classes%20&%20OOP/Prep_Course_Homework_07.md)
 
+Si tienes dudas sobre este tema, puedes consultarlas en el canal #python de Slack
+
 <table class="hide" width="100%" style='table-layout:fixed;'>
   <tr>
     <td>
