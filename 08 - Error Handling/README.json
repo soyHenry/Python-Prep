@@ -2,7 +2,7 @@
   "lessonTitle": "Manejo de Errores",
   "permalink": "/Clase_Ocho/",
   "eleventyNavigation": {
-    "key": "Clase 8",
+    "key": "Error Handling",
     "order": 8
   },
   "feedbackID": "08 - Error Handling"
