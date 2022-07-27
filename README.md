@@ -43,10 +43,6 @@ Puedes encontrar las nuevas fechas e inscribirte aqui: https://docs.google.com/f
 ## Instrucciones para realizar el Hnery Challenge
 
 <div class="iframeContainer">
-  <iframe src="https://player.vimeo.com/video/730408724" allow="autoplay; fullscreen" allowfullscreen></iframe>
-</div>
-
-<div class="iframeContainer">
   <iframe src="https://player.vimeo.com/video/733965021" allow="autoplay; fullscreen" allowfullscreen></iframe>
 </div>
 
