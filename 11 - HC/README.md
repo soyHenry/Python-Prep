@@ -1,7 +1,7 @@
 ![HenryLogo](https://d31uz8lwfmyn8g.cloudfront.net/Assets/logo-henry-white-lg.png)
 
 
-## Instrucciones para realizar el Hnery Challenge
+## Instrucciones para realizar el Henry Challenge
 
 
 <div class="iframeContainer">
