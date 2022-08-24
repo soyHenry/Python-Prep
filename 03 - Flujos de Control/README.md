@@ -154,7 +154,7 @@ Si tienes dudas sobre este tema, puedes consultarlas en el canal #python de Slac
 Los martes/jueves (segun corresponda) a las 17HS ARG cada dos semanas hacemos una clase de apoyo en vivo sobre este tema. Puedes acceder desde este link de aqui en el horario en vivo: https://us02web.zoom.us/j/88561062589
 
 <div class="iframeContainer">
-  <iframe src="https://player.vimeo.com/video/724876516?h=05506abb7e" 
+  <iframe src="https://player.vimeo.com/video/742448799?h=98cda89703" 
   allow="autoplay; fullscreen" allowfullscreen></iframe>
 </div>
 
