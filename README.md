@@ -10,7 +10,7 @@ En este curso introductorio podrás aprender todo el contenido que luego será e
 El Prep Course, o curso preparatorio, es un curso que diseñamos desde Henry con la finalidad de nivelar a todos nuestros aplicantes. La idea es que con este curso puedas dar tus primeros pasos en tecnología y así aprender esos conceptos básicos que serán necesarios para cuando estés dentro de la carrera. 
 
 ¿En qué consiste el Prep Course? 
-El curso consiste en una serie de videos, material escrito y ejercicios para que puedas ir aprendiendo estos conceptos básicos de Python y Matemática Todo el material de Python se encuentra aqui, en este repositorio (data.prep.soyhenry.com). Una vez que hayas terminado de estudiarlo, podrás continuar con el contenido de matemática que se encuentra en: math.prep.soyhenry.com
+El curso consiste en una serie de videos, material escrito y ejercicios para que puedas ir aprendiendo estos conceptos básicos de Python y Matemática Todo el material de Python se encuentra aqui, en este repositorio (https://github.com/soyHenry/Python-Prep). Una vez que hayas terminado de estudiarlo, podrás continuar con el contenido de matemática que se encuentra en: math.prep.soyhenry.com
 Podrás ir avanzando con el contenido a tu ritmo y de manera asincrónica (es decir, en los horarios y tiempos que tu prefieras). Cuando hayas finalizado, podrás inscribirte para realizar el Henry Challenge. 
 
 ¿Qué es el Henry Challenge? 
