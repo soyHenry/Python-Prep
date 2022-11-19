@@ -150,13 +150,10 @@ Completa la tarea descrita en el archivo [README](https://github.com/soyHenry/Py
 
 Si tienes dudas sobre este tema, puedes consultarlas en el canal #python de Slack
 
-## Clase de apoyo
+## Clase en vivo de Resolución de ejercicios.
+
 Los martes/jueves (segun corresponda) a las 18HS ARG cada dos semanas hacemos una clase de apoyo en vivo sobre este tema. El link se comparte en el canal de Slack #anuncios ese día.
 
-<div class="iframeContainer">
-  <iframe src="https://drive.google.com/drive/u/0/folders/110pgorYd1MEwX_cM_iCVLjr8rfXv_eTw" 
-  allow="autoplay; fullscreen" allowfullscreen></iframe>
-</div>
 
 <table class="hide" width="100%" style='table-layout:fixed;'>
   <tr>
