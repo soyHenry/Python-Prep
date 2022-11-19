@@ -13,6 +13,7 @@
   <iframe src="https://vimeo.com/767835766/b3109f457d" allow="autoplay; fullscreen" allowfullscreen></iframe>
 </div>
 
+<iframe src="https://player.vimeo.com/video/767835766?h=b3109f457d" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>  
 
 #### 04-Estructuras de datos 
 
