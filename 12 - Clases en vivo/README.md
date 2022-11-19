@@ -4,9 +4,9 @@
 ## Clases en vivo 
 
 
-#### El ciclo de las clases en vivo inician a continuación de cada Henry Challenge, repasamos cuatro de los temas más importantes, cada uno va englobando conceptos anteriores. Se realizan los días martes y jueves y por el canal #anuncios en Slack vas a encontrar el link de acceso.
+### El ciclo de las clases en vivo inician a continuación de cada Henry Challenge, repasamos cuatro de los temas más importantes, cada uno va englobando conceptos anteriores. Se realizan los días martes y jueves y por el canal #anuncios en Slack vas a encontrar el link de acceso.
 
- ### Estos temas son:
+### Estos temas son:
 
 #### Clase 03-Flujos de Control 
 
@@ -17,6 +17,7 @@
 #### Clase 07-Clases & OOP 
 
 ### Vas a encontrar dos grabaciones por tema: uno de la quincena anterior y otra de la actual.
+
  ### 03-Flujos de Control 
 
 <div class="iframeContainer">
