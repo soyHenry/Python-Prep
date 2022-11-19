@@ -7,12 +7,26 @@
  
  ### Estos temas son:
 
+
+Clase 03-Flujos de Control 
+
+Clase 04-Estructuras de datos 
+
+Clase 06-Funciones 
+
+Clase 07-Clases & OOP 
+
+### Vas a encontrar dos grabaciones por tema: uno de la quincena anterior y otra de la actual.
+
 #### 03-Flujos de Control 
 
 <div class="iframeContainer">
  <iframe src="https://player.vimeo.com/video/767835766?h=b3109f457d" allow="autoplay; fullscreen" allowfullscreen></iframe> 
 </div>
  
+<div class="iframeContainer">
+ <iframe src="https://player.vimeo.com/video/772512148?h=5aee5d026b" allow="autoplay; fullscreen" allowfullscreen></iframe>
+</div>
 
 #### 04-Estructuras de datos 
 
