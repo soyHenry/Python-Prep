@@ -151,10 +151,10 @@ Completa la tarea descrita en el archivo [README](https://github.com/soyHenry/Py
 Si tienes dudas sobre este tema, puedes consultarlas en el canal #python de Slack
 
 ## Clase de apoyo
-Los martes/jueves (segun corresponda) a las 17HS ARG cada dos semanas hacemos una clase de apoyo en vivo sobre este tema. Puedes acceder desde este link de aqui en el horario en vivo: https://us02web.zoom.us/j/88561062589
+Los martes/jueves (segun corresponda) a las 18HS ARG cada dos semanas hacemos una clase de apoyo en vivo sobre este tema. El link se comparte en el canal de Slack #anuncios ese día.
 
 <div class="iframeContainer">
-  <iframe src="https://player.vimeo.com/video/742448799?h=98cda89703" 
+  <iframe src="https://drive.google.com/drive/u/0/folders/110pgorYd1MEwX_cM_iCVLjr8rfXv_eTw" 
   allow="autoplay; fullscreen" allowfullscreen></iframe>
 </div>
 
