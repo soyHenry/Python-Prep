@@ -33,6 +33,3 @@
   <iframe src="https://player.vimeo.com/video/767072539?h=5c3df473f6" allow="autoplay; fullscreen" allowfullscreen></iframe>
 </div>
 
-<div class="iframeContainer">
-<iframe src="https://player.vimeo.com/video/767072539?h=5c3df473f6" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-</div>
