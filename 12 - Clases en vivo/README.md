@@ -1,5 +1,15 @@
 ![HenryLogo](https://d31uz8lwfmyn8g.cloudfront.net/Assets/logo-henry-white-lg.png)
-## Clases en vivo ( 4 temas)
+## Clases en vivo 
+
+Luego de cada Henry Challenge comienza un ciclo de 4 clases donde repasamos los temas más improtantes, cada tema va englobando los anteriores. Se realiza los días martes y jueves, por el canal #anuncios de Slack encontrarás el link de acceso.
+### Estos temas son:
+
+* Clase 03-Flujos de Control 
+* Clase 04-Estructuras de datos 
+* Clase 06-Funciones 
+* Clase 07-Clases & OOP 
+
+Vas a encontrar dos grabaciones por tema: uno de la quincena anterior y otra de la actual.
 
  ### 03-Flujos de Control 
 
@@ -41,4 +51,3 @@
   <iframe src="https://player.vimeo.com/video/772516562?h=55957a58c6" allow="autoplay; fullscreen" allowfullscreen></iframe>
 </div>
 
-Vas a encontrar dos grabaciones por tema: uno de la quincena anterior y otra de la actual.
