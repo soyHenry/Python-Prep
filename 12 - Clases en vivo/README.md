@@ -11,7 +11,7 @@
 
 ### Clase 06-Funciones 
 
-### Clase 07-Clases & OOP
+### Clase 07-Clases & OOP 
 
 ### Vas a encontrar dos grabaciones por tema: uno de la quincena anterior y otra de la actual.
 
