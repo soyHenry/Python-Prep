@@ -278,22 +278,6 @@ Completa la tarea descrita en el archivo [README](https://github.com/soyHenry/Py
 
 Si tienes dudas sobre este tema, puedes consultarlas en el canal #python de Slack
 
-## Clase de apoyo
-Los martes/jueves (segun corresponda) a las 17HS ARG cada dos semanas hacemos una clase de apoyo en vivo sobre este tema. Puedes acceder desde este link de aqui en el horario en vivo: https://us02web.zoom.us/j/88561062589
-<div class="iframeContainer">
-  <iframe src="https://player.vimeo.com/video/725657909?h=bb1f71def2&amp" allow="autoplay; fullscreen" allowfullscreen></iframe>
-</div>
-<table class="hide" width="100%" style='table-layout:fixed;'>
-  <tr>
-    <td>
-      <a href="https://airtable.com/shrSzEYT4idEFGB8d?prefill_clase=00-PrimerosPasos">
-        <img src="https://static.thenounproject.com/png/204643-200.png" width="100"/>
-        <br>
-        Hacé click acá para dejar tu feedback sobre esta clase.
-      </a>
-    </td>
-  </tr>
-</table>
 
 ## Clase en vivo de Resolución de ejercicios.
 
