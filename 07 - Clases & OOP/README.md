@@ -524,3 +524,7 @@ Si tienes dudas sobre este tema, puedes consultarlas en el canal #python de Slac
     </td>
   </tr>
 </table>
+
+## Clase en vivo de Resolución de ejercicios.
+
+Los martes/jueves (segun corresponda) a las 18 hs. ARG cada dos semanas hacemos una clase de apoyo en vivo sobre este tema. El link se comparte en el canal de Slack #anuncios ese día.
