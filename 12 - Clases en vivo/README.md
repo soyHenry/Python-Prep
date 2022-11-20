@@ -1,7 +1,9 @@
 ![HenryLogo](https://d31uz8lwfmyn8g.cloudfront.net/Assets/logo-henry-white-lg.png)
+
+![Calendario](/_src\assets\Calendario_Resolucion_en_vivo.png)
 ## Clases en vivo 
 
-Luego de cada Henry Challenge comienza un ciclo de 4 clases donde repasamos los temas más improtantes, cada tema va englobando los anteriores. Se realiza los días martes y jueves, por el canal #anuncios de Slack encontrarás el link de acceso.
+Luego de cada Henry Challenge comienza un ciclo de 4 clases donde repasamos los temas más importantes, cada tema va englobando los anteriores. Se realiza los días martes y jueves, por el canal #anuncios de Slack encontrarás el link de acceso.
 ### Estos temas son:
 
 * Clase 03-Flujos de Control 
