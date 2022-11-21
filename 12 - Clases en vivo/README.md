@@ -10,10 +10,12 @@ Luego de cada Henry Challenge comienza un ciclo de 4 clases donde repasamos los 
 * Clase 06-Funciones 
 * Clase 07-Clases & OOP 
 
-Vas a encontrar dos grabaciones por tema: uno de la quincena anterior y otra de la actual.
+Vas a encontrar dos grabaciones por tema: una de la quincena anterior y otra de la quincena en curso.
 
 
 ![Calendario](/_src/assets/Calendario_Resolucion_en_vivo.png)
+
+### Este es el link de  **[Zoom](https://goo.su/AFgi )** para ingresar a la Clase en Vivo =) 
 
 
  ### 03-Flujos de Control 
