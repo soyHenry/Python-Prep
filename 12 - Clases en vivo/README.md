@@ -13,7 +13,8 @@ Luego de cada Henry Challenge comienza un ciclo de 4 clases donde repasamos los 
 Vas a encontrar dos grabaciones por tema: uno de la quincena anterior y otra de la actual.
 
 
-![Calendario](12 - Clases en vivo/Calendario_Resolucion_en_vivo.png)
+![Calendario](12 - Clases en vivo\Calendario_Resolucion_en_vivo.png)
+
 
  ### 03-Flujos de Control 
 
