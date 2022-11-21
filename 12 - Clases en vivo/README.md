@@ -15,7 +15,7 @@ Vas a encontrar dos grabaciones por tema: una de la quincena anterior y otra de 
 
 ![Calendario](/_src/assets/Calendario_Resolucion_en_vivo.png)
 
-### Este es el link de  **[Zoom](https://goo.su/AFgi )** para ingresar a la Clase en Vivo =) 
+Este es el link de  **[Zoom](https://goo.su/AFgi )** para ingresar a la Clase en Vivo =) 
 
 
  ### 03-Flujos de Control 
