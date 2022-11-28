@@ -253,7 +253,7 @@ Para realizar una afirmación en nuestro programa lo hacemos con la expresión a
 
 ## Homework
 
-Completa la tarea descrita en el archivo [README](https://github.com/soyHenry/Python-Prep/blob/4aec1885136fdcff98899d2be13c8908b39f8b21/08%20-%20Error%20Handling/Prep_Course_Homework_08.md)
+Completa la tarea descrita en el archivo [README](https://github.com/soyHenry/Python-Prep/blob/main/08%20-%20Error%20Handling/Prep_Course_Homework_08.md)
 
 Si tienes dudas sobre este tema, puedes consultarlas en el canal #python de Slack
 
