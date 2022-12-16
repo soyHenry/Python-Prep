@@ -1,6 +1,6 @@
 ![HenryLogo](https://d31uz8lwfmyn8g.cloudfront.net/Assets/logo-henry-white-lg.png)
 
-# Prep Course
+# Prep Course 
 
 ¡Hola! Bienvenido al Prep Course para la carrera de Data Science. 
 
