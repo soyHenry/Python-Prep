@@ -57,3 +57,10 @@ https://docs.google.com/forms/d/e/1FAIpQLSdzlBPk6hNHK6IlyIHIjvg4ehYhi5Wn39t4Vo9q
 Los proximos inicios de la carrera se iran publicando en la landing de Data Science: https://www.soyhenry.com/carrera-data-science
 
 Si tienes mas dudas sobre Henry, la carrera o el proceso de admisión puedes consultarlo en el canal #consultas_administrativas de Slack.
+
+## Testimonio de graduados 
+
+<div class="iframeContainer">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/GrVqJhWYaKQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
