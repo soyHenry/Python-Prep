@@ -1,6 +1,6 @@
 ![HenryLogo](https://d31uz8lwfmyn8g.cloudfront.net/Assets/logo-henry-white-lg.png)
 
-# ANALYTICS:
+<!--# ANALYTICS:-->
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-161500899-3">
 </script>
@@ -11,8 +11,8 @@
   gtag('config', 'UA-161500899-3');
 </script>
 
-# GOOGLE TAG MANAGER
-# HEAD
+<!--# GOOGLE TAG MANAGER-->
+<!--# HEAD-->
 <!-- Google Tag Manager -->
 <script>
   (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -22,7 +22,7 @@
   })(window,document,'script','dataLayer','GTM-5Z2JFWV');
 </script>
 <!-- End Google Tag Manager -->
-# BODY
+<!--# BODY-->
 <!-- Google Tag Manager (noscript) -->
 <noscript>
   <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5Z2JFWV"
