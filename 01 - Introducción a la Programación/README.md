@@ -273,6 +273,12 @@ Arriba a la derecha encontramos tres botones. `Watch` nos permite seguir un repo
 
 Ya tenemos todo para empezar... Éxitos!!! 🍀
 
+## Principales Objetivos de Aprendizaje para esta Clase
+
+- Conocer de qué se trata programar
+- Conocer para qué sirve un lenguaje de programación 
+
+
 ## Python
 
 ### ¿Qué es Python?
