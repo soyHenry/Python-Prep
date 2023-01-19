@@ -42,7 +42,7 @@ height="0" width="0" style="display:none;visibility:hidden">
 - Comprender el concepto de Manejo de Errores
 - Conocer las Pruebas de Caja Negra y Caja de Cristal
 - Comprender cómo seguir el código paso a paso
-- Comprender el concpeto de excepciones
+- Comprender el concepto de excepciones
 - Características de Python
 
 ## Manejo de Errores
