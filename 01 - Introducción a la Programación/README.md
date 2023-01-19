@@ -278,6 +278,7 @@ Ya tenemos todo para empezar... Éxitos!!! 🍀
 * Conocer de qué se trata programar
 * Conocer para qué sirve un lenguaje de programación 
 
+
 ## Python
 
 ### ¿Qué es Python?
