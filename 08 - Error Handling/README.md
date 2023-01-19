@@ -37,6 +37,14 @@ height="0" width="0" style="display:none;visibility:hidden">
   <iframe src="https://player.vimeo.com/video/686791076" allow="autoplay; fullscreen" allowfullscreen></iframe>
 </div>
 
+## Principales Objetivos de Aprendizaje para esta Clase
+
+- Comprender el concepto de Manejo de Errores
+- Conocer las Pruebas de Caja Negra y Caja de Cristal
+- Comprender cómo seguir el código paso a paso
+- Comprender el concpeto de excepciones
+- Características de Python
+
 ## Manejo de Errores
 
 ### Pruebas de caja negra

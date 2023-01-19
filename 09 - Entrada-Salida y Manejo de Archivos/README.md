@@ -37,6 +37,11 @@ height="0" width="0" style="display:none;visibility:hidden">
   <iframe src="https://player.vimeo.com/video/687171116" allow="autoplay; fullscreen" allowfullscreen></iframe>
 </div>
 
+## Principales Objetivos de Aprendizaje para esta Clase
+
+- Comprender cómo realizar la vinculación con Datos Externos
+- Comprender cómo interactuar con el sistema de archivos
+
 ## Vinculación con Datos Externos
 
 Es muy importante tener en cuenta que va a ser necesario interactuar con el usuario y trabajar con datos que están alojados en medios externos, puede tratarse de un sistema de archivos ó de una tabla en una base datos, entre otras fuentes.

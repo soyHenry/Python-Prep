@@ -37,6 +37,12 @@ height="0" width="0" style="display:none;visibility:hidden">
   <iframe src="https://player.vimeo.com/video/684295459" allow="autoplay; fullscreen" allowfullscreen></iframe>
 </div>
 
+## Principales Objetivos de Aprendizaje para esta Clase
+
+- Conocer el concepto de los Flujos de Control
+- Conocer cómo se usan los Condicionales en Programación
+- Conocer el concepto de Ciclos Iterativos
+
 ## Flujos de Control
 
 ### Condicionales

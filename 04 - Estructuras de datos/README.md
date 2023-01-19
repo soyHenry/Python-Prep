@@ -37,6 +37,11 @@ height="0" width="0" style="display:none;visibility:hidden">
   <iframe src="https://player.vimeo.com/video/684814301" allow="autoplay; fullscreen" allowfullscreen></iframe>
 </div>
 
+## Principales Objetivos de Aprendizaje para esta Clase
+
+- Conocer la diferencia entre una variable y una estructura de datos
+- Manejar el tipo de dato lista en Python
+
 ## Estructuras de datos
 
 Anteriormente se mencionó que un dato representa la realidad, y se presentó el concepto de variable, que es un elemento que nos permite guardar un dato dentro de nuestro programa. Sin embargo, rápidamente vamos a llegar a la conclusión de que una variable puede llegar a quedar insuficiente para ciertas representaciones. Ante esta situación, en los lenguajes de programación tenemos estructuras de datos más complejas, en el caso de Python contamos con listas, tuplas y diccionarios.

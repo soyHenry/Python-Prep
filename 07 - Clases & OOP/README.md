@@ -37,6 +37,13 @@ height="0" width="0" style="display:none;visibility:hidden">
   <iframe src="https://player.vimeo.com/video/686330574" allow="autoplay; fullscreen" allowfullscreen></iframe>
 </div>
 
+## Principales Objetivos de Aprendizaje para esta Clase
+
+- Comprender el concepto de Porgramación Orientada a Objetos
+- Comprender los conceptos de Clases y Objetos
+- Conocer el concepto de Herencia
+- Comprender los conceptos de Librerías y Módulos
+
 ## Clases y objetos (POO)
 
 El alto grado de planificación y previsión que requiere la programación es contrario a la propia realidad. El hombre aprende y crea a través de la experimentación, no de la planeación. La Orientación a Objetos (POO) brinda estos métodos de experimentación, y logra que los lenguajes sean de más alto nivel, es decir, más cercanos a como los humanos pensamos el mundo. Los seres humanos, vemos la realidad como objetos que se interrelacionan y realizan acciones, y esto, es lo que se intenta emular en la POO.

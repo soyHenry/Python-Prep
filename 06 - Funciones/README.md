@@ -37,6 +37,13 @@ height="0" width="0" style="display:none;visibility:hidden">
   <iframe src="https://player.vimeo.com/video/685959607" allow="autoplay; fullscreen" allowfullscreen></iframe>
 </div>
 
+## Principales Objetivos de Aprendizaje para esta Clase
+
+- Conocer el concepto de una Función
+- Comprender el concepto de variables locales y globales
+- Comprender el concepto de recursividad
+- Conocer el concepto de parámetros y pasaje de parámetros
+
 ## Funciones
 
 Las funciones son una secuencia de comandos que ejecutan una sección de código. En Python las funciones se definen usando la palabra reservada **def** y luego el nombre de la función con paréntesis y dos puntos que indican que lo que sigue son las sentencias, eventualmente una función debe retornar un valor, para esto se usa la palabra reservada **return**.
