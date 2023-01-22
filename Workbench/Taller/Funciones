@@ -1,0 +1,33 @@
+
+def misuma (a,b):
+    return a+b
+
+res= misuma (2,3)
+print (res)
+
+def suma(a, b):
+    return a + b
+
+
+
+# min y max son funciones integradas en Python que nos devuelven
+# los valores mínimo y máximo de un iterable (como las listas o las tuplas)
+def min_y_max(lista):
+    return min(lista), max(lista)
+
+
+# ahora vamos a usar estas funciones
+valor = suma(10, 15)
+print(valor)
+
+minimo, maximo = min_y_max([30, 10, 50, 40, 20])
+print(f'min y max son {minimo} y {maximo}')
+
+"""
+def test_OrdenarDiccionario_03(self):
+      dicc = {'clave1':['c','a','b'], 'clave2':['casa','auto','barco'], 'clave3':[3,1,2]}
+      valor_test = ch.OrdenarDiccionario(dicc, 'clave3', False)
+      valor_esperado = {'clave1':['b','a','c'], 'clave2':['barco','auto','casa'], 'clave3':[3,2,1]}
+      """
+      
+"""
