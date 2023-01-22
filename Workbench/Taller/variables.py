@@ -1,5 +1,5 @@
 #Variables
-#It's memory location to assign data to store and use ir later
+#It's a memory location to assign data to store and use it later
 a=10
 b=3
 print (a)
