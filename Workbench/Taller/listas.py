@@ -144,7 +144,7 @@ for i, val in enumerate(['A', 'B', 'C']):
 2 C
 """
 
-# En este caso imprime la posición o puntero, y e contenido de la posición, vertical 
+# En este caso imprime la posición o puntero, y el contenido de la posición, vertical 
 
 # Ejemplo 16
 
