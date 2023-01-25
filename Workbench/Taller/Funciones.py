@@ -11,7 +11,12 @@
 
 # Ejemplo 1
 def misuma (a,b): # Esta es una función, toma dos enteros a,b y los suma
-    return a+b    # El calculo viene después de la palabra return
+    """
+    Los valores deben ser números
+    """
+    suma =a+b
+    return suma    # El calculo viene después de la palabra return
+print (misuma(5,6))
 
 res= misuma (2,3) # Uso la función, le paso los parámetros 2,3 y, el resultado lo almaceno en la variable res
 print ("Resultado de sumar 2 y 3, es ", res)       # Puedo ver su contenido con un print
