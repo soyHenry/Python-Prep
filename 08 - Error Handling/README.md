@@ -30,12 +30,28 @@ height="0" width="0" style="display:none;visibility:hidden">
   </iframe>
 </noscript>
 <!-- End Google Tag Manager (noscript) -->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LHV5X0V6Y9"><script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-LHV5X0V6Y9');
+</script>
 
 ## Grabación de la Clase 8
 
 <div class="iframeContainer">
   <iframe src="https://player.vimeo.com/video/686791076" allow="autoplay; fullscreen" allowfullscreen></iframe>
 </div>
+
+## Principales Objetivos de Aprendizaje para esta Clase
+
+- Comprender el concepto de Manejo de Errores
+- Conocer las Pruebas de Caja Negra y Caja de Cristal
+- Comprender cómo seguir el código paso a paso
+- Comprender el concepto de excepciones
+- Características de Python
 
 ## Manejo de Errores
 

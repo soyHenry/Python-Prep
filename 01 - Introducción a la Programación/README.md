@@ -30,6 +30,14 @@ height="0" width="0" style="display:none;visibility:hidden">
   </iframe>
 </noscript>
 <!-- End Google Tag Manager (noscript) -->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LHV5X0V6Y9"><script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-LHV5X0V6Y9');
+</script>
 
 # Primeros Pasos
 
@@ -272,6 +280,12 @@ En el centro podemos ver todos los archivos que tiene dentro el repo. El botón 
 Arriba a la derecha encontramos tres botones. `Watch` nos permite seguir un repositorio, mientras que con `Star` podemos marcar como favorito un repo que nos guste. Por último tenemos `Fork`, este es **muy** importante, lo vamos a necesitar cuando hagamos el **_Challenge!_**
 
 Ya tenemos todo para empezar... Éxitos!!! 🍀
+
+## Principales Objetivos de Aprendizaje para esta Clase
+
+- Conocer de qué se trata programar
+- Conocer para qué sirve un lenguaje de programación 
+
 
 ## Python
 

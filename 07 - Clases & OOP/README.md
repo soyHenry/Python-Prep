@@ -30,12 +30,27 @@ height="0" width="0" style="display:none;visibility:hidden">
   </iframe>
 </noscript>
 <!-- End Google Tag Manager (noscript) -->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LHV5X0V6Y9"><script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-LHV5X0V6Y9');
+</script>
 
 ## Grabación de la Clase 7
 
 <div class="iframeContainer">
   <iframe src="https://player.vimeo.com/video/686330574" allow="autoplay; fullscreen" allowfullscreen></iframe>
 </div>
+
+## Principales Objetivos de Aprendizaje para esta Clase
+
+- Comprender el concepto de Porgramación Orientada a Objetos
+- Comprender los conceptos de Clases y Objetos
+- Conocer el concepto de Herencia
+- Comprender los conceptos de Librerías y Módulos
 
 ## Clases y objetos (POO)
 

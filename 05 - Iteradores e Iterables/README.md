@@ -30,12 +30,24 @@ height="0" width="0" style="display:none;visibility:hidden">
   </iframe>
 </noscript>
 <!-- End Google Tag Manager (noscript) -->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LHV5X0V6Y9"><script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-LHV5X0V6Y9');
+</script>
 
 ## Grabación de la Clase 5
 
 <div class="iframeContainer">
   <iframe src="https://player.vimeo.com/video/685504130" allow="autoplay; fullscreen" allowfullscreen></iframe>
 </div>
+
+## Principales Objetivos de Aprendizaje para esta Clase
+
+- Conocer los conceptos de Iteradores e Iterables
 
 ## Iteradores e Iterables
 
