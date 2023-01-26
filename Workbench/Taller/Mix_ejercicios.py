@@ -1,221 +1,153 @@
-Variables
+# Variables
+
+# Ej 1) Cocatenar cadenas de caracteres, deben ser del mismo tipo (str+str)
+
 a = 'Hola '
 b = 'Mundo !'
+# Ej 2) Sumar dos enteros, puedo imprimir directo el resultado
+
 print(a + b)
-# Hola Mundo !
+
+# Ej 3) Mismo ejemplo, almaceno en variable
 x = 3
 y = 12
-print(x + y)
-15
-print(a + x)
-"""
-"---------------------------------------------------------------------------"
+print(x + y) # 15
 
-TypeError                                 Traceback (most recent call last)
-~\AppData\Local\Temp/ipykernel_18232/136165486.py in <module>
-----> 1 print(a + x)
+# Ej 4) Manejo de errores por tipo, no sumar tipos distintos.
+# print(a + x)==> Da un error porque son de distinto tipo, concatencación
+# a= string       Para que funcione, puedo cambiar el tipo a str(3)
+# x= int          quedaría como 'Hola 3'
 
-TypeError: can only concatenate str (not "int") to str
-"""
-# Dividir "y" entre "x"
+# Ej 5) Dividir "y" entre "x"
 y = 9
 x = 3
-print(y/x)
-3.0
-# Potencia de "y" elevado a la "x"
+print(y/x) # => 3.0
+
+# Ej 6) Potencia de "y" elevado a la "x"
 y = 2
 x = 4
-print(y**x)
-16
-# Devolver el resto de la división
+print(y**x) # si elevo a 0.5, Python entiende que es raíz cuadrada igual que 1/2
+# R=> 16
+
+# Ej 7) Devolver el resto de la división
 y = 13
 x = 3
-print(y%x)
-1
-# Ciclo IF/ELIF/ELSE
-valor = 0
+print(y%x) # Sirve para todas las operaciones en que deba detectar pares, impares, primos
+
+# Ej 8) Ciclo IF/ELIF/ELSE
+valor = 0                           # Inicializo un contador para entrar al ciclo
 if (valor < 0):
     print('El número es negativo')
 elif (valor > 0):
     print('El número es positivo')
 else:
-    print('El número es igual a cero')
-# El número es igual a cero
+    print('El número es igual a cero') # R=> El número es igual a cero
 
-# Ciclo FOR - Caso 1
-for n in range(1,10): #Incluye el primero y excluye el último
-    print(n, end(", "))
+# Ej 9) Ciclo FOR - Simple (ver ciclos listas dobles)
+for n in range(1,11): #Incluye el primero y excluye el último
+    print(n,(')'))
 
-# Ciclo WHILE
-n = 1
-while (n < 10):
-    print(n)
-    n = n + 1
-"""
-1
-2
-3
-4
-5
-6
-7
-8
-9
-"""
-# Lista
+# Ej 10) Ciclo WHILE - Simple con un contador
+n = 1           # Contador definido en 0
+while (n < 10): # Mientras n sea menor que 10, haga lo que está dentro
+    print(n)    # Imprimir el contenido de la variable en cada ciclo
+    n = n + 1   # El contador es la condición de termino. Al llegar a 11, no entra el nuevo ciclo.
 
-# Caso 1 - Inicializa una lista y muestra la cantidad de elementos
+# Ej 11) Lista Simple - Inicializa una lista y obtener la cantidad de elementos con LEN
 
-edad = (3,1,0.2,8,7) #Declara un objeto lista y le asigna elementos
-print (len(edad))    #Imprime la cantidad de elementos de la lista usando la función LEN
-#5                   # La función retorno 5
+edad = (3,1,0.2,8,7) # Declara un objeto lista y le asigna elementos, la lista es mutable, no ordenada
+print (len(edad))    # Imprime la cantidad de elementos de la lista usando la función LEN
+#5                   # La función retornó 5
 
-# Caso 2 - Identificar el tipo de variable usando la función TYPE, retorno el tipo de dato
-mi_lista = ['Rojo','Azul','Amarillo','Naranja','Violeta','Verde']
-type(mi_lista)
-# list
-print(mi_lista)
-['Rojo', 'Azul', 'Amarillo', 'Negro', 'Naranja', 'Violeta', 'Verde']
-print(mi_lista[0:2])
-['Rojo', 'Azul']
-print(mi_lista[:2])
-['Rojo', 'Azul']
-print(mi_lista[1:])
-['Azul', 'Amarillo']
-mi_lista.insert(3,'Negro')
-print(mi_lista.index('Azul'))
-# 1
-mi_lista.insert(3,'Negro')
-mi_lista.extend(['Marrón','Gris'])
-print(['a','b','c'] * 3)
-# ['a', 'b', 'c', 'a', 'b', 'c', 'a', 'b', 'c']
-print(mi_lista.index('Azul'))
-# 1
-mi_lista.remove('Blanco')
+# Ej 12) Lista - Retornar tipo de variable usando TYPE, isertar con INSERT, pegar dos listas con EXTEND, 
+# eliminar un elemento con REMOVE, retornar un elemento usando su índice con INDEX[]y modificadores en la salida
 
-"""
----------------------------------------------------------------------------
-ValueError                                Traceback (most recent call last)
-~\AppData\Local\Temp/ipykernel_10044/2480624766.py in <module>
-----> 1 mi_lista.remove('Blanco')
+mi_lista = ['Rojo','Azul','Amarillo','Naranja','Violeta','Verde'] # Lista de 6 elementos
+type(mi_lista) # la lista, como objeto es de tipo list, pero sus objetos no, pueden ser de cualquier tipo.
+# R => list
+print(mi_lista) # Imprime los elementos de la lista, en el orden que están...se pueden ordenar
+# R=> ['Rojo', 'Azul', 'Amarillo', 'Negro', 'Naranja', 'Violeta', 'Verde']
+print(mi_lista[0:2]) # Imprimo la lista desde el índice 0, al 2, es decir el 0 y el 1, excluye el 2
+# R=> ['Rojo', 'Azul']
+print(mi_lista[:2]) # Imprime la lista desde el inicio, hasta el indice, desde el 0 al 1, excluye el 2
+# R=> ['Rojo', 'Azul']
+print(mi_lista[1:]) # Imprime la lista desde la posición 1, hasta el final, excluye la posición 0. 
+# R=> ['Azul', 'Amarillo', 'Naranja', 'Violeta', 'Verde']
+mi_lista.insert(3,'Negro') # INSERT, inserta un elemento en la posición del índice dado.
+print(mi_lista.index('Azul')) #Retorna el valor (int) del índice cuando halla la coincidencia, este caso=1.
+print(mi_lista [1]) # => Azul, retorna el valor del elemento en el indice, en este caso [1]= Azul
+mi_lista.insert(3,'Negro') # Inserta el elemento 'Negro', en la posición 3.
+mi_lista.extend(['Marrón','Gris']) # EXTEND, 'pega' la lista ('Marrón','Gris'), al final de mi_lista
+print(['a','b','c'] * 3 ) # Igual que la concatenación, puedo 'multiplizar str =>['a', 'b', 'c', 'a', 'b', 'c', 'a', 'b', 'c']
+mi_lista.remove('Blanco') # Recorre la lista, si existe el elemento, lo borra 1 vez, si no, da ERROR (not in list).
+ultimo = mi_lista.pop()   # Remueve el último elemento de la lista 
+print(ultimo)             # Conserva el último elemento eliminado con POP, si ejecuto otra vez, elimina el anterior.
 
-ValueError: list.remove(x): x not in list
-mi_lista.remove('Negro')
----------------------------------------------------------------------------
-ValueError                                Traceback (most recent call last)
-~\AppData\Local\Temp/ipykernel_10044/298389232.py in <module>
-----> 1 mi_lista.remove('Negro')
+# Ej 13) Tuplas - Operaciones de cambio de tipo, recorrer la tupla, contar elementos, imprimir, asignar
+mi_tupla=tuple(mi_lista)  # La lista fue 'casteada?, se le ambio el tipo a TUPLE (lista INMUTABLE)
+print(mi_tupla[1])        # Se accede a sus elementos igual que la lista, NO SE PUEDE ORDENAR R=> Index 1 = Azul
+'Rojo' in mi_tupla        # Puedo hacer evaluaciones BOOLEANAS (T/F), está el elemento en la tupla, retorna T/F =>T
+mi_tupla.count('Rojo')    # Puedo contar los elementos que coinciden con un valor, retorna 1 entero
+print(mi_lista[:] * 3)    # Concatena la lista veces, igual que los strings. 
+# R=> ['Rojo', 'Azul', 'Amarillo', 'Negro', 'Marrón', 'Gris', 'Rojo', 'Azul', 'Amarillo', 'Negro', 'Marrón', 'Gris', 'Rojo', 'Azul', 'Amarillo', 'Negro', 'Marrón', 'Gris']
+mi_tupla='Gaspar', 5, 8, 1999    # Crea una tupla a partir asignarle elementos
+nombre, dia, mes, año = mi_tupla # Asigna los valores de la tupla a variables
+print("Nombre: ", nombre, " - Dia:", dia, " - Mes: ", mes, " - Año: ", año) # Imprime el contenido de las variables
+# R=> Nombre:  Gaspar  - Dia: 5  - Mes:  8  - Año:  1999
 
-ValueError: list.remove(x): x not in list
-"""
-ultimo = mi_lista.pop()
-ultimo = mi_lista.pop()
-print(ultimo)
-# Gris
-ultimo = mi_lista.pop()
-ultimo
-# 'Amarillo'
-mi_tupla=tuple(mi_lista)
-print(mi_tupla[1])
-# Azul
-'Rojo' in mi_tupla
-# True
-mi_tupla.count('Rojo')
-# 1
-print(mi_lista[:] * 3)
-# ['Rojo', 'Azul', 'Amarillo', 'Negro', 'Marrón', 'Gris', 'Rojo', 'Azul', 'Amarillo', 'Negro', 'Marrón', 'Gris', 'Rojo', 'Azul', 'Amarillo', 'Negro', 'Marrón', 'Gris']
-mi_tupla.count('Rojo')
-# 1
-mi_tupla='Gaspar', 5, 8, 1999
-nombre, dia, mes, año = mi_tupla
-print("Nombre: ", nombre, " - Dia:", dia, " - Mes: ", mes, " - Año: ", año)
-# Nombre:  Gaspar  - Dia: 5  - Mes:  8  - Año:  1999
-nombre = 'Darío'
-edad = 39
-print(nombre, edad)
-print("Mi nombre es", nombre, ". Mi edad es", edad, "años")
-print("Mi nombre es {}. Mi edad es {} años". format(nombre, edad))
-# Darío 39
-# Mi nombre es Darío . Mi edad es 39 años
-# Mi nombre es Darío. Mi edad es 39 años
+# Ej 14) Formateo de impresión - 3 casos (sólo variables, con texto y con formato)
+nombre = 'Darío'        # Inicializo var nombre con el str 'Darío'
+edad = 39               # Inicializo var edad con el int 39
+print(nombre, edad)     # Caso 1) Imprimo el contenido de las variables. Puede ser cualquier variable.
+print("Mi nombre es", nombre, ". Mi edad es", edad, "años") # Caso 2) Impresión tradicional con variables.
+print("Mi nombre es {}. Mi edad es {} años". format(nombre, edad)) # Caso 3) Impresión con FORMATO
+# Caso 1) Darío 39
+# Caso 2) Mi nombre es Darío . Mi edad es 39 años
+# Casi 3) Mi nombre es Darío. Mi edad es 39 años
 
-mi_diccionario = {  'Colores Primarios': ['Rojo','Azul','Amarillo'], 
-                    'Colores secundarios': ['Naranja','Violeta','Verde'], 
-                    'Clave3': 10,
+# Ej 15) Diccionarios - Creación y operaciones (pares de elementos, {key:elemento})
+mi_diccionario = {  'Colores Primarios': ['Rojo','Azul','Amarillo'],        # Crear con {key:Elm, key:Elm...}
+                    'Colores secundarios': ['Naranja','Violeta','Verde'],   # Elm= Cualquier cosa, mutable
+                    'Clave3': 10,                                           # Key= Hasheable, inmutable
                     'Clave4': False}
-print(mi_diccionario['Colores secundarios'])
-# ['Naranja', 'Violeta', 'Verde']
+print (mi_diccionario['Colores secundarios'])   # Lo puedo acceder por sus claves o índices y retorna los VALORES
+# R=> ['Naranja', 'Violeta', 'Verde']           # Para la clave dad, retorno los elementos respectivos
 
-mi_diccionario={'Clave1':'Valor1', 'Clave2':{'numeros':[1,2,3,4,5]}}
-print(mi_diccionario.keys())
-# dict_keys(['Clave1', 'Clave2'])
-print(mi_diccionario.values())
-# dict_values(['Valor1', {'numeros': [1, 2, 3, 4, 5]}])
-len (mi_diccionario)
-# 2
+mi_diccionario = {'Clave1':'Valor1', 'Clave2':{'numeros':[1,2,3,4,5]}} # Dic key1=str y val1=str, key2=str, val2=lista
+print (mi_diccionario.keys())  # Retorna R=> dict_keys(['Clave1', 'Clave2'])
+print(mi_diccionario.values()) # Retorna R=> dict_values(['Valor1', {'numeros': [1, 2, 3, 4, 5]}])
+len (mi_diccionario) # R=> 2, la función LEN es útil cuando se debe recorrer el DICT 
+
+# Ej 16) Ciclo IF/ELIF/ELSE
 
 edad = 60
 edad_compa = 50
-if (edad < edad_compa):
+if (edad < edad_compa):     # Compara dos números, y establece dos condiciones
     print(edad)
     if (edad < 100):
         print(edad + 100)
     else:
-        print(edad - 100)
+        print(edad - 100)    
 else:
-    print(edad_compa)
-# 50
+    print(edad_compa)       # No cumple ninguna e imprime el contenido de la var edd_compa R=> 50
+
+# Ej 17) Recorre una lista con un ciclo FOR y extrae los PARES
 
 primeros_10 = [0,1,2,3,4,5,6,7,8,9]
-print(primeros_10)
-# [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+print(primeros_10) # R=> [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+outlist = []                                # Esta lista acumula los valores encontrados
+for n in primeros_10:                       # For 'var' in 'lista/tupla/dict'
+    if (n%2 == 0):                          # Uso la función resto para reconocer los PARES  
+        outlist.append(n)                   # Los guardo en una lista para poder mostrarlos horizontalmente 
+print ('Los pares son', outlist)            # R=> Los pares son [0, 2, 4, 6, 8]
 
-for n in primeros_10:
-    if (n%2 == 0):
-        print(n)
-        primeros_10[n]=0
-print("\va de nuevo....\n")
-"""
-0
-2
-4
-6
-8
-# va de nuevo....
-"""
+# Ej 18) Recorrer una lista con su índice y ver error fuera de rango
 
-print(primeros_10)
-# [0, 1, 0, 3, 0, 5, 0, 7, 0, 9]
+print(primeros_10[9])           # R=> 9, el valor existe dentro del rango
+primeros_10 = ['a','b','c','d'] # Esta lista de str, tiene 4 elm, índices del 0 al 3.
+primeros_10[4]                  # Al intentar accesar a una posición que NO existe, retornará un error (out of range)
 
-for n in primeros_10:
-    print(primeros_10[n])
-print("\va de nuevo....\n")
-"""
-0
-1
-0
-3
-0
-5
-0
-7
-0
-9
-va de nuevo....
-"""
-
-print(primeros_10[9])
-# 9
-primeros_10 = ['a','b','c','d']
-primeros_10[4]
-"""
----------------------------------------------------------------------------
-IndexError                                Traceback (most recent call last)
-<ipython-input-21-1f7c241d828c> in <module>
-----> 1 primeros_10[4]
-
-IndexError: list index out of range
-"""
+# Ej 19) Uso de la función SEQUENCE - Recorre un rango 
 n = 40
 sequence = [0,1]
 for i in range(2,n):
