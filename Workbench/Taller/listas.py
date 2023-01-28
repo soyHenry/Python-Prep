@@ -209,8 +209,8 @@ for n, e in zip(numeros, espanol):
 # 2 Dos
 
 # Ejemplo 21 - Caso: zip() con un argumento
-# Por definición, se puede hacer, porque ZIP está definido para un 'n' arbitrario
-# de listas, ergo, también es posible usar un único valor.
+# Por definición, se puede hacer, porque ZIP está definido para un 'n' 
+# arbitrario de listas, ergo, también es posible usar un único valor.
 # El resultado son tuplas de un elemento...raras, pero se puede.
 
 numeros = [1, 2, 3, 4, 5]
@@ -218,10 +218,12 @@ zz = zip(numeros) # ZIP de si mismo
 print (list(zz)) # R=> [(1,), (2,), (3,), (4,), (5,)]
 
 # Ejemplo 22 - Caso: zip() con diccionarios
-# Lo común es usar ZIP con listas, pero al estar definida para cualquier clase iterable.
+# Lo común es usar ZIP con listas, pero al estar definida para cualquier 
+# clase iterable.
 # Podemos usarla con DICCIONARIOS.
 
-# Por ejemplo, si (a,b) toman los valores de las key del diccionario, no parece muy interesante.
+# Por ejemplo, si (a,b) toman los valores de las key del diccionario, no parece 
+# muy interesante.
 
 esp = {'1': 'Uno', '2': 'Dos', '3': 'Tres'}
 eng = {'1': 'One', '2': 'Two', '3': 'Three'}
@@ -311,7 +313,7 @@ print(mi_Cola.popleft())                    # Ahora se va el segundo en llegar R
 print(mi_Cola)                              # R=> ('Diego', 'Luis', 'Jorge'])
                                             # La lista restante en orden de llegada
 
-# Ejemplo 26 - Comprensión de listas . MUY IMPORTANTE ENTENDERLO BIEN !!
+# Ejemplo 26 - Listas por Comprensión . MUY IMPORTANTE ENTENDERLO BIEN !!
 # Permite usar expresiones y condiciones para poblar una lista.
 # Sus usos comunes son para hacer nuevas colecciones donde cada elemento es el resultado
 # de algunas operaciones aplicadas a cada miembro de otra secuencia o iterable, o

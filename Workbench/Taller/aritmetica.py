@@ -1,4 +1,4 @@
-#print (3.5 // 4)
+print (3.5 // 3)
 #print ("7"+"0")
 #print (int("7"+"0")/2) #Este es un ejemplo de casteo
 #print ( 2**1 / 12)

@@ -116,7 +116,7 @@ for idx, key in enumerate(miprimer_dic): # El enumerador de la forma ind, key, r
 
 # Ejemplo 7
 # Consultar a un dicc, si una clase existe => retorna un booleano TRUE o FALSE
-# Ojo si preguntas por un valor, puede existir, pero retornará FALSE
+# Ojo si preguntas por un VALUE, puede que existe la KEY, pero retornará FALSE
 # Si quiero preguntar por un valor, agrego el método .value()
 
 print ("")
@@ -134,6 +134,44 @@ print ("")
 restaurant = {"Hamburguesa": 100, "Pizza": 50, "Jugo": 30}
 if "Hamburguesa" in restaurant:
     print ("SI está")
+    print()
 else:
     print ("NO está")
+    print()
 print (restaurant)
+print()
+
+# Ejemplo 8 - Unir dos diccionarios
+
+def unirDics (dic1, dic2):
+	temp=dic1.copy()
+	temp.update(dic2)
+	return temp
+miDic1={'manzana':10.50, 'pera':12.8}
+miDic2={'durazno':11.10, 'ciruela':23.8}
+
+dicUni2= unirDics (miDic1, miDic2)
+print (dicUni2)
+print()
+
+# Ejemplo 9 - Unir dos diccionarios
+# Unir dos LISTAS y crear un Diccionario
+# necesitamos una lsta que provea las llaves y otra que provea los values
+
+def lisADicc (liskey, lisval):
+	return dict(zip(liskey, lisval))
+newkeys = ['enero', 'febrero', 'marzo', 'abril']
+newval  = [10, 50,12, 9, 11, 10, 23, 8]
+
+d=lisADicc (newkeys, newval)
+print (d)
+#print()
+
+# Ejemplo 9 - Encontrar el elemento más frecuente de una lista o MODA
+# 
+def moda (lista):
+	return print (max(lista, key= lista.count))
+print() 
+lista = [3,1,3,2,1,5,2,3,2,1,5,4,3,3,3]
+moda (lista)
+
