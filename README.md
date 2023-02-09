@@ -56,7 +56,7 @@ Podrás ir avanzando con el contenido a tu ritmo y de manera asincrónica (es de
 #### ¿Qué es el Henry Challenge? 
 
 Es un examen donde evaluamos los conceptos que se aprenden en el Prep Course. El examen tiene la finalidad de asegurarnos que realmente se han aprendido estos conceptos, dado que tenerlos bien claro es la clave de éxito para que puedas avanzar bien dentro de la carrera. 
-El examen se realiza los días sábados cada dos semanas, previa inscripción en el siguiente enlace (https://forms.gle/L9LeFbrtxPTPaxM49). Podrás rendirlo todas las veces que quieras. Para más información, puedes ir a la sección del challenge. 
+El examen se realiza los días sábados cada dos semanas.
 
 #### ¿Qué puedo hacer si tengo dudas? 
 
