@@ -1,36 +1,5 @@
 ![HenryLogo](https://d31uz8lwfmyn8g.cloudfront.net/Assets/logo-henry-white-lg.png)
 
-<!--# ANALYTICS:-->
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-161500899-3">
-</script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'UA-161500899-3');
-</script>
-
-<!--# GOOGLE TAG MANAGER-->
-<!--# HEAD-->
-<!-- Google Tag Manager -->
-<script>
-  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-5Z2JFWV');
-</script>
-<!-- End Google Tag Manager -->
-<!--# BODY-->
-<!-- Google Tag Manager (noscript) -->
-<noscript>
-  <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5Z2JFWV"
-height="0" width="0" style="display:none;visibility:hidden">
-  </iframe>
-</noscript>
-<!-- End Google Tag Manager (noscript) -->
-
 # Prep Course 
 
 ### ¡Hola! Bienvenido al Prep Course para la carrera de Data Science. 
@@ -56,7 +25,7 @@ Podrás ir avanzando con el contenido a tu ritmo y de manera asincrónica (es de
 #### ¿Qué es el Henry Challenge? 
 
 Es un examen donde evaluamos los conceptos que se aprenden en el Prep Course. El examen tiene la finalidad de asegurarnos que realmente se han aprendido estos conceptos, dado que tenerlos bien claro es la clave de éxito para que puedas avanzar bien dentro de la carrera. 
-El examen se realiza los días sábados cada dos semanas.
+El examen se realiza los días sábados cada dos semanas, previa inscripción en el siguiente enlace (https://forms.gle/L9LeFbrtxPTPaxM49). Podrás rendirlo todas las veces que quieras. Para más información, puedes ir a la sección del challenge. 
 
 #### ¿Qué puedo hacer si tengo dudas? 
 

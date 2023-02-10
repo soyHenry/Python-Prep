@@ -1,44 +1,5 @@
 ![HenryLogo](https://d31uz8lwfmyn8g.cloudfront.net/Assets/logo-henry-white-lg.png)
 
-<!--# ANALYTICS:-->
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-161500899-3">
-</script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'UA-161500899-3');
-</script>
-
-<!--# GOOGLE TAG MANAGER-->
-<!--# HEAD-->
-<!-- Google Tag Manager -->
-<script>
-  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-5Z2JFWV');
-</script>
-<!-- End Google Tag Manager -->
-<!--# BODY-->
-<!-- Google Tag Manager (noscript) -->
-<noscript>
-  <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5Z2JFWV"
-height="0" width="0" style="display:none;visibility:hidden">
-  </iframe>
-</noscript>
-<!-- End Google Tag Manager (noscript) -->
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-LHV5X0V6Y9"><script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-LHV5X0V6Y9');
-</script>
-
 # Primeros Pasos
 
 ## Grabación de la Clase 1
@@ -280,12 +241,6 @@ En el centro podemos ver todos los archivos que tiene dentro el repo. El botón 
 Arriba a la derecha encontramos tres botones. `Watch` nos permite seguir un repositorio, mientras que con `Star` podemos marcar como favorito un repo que nos guste. Por último tenemos `Fork`, este es **muy** importante, lo vamos a necesitar cuando hagamos el **_Challenge!_**
 
 Ya tenemos todo para empezar... Éxitos!!! 🍀
-
-## Principales Objetivos de Aprendizaje para esta Clase
-
-- Conocer de qué se trata programar
-- Conocer para qué sirve un lenguaje de programación 
-
 
 ## Python
 
