@@ -43,10 +43,10 @@ height="0" width="0" style="display:none;visibility:hidden">
 
 #### Recuerda que son los mismos contenidos pero con otros instructores:
 
-## Kick off 01-Intro a la Programación y 02-Tipos de Datos
+## 01-Intro a la Programación y 02-Tipos de Datos
 
 <div class="iframeContainer">
-  <iframe src="https://player.vimeo.com/video/787787814" allow="autoplay; fullscreen" allowfullscreen></iframe>
+  <iframe src="https://player.vimeo.com/video/787787814?h=2db2921dd6" allow="autoplay; fullscreen" allowfullscreen></iframe>
 </div>
 
 ## Grabación de la Clase 2 
