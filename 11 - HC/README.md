@@ -72,7 +72,7 @@ Luego si quieren volver a ingresar lo podrán hacerlo [AQUÍ](https://authentica
 
   Quienes empezaron su proceso de admisión antes de que pusieramos en producción esta app, ¡No se preocupen! Pueden registrarse ahora por primera vez y, cuando ingreses, ya encontraran completos todos los pasos que realizaron hasta el momento.
 
-**"Si tienes dudas del tema puedes consultarlo por el canal #consultas_administrativas de Slack"** 
+**Si tienes dudas del tema puedes consultarlo por el canal #consultas_administrativas de Slack** 
 
 
 ### Instrucciones para realizar el Henry Challenge
