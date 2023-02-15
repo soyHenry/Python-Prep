@@ -82,6 +82,3 @@ Luego si quieren volver a ingresar lo podrán hacerlo [AQUÍ](https://authentica
 <div class="iframeContainer">
   <iframe src="https://player.vimeo.com/video/733965021?h=a3ca22b336" allow="autoplay; fullscreen" allowfullscreen></iframe>
 </div>
-
-El Henry Challenge se realiza los sabados, cada dos semanas. 
-Puedes encontrar las nuevas fechas e inscribirte aqui: https://admissions.soyhenry.com/ 
