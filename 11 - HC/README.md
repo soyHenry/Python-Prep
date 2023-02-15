@@ -40,7 +40,42 @@ height="0" width="0" style="display:none;visibility:hidden">
   gtag('config', 'G-LHV5X0V6Y9');
 </script>
 
-## Instrucciones para realizar el Henry Challenge
+## ¿Qué es el Henry Challenge?
+
+El Challenge es un desafío técnico donde evaluamos todos los conceptos aprendidos en el Prep Course. Consiste en una serie de ejercicios que deberás resolver, de manera muy similar a como resolviste los homeworks del Prep Course.
+
+### ¿Cuándo lo puedo realizar?
+
+El Challenge se realiza los sábados, cada dos semanas.
+
+El Challenge deber resolverse en forma individual. Si lo realizas con ayuda te estarás perjudicando, dado que si no puedes resolverlo significa que aún no tienes los conocimientos básico para ingresar y eso te generará muchos problemas durante la carrera.
+
+### ¿Cómo sigue el proceso?
+
+En caso de aprobar, ya estarás listo para comenzar la carrera. Pasará a la etapa de **"onboarding"** donde confirmarás cuando quieres comenzar la carrera podras revisar el Acuerdo de Ingresos Compartidos y responderemos todas tus dudas. Si no apruebas puedes volves a intentarlo todas las veces que lo necesites.
+
+**¡Muchos éxitos!**
+
+### Inscripción
+
+La inscripción se realiza desde la Admission Web App: [Challenge](https://admissions.soyhenry.com/)
+
+### ¿ Qué es la Admission Web App?
+
+Es una página que creamos para que puedan tener visibilidad de sus procesos de admisión.
+
+#### ¿ Cómo ingreso a la Admission Web App?
+
+Cuando comienzan sus proceso de admisión y aplican a la carrera, se crea un usuario para ingresar a la misma.
+
+Luego si quieren volver a ingresar lo podrán hacerlo [AQUÍ](https://authentication.soyhenry.com/login/)
+
+  Quienes empezaron su proceso de admisión antes de que pusieramos en producción esta app, ¡No se preocupen! Pueden registrarse ahora por primera vez y, cuando ingreses, ya encontraran completos todos los pasos que realizaron hasta el momento.
+
+**"Si tienes dudas del tema puedes consultarlo por el canal #consultas_administrativas de Slack"** 
+
+
+### Instrucciones para realizar el Henry Challenge
 
 
 
