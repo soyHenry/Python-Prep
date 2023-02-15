@@ -39,14 +39,14 @@ height="0" width="0" style="display:none;visibility:hidden">
   gtag('config', 'G-LHV5X0V6Y9');
 </script>
 
-## Clases del Prep Course 2023 para el lanzamiento del Part-Time
+## Clases del Prep Course 2023 para el lanzamiento de la modalidad Part-Time
 
-Recuerda que son los mismos contenidos pero con otros instructores:
+#### Recuerda que son los mismos contenidos pero con otros instructores:
 
 ## Kick off 01-Intro a la Programación y 02-Tipos de Datos
 
 <div class="iframeContainer">
-  <iframe src="https://vimeo.com/787787814/2db2921dd6" allow="autoplay; fullscreen" allowfullscreen></iframe>
+  <iframe src="https://player.vimeo.com/video/787787814" allow="autoplay; fullscreen" allowfullscreen></iframe>
 </div>
 
 ## Grabación de la Clase 2 
