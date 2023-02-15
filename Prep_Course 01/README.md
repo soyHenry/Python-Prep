@@ -43,65 +43,60 @@ height="0" width="0" style="display:none;visibility:hidden">
 
 #### Recuerda que son los mismos contenidos pero con otros instructores:
 
-## 01-Intro a la Programación y 02-Tipos de Datos
+### 01-Intro a la Programación y 02-Tipos de Datos
 
 <div class="iframeContainer">
   <iframe src="https://player.vimeo.com/video/787787814?h=2db2921dd6" allow="autoplay; fullscreen" allowfullscreen></iframe>
 </div>
 
-## Grabación de la Clase 2 
+### 03- Flujos de Control
 
 <div class="iframeContainer">
-  <iframe src="https://player.vimeo.com/video/674888247?h=99f9e6c3f6" allow="autoplay; fullscreen" allowfullscreen></iframe>
+  <iframe src="https://player.vimeo.com/video/788605321?h=5b7b32f89f" allow="autoplay; fullscreen" allowfullscreen></iframe>
 </div>
 
-## Grabación de la Clase 3
+### 04- Estructura de Datos
 
 <div class="iframeContainer">
-  <iframe src="https://player.vimeo.com/video/675579686" allow="autoplay; fullscreen" allowfullscreen></iframe>
+  <iframe src="https://player.vimeo.com/video/789274159?h=91919ebd5f" allow="autoplay; fullscreen" allowfullscreen></iframe>
 </div>
 
-## Grabación de la Clase 4
+### 05- Iteradores e Iterables 
 
 <div class="iframeContainer">
-  <iframe src="https://player.vimeo.com/video/676013575" allow="autoplay; fullscreen" allowfullscreen></iframe>
+  <iframe src="https://player.vimeo.com/video/790068595?h=70bd5ee01e" allow="autoplay; fullscreen" allowfullscreen></iframe>
 </div>
 
-## Grabación de la Clase 5
+### 06- Funciones
 
 <div class="iframeContainer">
-  <iframe src="https://player.vimeo.com/video/676404775" allow="autoplay; fullscreen" allowfullscreen></iframe>
+  <iframe src="https://player.vimeo.com/video/790783279?h=d6149b3e5e" allow="autoplay; fullscreen" allowfullscreen></iframe>
 </div>
 
-## Grabación de la Clase 6
+### 07- Clases y OOP
 
 <div class="iframeContainer">
-  <iframe src="https://player.vimeo.com/video/677267773" allow="autoplay; fullscreen" allowfullscreen></iframe>
+  <iframe src="https://player.vimeo.com/video/791375340?h=6fce4c8ecd" allow="autoplay; fullscreen" allowfullscreen></iframe>
 </div>
 
-## Grabación de la Clase 7
+### 08- Error Handling
 
 <div class="iframeContainer">
-  <iframe src="https://player.vimeo.com/video/678360524" allow="autoplay; fullscreen" allowfullscreen></iframe>
+  <iframe src="https://player.vimeo.com/video/792240816?h=586c8531ca" allow="autoplay; fullscreen" allowfullscreen></iframe>
 </div>
 
-## Grabación de la Clase 8
+### 09- Manejo de Archivos
 
 <div class="iframeContainer">
-  <iframe src="https://player.vimeo.com/video/678360802" allow="autoplay; fullscreen" allowfullscreen></iframe>
+  <iframe src="https://player.vimeo.com/video/793070153?h=bc4265bb72" allow="autoplay; fullscreen" allowfullscreen></iframe>
 </div>
 
-## Grabación de la Clase 9
+## 10- Repaso
 
 <div class="iframeContainer">
-  <iframe src="https://player.vimeo.com/video/678752961" allow="autoplay; fullscreen" allowfullscreen></iframe>
+  <iframe src="https://player.vimeo.com/video/794965343?h=4ae3d3b1d5" allow="autoplay; fullscreen" allowfullscreen></iframe>
 </div>
 
-## Grabación de la Clase 10
-
-<div class="iframeContainer">
-  <iframe src="https://player.vimeo.com/video/679179631" allow="autoplay; fullscreen" allowfullscreen></iframe>
-</div>
 
 <table class="hide" width="100%" style='table-layout:fixed;'>
   <tr>
