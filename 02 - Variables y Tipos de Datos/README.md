@@ -39,10 +39,13 @@ height="0" width="0" style="display:none;visibility:hidden">
   gtag('config', 'G-LHV5X0V6Y9');
 </script>
 
-## Grabación de la Clase 2
+## Grabación de la Clase 2 
 
-<div class="iframeContainer">
+<!--div class="iframeContainer">
   <iframe src="https://player.vimeo.com/video/674888247" allow="autoplay; fullscreen" allowfullscreen></iframe>
+</div-->
+<div class="iframeContainer">
+  <iframe src="https://player.vimeo.com/video/674888247?h=99f9e6c3f6" allow="autoplay; fullscreen" allowfullscreen></iframe>
 </div>
 
 ## Principales Objetivos de Aprendizaje para esta Clase

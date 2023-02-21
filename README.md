@@ -56,7 +56,7 @@ Podrás ir avanzando con el contenido a tu ritmo y de manera asincrónica (es de
 #### ¿Qué es el Henry Challenge? 
 
 Es un examen donde evaluamos los conceptos que se aprenden en el Prep Course. El examen tiene la finalidad de asegurarnos que realmente se han aprendido estos conceptos, dado que tenerlos bien claro es la clave de éxito para que puedas avanzar bien dentro de la carrera. 
-El examen se realiza los días sábados cada dos semanas, previa inscripción en el siguiente enlace (https://forms.gle/L9LeFbrtxPTPaxM49). Podrás rendirlo todas las veces que quieras. Para más información, puedes ir a la sección del challenge. 
+El examen se realiza los días sábados cada dos semanas.
 
 #### ¿Qué puedo hacer si tengo dudas? 
 
@@ -80,10 +80,6 @@ En este video podrás conocer más sobre Henry, la carrera de Data Science y el 
   <iframe src="https://player.vimeo.com/video/682041440" allow="autoplay; fullscreen" allowfullscreen></iframe>
 </div>
 
-
-El Henry Challenge se realiza los sabados, cada dos semanas. 
-Puedes encontrar las nuevas fechas e inscribirte aqui:
-https://docs.google.com/forms/d/e/1FAIpQLSdzlBPk6hNHK6IlyIHIjvg4ehYhi5Wn39t4Vo9q9fVW0zid0w/viewform
 
 Los proximos inicios de la carrera se iran publicando en la landing de Data Science: https://www.soyhenry.com/carrera-data-science
 
