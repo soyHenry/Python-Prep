@@ -248,7 +248,51 @@ OSError: [Errno 2] No such file or directory: 'Mi_Carpeta'
 
 Lanza una excepción OSError cuando intenta acceder al directorio que previamente elimino y este no encuentra.
 
-### Extra - Web Scrapping
+## Extra
+
+### Entornos Virtuales
+
+#### Creación de Entornos Virtuales 
+
+Em adelante, veremos que es muy común trabajar con diferentes librerías ó módulos y uno de los problemas que se puede tener a la hora de manejar la instalaciones de paquetes es que si queremos tener varias versiones de la misma librería, para lo que deberíamos usar lo que se conoce como **entornos virtuales**.
+Por ejemplo tenemos un proyecto en el que estamos trabajando con la versión de Python 2.2 y tenemos otro con la versión 3. Para este tipo de cosas es necesario tener dos entornos virtuales y es donde librerías como virtualenv.
+
+![unaImagenConBoxShadow](../_src/assets/virtualenv.png)
+
+Si se desea una version especifica de Python, esta debe estar instalada en la PC. Descargar desde la pagina oficial.
+Se recomienda crear una carpeta de facil acceso donde almacenaremos nuestros ambientes. Nos paramos en esta carpeta para ejecutar lo siguiente. 
+
+
+En la terminal:
+1. Instalar virtualenv: `pip install virtualenv`
+2. Verificamos la versión: `virtualenv --version`
+opcional: Podemos hacer un update de pip `python -m pip install --upgrade pip`
+3. Creamos el entorno: `virtualenv env_name`
+Para especificar python: `virtualenv env_name --python=python=3.x` x: version
+si esto tira error, directamente hay que pasarle la ruta del ejecutable de python:` virtualenv --python="C:\Users\...\PythonXX\python.exe" env_name`
+4. Iniciamos el entorno virtual `.\env_name\Scripts\activate`
+5. Instalamos paquetes necesarios. Chequear que en la direccion en la tarminal nos tiene que aparecer `(env_name) PS C:....`. Esto nos asegura que estamos dentro del ambiente creado
+6. Instalamos todos los paquetes necesarios para nuestro entorno:  `pip install paquetes`
+- Al iniciar seguramente pida instalar `ipykernel`. Instalarlo: `pip install ipykernel`
+- Para chequear lista de paquetes instalados: `pip freeze`
+- Para exportar los "requierments" o nombres de paquetes instalados: `pip freeze > requirements.txt`
+- Para instalar `requirements.txt`: pip install -r requirements.txt
+7. Finalmente desactivamos el entorno virtual: `deactivate`
+
+Algunos errores:
+
+**Recordar que toda PC es diferente y puedes tener distintos errores, estos son solo algunos que pueden pasar**
+
+1. si al cargar una libreria: OSError: Windows requires Developer Mode to be activated, or to run Python as an administrator, in order to create symlinks. In order to activate Developer Mode go to https://learn.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development
+**Solución**: Coloque Windows en modo desarrollador: Configuración → Actualizaciones y seguridad → Para desarrolladores → Usar funciones de desarrollador: seleccione "Modo desarrollador"
+
+2. al activar el entorno. Error: “La ejecución de scripts está deshabilitada en este sistema”
+**Solución**: 
+    - Para poder ver la política actual de ejecución abriremos PowerShell a nivel administrador. Para ello deberemos hacer clic en Inicio, escribir "Windows PowerShell", hacer clic con el botón derecho encima de la aplicación y finalmente hacer clic en "Ejecutar como administrador".
+    - Una vez abierta la aplicación ejecutaremos el siguiente comando:  `Get-ExecutionPolicy -List`
+    - Esto nos muestra que la política de ejecución no está definida. Para poder corregir esto deberemos ejecutar el siguiente comando:  `Set-ExecutionPolicy RemoteSigned -Scope CurrentUser`
+
+### Web Scrapping
 
 Se utiliza esta técnica para extraer información desde sitios web, en primer lugar es necesario tener descargada una librería de Python, llamada Beautiful Soup que nos permite realizar esta acción:
 
@@ -273,8 +317,6 @@ text = soup.get_text()
 ```
 
 En la variable 'text' ahora tenemos el texto del sitio web al que consultamos.
-
-
 
 ## Homework
 
