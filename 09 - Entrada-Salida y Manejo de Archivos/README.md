@@ -292,6 +292,27 @@ Algunos errores:
     - Una vez abierta la aplicación ejecutaremos el siguiente comando:  `Get-ExecutionPolicy -List`
     - Esto nos muestra que la política de ejecución no está definida. Para poder corregir esto deberemos ejecutar el siguiente comando:  `Set-ExecutionPolicy RemoteSigned -Scope CurrentUser`
 
+
+#### Pipenv
+
+Pipenv es otro administrador de ambientes virtuales para Python.
+
+Instalación:
+1. Abrimos la consola/terminal/bash. En Windows podemos buscarla en el buscador de programas o utilizar la tecla de windows + R, donde escribiremos cmd y le daremos ejecutar.
+2. Escribimos la instrucción 'pip install pipenv' en la consola, lo que hace que se installen pipenv y las dependencias necesarias en el directorio donde tenemos Python. IMPORTANTE: Recuerden que deben tener Python instalado y agregado al PATH. Esto se hace descargando el instalador de python.org y siguiendo las instrucciones (recurden chequear la opción Agregar Python al PATH)
+3. Una vez instalado pipenv, nos dirigimos al directorio donde queremos crear el ambiente e utilizamos el comando pipenv shell. Este comando inicializa el ambiente contenido en ese directorio y, sino existe ninguno, lo crea.
+
+Algunos comandos útiles son:
+
+* pipenv -h
+* pipenv install <module>
+* pipenv lock
+* pipenv install --ignore-pipfile
+* pipenv graph
+* pipenv uninstall <module>
+* pipenv uninstall --all
+
+
 ### Web Scrapping
 
 Se utiliza esta técnica para extraer información desde sitios web, en primer lugar es necesario tener descargada una librería de Python, llamada Beautiful Soup que nos permite realizar esta acción:
