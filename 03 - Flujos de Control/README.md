@@ -197,7 +197,7 @@ Si tienes dudas sobre este tema, puedes consultarlas en el canal #python de Slac
 
 ## Clase en vivo de Resolución de ejercicios.
 
-Los martes/jueves (segun corresponda) a las 18HS ARG cada dos semanas hacemos una clase de apoyo en vivo sobre este tema. El link se comparte en el canal de Slack #anuncios ese día.
+Los martes/jueves (segun corresponda) a las 12HS ARG cada dos semanas hacemos una clase de apoyo en vivo sobre este tema. El link se comparte en el canal de Slack #anuncios ese día.
 
 
 <table class="hide" width="100%" style='table-layout:fixed;'>
