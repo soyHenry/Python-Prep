@@ -16,7 +16,7 @@
 
 8) Crear una variable que contenga el valor 'True' y otra que contenga el valor True. ¿Se trata de lo mismo?
 
-9) Imprimir el tipo de dato correspondientes a las variables creadas en el punto 9
+9) Imprimir el tipo de dato correspondientes a las variables creadas en el punto 8
 
 10) Asignar a una variable, la suma de un número entero y otro decimal
 

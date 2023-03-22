@@ -75,10 +75,14 @@ Luego si quieren volver a ingresar lo podrán hacerlo [AQUÍ](https://authentica
 **Si tienes dudas del tema puedes consultarlo por el canal #consultas_administrativas de Slack** 
 
 
-### Instrucciones para realizar el Henry Challenge
-
-
+### Instructivo para realizar el Henry Challenge
 
 <div class="iframeContainer">
   <iframe src="https://player.vimeo.com/video/733965021?h=a3ca22b336" allow="autoplay; fullscreen" allowfullscreen></iframe>
+</div>
+
+### Demostración en vivo para realizar el Henry Challenge
+
+<div class="iframeContainer">
+  <iframe src="https://www.youtube.com/watch?v=UI1vOvvAgLI" allow="autoplay; fullscreen" allowfullscreen></iframe>
 </div>
