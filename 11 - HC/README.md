@@ -81,7 +81,7 @@ Luego si quieren volver a ingresar lo podrán hacerlo [AQUÍ](https://authentica
   <iframe src="https://player.vimeo.com/video/733965021?h=a3ca22b336" allow="autoplay; fullscreen" allowfullscreen></iframe>
 </div>
 
-* Demostración en vivo para realizar el Henry Challenge
+### Demostración en vivo para realizar el Henry Challenge
 
 <div class="iframeContainer">
   <iframe src="https://player.vimeo.com/video/810698422?h=fed348f1e1" allow="autoplay; fullscreen" allowfullscreen></iframe>
