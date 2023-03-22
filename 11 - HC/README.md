@@ -84,5 +84,6 @@ Luego si quieren volver a ingresar lo podrán hacerlo [AQUÍ](https://authentica
 ### Demostración en vivo para realizar el Henry Challenge
 
 <div class="iframeContainer">
-  <iframe src="https://www.youtube.com/watch?v=UI1vOvvAgLI" allow="autoplay; fullscreen" allowfullscreen></iframe>
+  <!--iframe src="https://www.youtube.com/watch?v=UI1vOvvAgLI" allow="autoplay; fullscreen" allowfullscreen></iframe-->
+  <a href="https://www.youtube.com/watch?v=UI1vOvvAgLI"></a>
 </div>
