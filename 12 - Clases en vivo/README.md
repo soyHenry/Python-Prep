@@ -52,7 +52,7 @@ Luego de cada Henry Challenge comienza un ciclo de 4 clases donde repasamos los 
 Vas a encontrar dos grabaciones por tema: una de la quincena anterior y otra de la quincena en curso.
 
 
-![Calendario](/_src/assets/Calendario_Resolucion_en_vivo.png)
+![Calendario](/_src/assets/calendario%20clases%20en%20vivo.jpg)
 
 
 
