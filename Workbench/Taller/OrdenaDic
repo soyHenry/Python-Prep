@@ -1,0 +1,55 @@
+dicc ={
+'clave1':['c', 'a', 'b'],
+'clave2':['casa', 'auto', 'barco'],
+'clave3':[3,2,1]}
+# 1) Convertir este dic de listas en una lista de dicts
+# 2) verificar que no pasan datos nulos o que no cumplen las condciones a) calaves no vacías y que el dic, sea un DICT
+# No se puede perder la hilación, or eso tarbajamos con listas.
+# Crequear condiciones
+clave='clave1'
+
+# def ordenaDic (dicc_rec, clave):
+newArr=[]       # Va a recibir mi lista de diccionarios originales convertidos a listas
+newArrSorted=[] # Va a recibir los diccionarios ordenados por la clave ingresada
+res = []
+cantidadValores = 0
+numKeys = 0           # Recibe la cantidad de elementos del tipo llave que tiene el diccionario DICC, para ejecutar los ciclos. 
+if not (type(dicc) is dict): #dict_rec= Debería ser el DICC recibido
+    pass #return 'Null' #None
+if not (clave in dicc.keys()): #clave=clave del parámetro
+    pass #return 'Null'
+    # definir variables a usar, incluye nuevas listas
+    # Convertimos el dicc de list a list de dict
+    # print (len(dicc_rec[list(dicc_par.keys())[0]]))
+    # chequeamos qué valor estamos reciendo
+    # print()
+print (len(dicc[list(dicc.keys())[0]]))
+if len(dicc[list(dicc.keys())[0]])>0: # convertimos el diccionario de listas, a una lista de diccionarios:
+    cantidadValores = len(dicc[list(dicc.keys())[0]])
+    print (cantidadValores)
+    for i in range(0, cantidadValores):
+        newObj={}
+        for key in dicc:
+            newObj[key]=dicc[key][i]
+        newArr.append(newObj)  #print(newArr) #aquí se generó una lista de diccionarios
+        newArrSorted = sorted(newArr, key=lambda d: d[clave], reverse=not) # (descendente) Ahora ordenemos
+                                #print (newArrSorted) #verificar contenido del nuevo arreglo
+                                # Convertimos la lista de diccionarios, en un diccionario de listas:
+        for key in dicc:
+            newArr2 = []
+        for i in range(0, cantidadValores):
+            newArr2.append(newArrSorted[i][key])
+        res[key] = newArr2
+    #Si no tienen valores devolvemos el mismo diccionario:
+else:
+    #return dicc_par
+    print (dicc)
+    print (res)
+
+#dicc ={
+#'clave1':['c', 'a', 'b'],
+#'clave2':['casa', 'auto', 'barco'],
+#'clave3':[3,2,1]}
+# print (OrdenarDiccionario(dicc,"clave3",false))
+
+# ordenaDic (dicc, 'clave1')
