@@ -63,10 +63,10 @@ hc_fallas = len(resultado_test.result.failures)
 hc_errores = len(resultado_test.result.errors)
 hc_ok = hc_tests - hc_fallas - hc_errores
 
-#archivo_test = open('resultado_test.csv', 'w')
-#archivo_test.write('Total_Tests,Total_Fallas,Total_Errores,Total_Correctos\n')
-#archivo_test.write(str(hc_tests)+','+str(hc_fallas)+','+str(hc_errores)+','+str(hc_ok)+'\n')
-#archivo_test.close()
+archivo_test = open('resultado_test.csv', 'w')
+archivo_test.write('Total_Tests,Total_Fallas,Total_Errores,Total_Correctos\n')
+archivo_test.write(str(hc_tests)+','+str(hc_fallas)+','+str(hc_errores)+','+str(hc_ok)+'\n')
+archivo_test.close()
 
 print('Resumen')
 print('Total Tests:', str(hc_tests))

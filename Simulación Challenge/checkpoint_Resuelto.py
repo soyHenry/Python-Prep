@@ -12,14 +12,14 @@ def Factorial(numero):
         Factorial(-2) debe retornar nulo
     '''
     #Tu código aca:
-    if (type(numero) != int):
+    if type(numero) != int:
         return None
-    if (numero < 1):
+    if numero < 1: 
         return None
     factorial = 1
-    while(numero > 1):
-        factorial = factorial * numero
-        numero -= 1
+    while (numero > 1):
+        factorial = factorial * numero      #(factorial*=numero)
+        numero = numero - 1                 #(numero-=1)
     return factorial
 
 def EsPrimo(valor):
@@ -34,12 +34,15 @@ def EsPrimo(valor):
         EsPrimo(8) debe retornar False
     '''
     #Tu código aca:
-    if (type(valor) != int):
+    if type(valor) != int:
         return None
-    for i in range(2, (int(valor / 2) + 1)):
-        if valor % i == 0:
-            return False
-    return True
+
+    primo = True
+    for i in range(2,valor):
+        if (valor%i == 0):
+            primo = False
+            break
+    return primo
     
 def ClaseAnimal(especie, color):
     '''
@@ -62,13 +65,12 @@ def ClaseAnimal(especie, color):
     #Tu código aca:
     class Animal:
         def __init__(self, especie, color):
-            self.Especie = especie
-            self.Color = color
-            self.Edad = 0
-
+            self.edad = 0
+            self.especie = especie
+            self.color = color
+        
         def CumplirAnios(self):
-            self.Edad += 1
-            return self.Edad
-    
-    a = Animal(especie, color)    
-    return a
+            self.edad = self.edad + 1 #(self.edad += 1)
+            return self.edad
+        
+    return Animal(especie,color)
