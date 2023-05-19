@@ -36,7 +36,7 @@ Tu tarea es completar el código en `checkpoint.py` de tal forma que pasen la ma
 
 ### 3. RESOLVER EL CHALLENGE DE MATEMÁTICA
 
-Tu tarea será leer el enunciado en el archivo "HC_Math.md" y ejecutar el programa 'test_math.py' para cargar allí tus respuestas, las mismas serán guardadas en el archivo test_math.csv. Por favor no modifiques ninguno de los dos.
+Tu tarea será leer el enunciado y resolverlo en el formulario que se adjunta.
 
 ### 4. ENTREGAR TU CHECKPOINT
 
