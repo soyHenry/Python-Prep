@@ -4,7 +4,7 @@
 
 ## ¿Qué es la Programación?
 
-Comencemos con un ejemplo, en la imagen se representa un pequeño robot abeja en una esquina del cuadrilátero, y en la otra esquina una flor. El objetivo del robot abeja es llegar hasta la flor, esquivando los arbustos que hay de por medio. Para esto, hay que decirle cómo se debe mover, pero solo puede saltar de a un casillero por vez. La forma en que se le puede "decir" es a través de instrucciones y esttas son: "arriba", "abajo", "izquierda" y "derecha". Por supuesto, teniendo en cuenta que debe moverse dentro del cuadrilátero.
+Comencemos con un ejemplo, en la imagen se representa un pequeño robot abeja en una esquina del cuadrilátero, y en la otra esquina una flor. El objetivo del robot abeja es llegar hasta la flor, esquivando los arbustos que hay de por medio. Para esto, hay que decirle cómo se debe mover, pero solo puede saltar de a un casillero por vez. La forma en que se le puede "decir" es a través de instrucciones y estas son: "arriba", "abajo", "izquierda" y "derecha". Por supuesto, teniendo en cuenta que debe moverse dentro del cuadrilátero.
 
 Ahora bien, surgen algunas preguntas:
 
@@ -12,7 +12,7 @@ Ahora bien, surgen algunas preguntas:
 
 * Al ser más de una instrucción ¿Es importante el orden en que se ejecutan?
 
-* ¿Hay más de una forma, en que el robot abeja pueda llegar a la flor?
+* ¿Hay más de una forma en que el robot abeja pueda llegar a la flor?
 
 * ¿Hay un camino óptimo?
 
@@ -20,19 +20,19 @@ Ahora bien, surgen algunas preguntas:
 
 ![unaImagenConBoxShadow](../_src/assets/01_imagen01.jpg)
 
-Cualquiera de las siguiente, podrían ser una solución:
+Cualquiera de las siguientes, podrían ser una solución:
 * Derecha, Derecha, Arriba, Arriba, Derecha, Derecha, Arriba, Arriba, Arriba, Derecha, Derecha, Arriba
 * Derecha, Derecha, Derecha, Derecha, Derecha, Derecha, Arriba, Arriba, Arriba, Izquierda, Izquierda, Arriba, Arriba, Derecha, Arriba, Derecha
 * Arriba, Derecha, Derecha, Arriba, Arriba, Arriba, Arriba, Arriba, Derecha, Derecha, Derecha, Derecha, Arriba
 
 Lo importante, en principio, es que notemos que al resolver el problema planteado, lo que estamos haciendo, utilizando un pensamiento lógico, es precisamente, **programación**
 
-Entonces, **programar, es armar una secuencia lógica de pasos a seguir, en pos de cumplir un objetivo.** En el ejemplo visto, tuvimos un contexto que nos marcaba las posibilidades y restricciones del problema, por ejemplo moverse dentro del cuadrilátero ó no chocar con los arbustos. Y también un conjunto de instrucciones disponibles, que definian el lenguaje que teníamos que usar, para que el robot comprenda las instrucciones. Lo que usamos fue un lenguaje formal, muy básico y que fue suficiente para resolver el problema. Éstos lenguajes, se denominan lenguajes de programación, nos permiten plasmar esas instrucciones necesarias para darle una solución al problema que queremos resolver, generando así un programa (o software).
+Entonces, **programar, es armar una secuencia lógica de pasos a seguir, en pos de cumplir un objetivo.** En el ejemplo visto, tuvimos un contexto que nos marcaba las posibilidades y restricciones del problema, por ejemplo moverse dentro del cuadrilátero o no chocar con los arbustos. Y también un conjunto de instrucciones disponibles, que definían el lenguaje que teníamos que usar, para que el robot comprenda las instrucciones. Lo que usamos fue un lenguaje formal, muy básico y que fue suficiente para resolver el problema. Estos lenguajes, se denominan lenguajes de programación, nos permiten plasmar esas instrucciones necesarias para darle una solución al problema que queremos resolver, generando así un programa (o software).
 
 Los primeros lenguajes de programación se escribían en instrucciones que podían interpretar las computadoras muy fácilmente, pero que resultaban menos amigables a las personas, tales como el lenguaje ensamblador (o Assembler) o Fortran, desarrollado en 1955. Con el tiempo, esto fue cambiando, se fueron desarrollando lenguajes de programación de más alto nivel y con diferentes aplicaciones, que por lo general eran comerciales o científicas, pero también con fines educativos, es decir, lenguajes desarrollados para aprender a programar, y consecuentemente, más sencillos. 
 
 Éste último, es el caso de **Python**, que nace a finales de la década del 80 y fue pensado para principiantes por su facilidad de aprendizaje y uso. Su código era compacto pero legible. Con el correr de los años fue incluyendo mejoras hasta llegar también a ser de licencia libre. Hoy por hoy, es usado desde simples "scripts", hasta grandes servidores web que proveen servicio ininterrumpido las 24hs. Es utilizado para la programación de interfaces gráficas y bases de datos. Además tiene una amplia aceptación por científicos que hacen aplicaciones para las supercomputadoras más rápidas del mundo y por los niños que recién están comenzando a programar.
-La generalización del Big Data en los últimos años, seguida de la explosión de la Inteligencia Artificial, Machine Learning y el surgimiento de la Ciencia de Datos como un nuevo área de trabajo con especialistas propios, ha revolucionado el panorama ya que muchas de las nuevas herramientas que han surgido han sido desarrolladas en Python o nos ofrecen Python como la forma predilecta de interactuar con ellas.
+La generalización del Big Data en los últimos años, seguida de la explosión de la Inteligencia Artificial, Machine Learning y el surgimiento de la Ciencia de Datos como una nueva área de trabajo con especialistas propios, ha revolucionado el panorama ya que muchas de las nuevas herramientas que han surgido han sido desarrolladas en Python o nos ofrecen Python como la forma predilecta de interactuar con ellas.
 Podemos hablar de tecnología para Big Data como PySpark, de herramientas para Data Science como Pandas, NumPy, Matplotlib o Jupyter. De herramientas del procesamiento del lenguaje natural como NLTK, y por último el área de Deep Learning como Tensorflow, MXNet o Scikit-Learn.
 
 ## Sintaxis de un lenguaje de programación
