@@ -176,7 +176,7 @@ pi = 3.1416
 
 
 
-# 23) Crear una variable con el valor 3, y utilizar el operador '-=' para modificar su contenido
+# 23) Crear una variable con el valor 3, y utilizar el operador '-=' para modificar su contenido y que de como resultado 2.
 
 # In[15]:
 
