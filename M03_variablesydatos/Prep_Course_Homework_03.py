@@ -65,7 +65,7 @@ pi = 3.1416
 
 
 
-# 9) Imprimir el tipo de dato correspondientes a las variables creadas en el punto 9
+# 9) Imprimir el tipo de dato correspondientes a las variables creadas en el punto 8
 
 # In[5]:
 

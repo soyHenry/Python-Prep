@@ -69,7 +69,7 @@ var1 = 'True'
 var2 = True
 
 
-# 9) Imprimir el tipo de dato correspondientes a las variables creadas en el punto 9
+# 9) Imprimir el tipo de dato correspondientes a las variables creadas en el punto 8
 
 # In[5]:
 
