@@ -1,95 +1,89 @@
 class Herramientas:
     def __init__(self, lista_numeros):
         self.lista = lista_numeros
-
-    def verifica_primo(self):
-        '''
-        Explico lo que hace la funcion
-        '''
+    
+    def Verificaprimo(self):
         for i in self.lista:
-            if (self.__verifica_primo(i)):
+            if (self.__Verificaprimo(i)):
                 print('El elemento', i, 'SI es un numero primo')
             else:
                 print('El elemento', i, 'NO es un numero primo')
 
-    def conversion_grados(self, origen, destino):
+    def Conversorgrados(self, origen, destino):
         for i in self.lista:
-            print(i, 'grados', origen, 'son', self.__conversion_grados(i, origen, destino),'grados',destino)
+            print(i, 'grados', origen, 'son', self.__Conversorgrados(i, origen, destino),'grados',destino)
     
-    def factorial(self):
+    def Factorial(self):
         for i in self.lista:
-            print('El factorial de ', i, 'es', self.__factorial(i))
+            print('El factorial de ', i, 'es', self.__Factorial(i))
 
-    def __verifica_primo(self, nro):
-        es_primo = True
-        for i in range(2, nro):
-            if nro % i == 0:
-                es_primo = False
+    def __Verificaprimo(self, num):
+        pri = True
+        for i in range(2,num):
+            if num%i == 0:
+                pri = False
                 break
-        return es_primo
-
-    def valor_modal(self, menor):
-        lista_unicos = []
-        lista_repeticiones = []
-        if len(self.lista) == 0:
-            return None
-        if (menor):
-            self.lista.sort()
+        return pri
+    
+    def Valormodal(self, lista, modo='menor'):
+        
+        contador = {}    
+        for num in self.lista:
+            if num in contador.keys():
+                contador[num] += 1            
+            else:
+                contador[num] = 1
+        moda = []
+        maximo = 0
+        for numero, repeticion in contador.items():
+            if repeticion > maximo:
+                maximo = repeticion
+                moda = [numero]
+            elif repeticion == maximo:
+                moda.append(numero)
+        if modo == 'menor':
+            masRepetido_num = min(moda)
+        elif modo == 'mayor':
+            masRepetido_num = max(moda)
+        return masRepetido_num, maximo
+    
+    def __Conversorgrados(self, valor, origen, destino):
+        if origen == 'celsius':
+            if destino == 'celsius':
+                valorDestino = valor
+            elif destino == 'farenheit':
+                valorDestino = (valor * 9/5) + 32
+            elif destino == 'kelvin':
+                valorDestino = valor + 273.15
+            else:
+                print("Parametro de destino no valido")
+        elif origen == 'farenheit':
+            if destino == 'farenheit':
+                valorDestino = valor
+            elif destino == 'celsius':
+                valorDestino = ((valor - 32)*5) /9
+            elif destino == 'kelvin':
+                valorDestino = ((valor - 32)*5 /9) + 273.15
+            else:
+                print("Parametro de destino no valido")
+        elif origen == 'kelvin':
+            if destino == 'kelvin':
+                valorDestino = valor
+            elif destino == 'farenheit':
+                valorDestino = (valor - 273.15) * (9/5) + 32
+            elif destino == 'celsius':
+                valorDestino = (valor - 273.15) 
+            else:
+                print("Parametro de destino no valido")
         else:
-            self.lista.sort(reverse=True)
-        for elemento in self.lista:
-            if elemento in lista_unicos:
-                i = lista_unicos.index(elemento)
-                lista_repeticiones[i] += 1
-            else:
-                lista_unicos.append(elemento)
-                lista_repeticiones.append(1)
-        moda = lista_unicos[0]
-        maximo = lista_repeticiones[0]
-        for i, elemento in enumerate(lista_unicos):
-            if lista_repeticiones[i] > maximo:
-                moda = lista_unicos[i]
-                maximo = lista_repeticiones[i]
-        return moda, maximo
-
-    def __conversion_grados(self, valor, origen, destino):
-        valor_destino = None
-        if (origen == 'celsius'):
-            if (destino == 'celsius'):
-                valor_destino = valor
-            elif (destino == 'farenheit'):
-                valor_destino = (valor * 9 / 5) + 32
-            elif (destino == 'kelvin'):
-                valor_destino = valor + 273.15
-            else:
-                print('Parámetro de Destino incorrecto')
-        elif (origen == 'farenheit'):
-            if (destino == 'celsius'):
-                valor_destino = (valor - 32) * 5 / 9
-            elif (destino == 'farenheit'):
-                valor_destino = valor
-            elif (destino == 'kelvin'):
-                valor_destino = ((valor - 32) * 5 / 9) + 273.15
-            else:
-                print('Parámetro de Destino incorrecto')
-        elif (origen == 'kelvin'):
-            if (destino == 'celsius'):
-                valor_destino = valor - 273.15
-            elif (destino == 'farenheit'):
-                valor_destino = ((valor - 273.15) * 9 / 5) + 32
-            elif (destino == 'kelvin'):
-                valor_destino = valor
-            else:
-                print('Parámetro de Destino incorrecto')
-        else:
-            print('Parámetro de Origen incorrecto')
-        return valor_destino
-
-    def __factorial(self, numero):
+            print("parametro de origen no valido")
+        return valorDestino
+    
+    def __Factorial(self, numero):
         if(type(numero) != int):
             return 'El numero debe ser un entero'
         if(numero < 0):
             return 'El numero debe ser pisitivo'
         if (numero > 1):
-            numero = numero * self.__factorial(numero - 1)
+            numero = numero * self.__Factorial(numero - 1)
         return numero

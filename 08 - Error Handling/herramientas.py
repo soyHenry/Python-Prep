@@ -1,8 +1,8 @@
 class Herramientas:
     def __init__(self, lista_numeros):
-        if (type(lista_numeros) != list):
-            self.lista = []
-            raise ValueError('Se ha creado una lista vacía. Se esperaba una lista de núemeros enteros')  
+        if (type(lista_numeros) != list): #se le agregó
+            self.lista = [] # para el punto uno
+            raise ValueError('Se ha creado una lista vacía. Se esperaba una lista de núemeros enteros') # raise es paara levantar el error
         else:
             self.lista = lista_numeros
 
@@ -16,16 +16,16 @@ class Herramientas:
         return lista_primos
 
     def conversion_grados(self, origen, destino):
-        parametros_esperados = ['celsius','kelvin','farenheit']
-        lista_conversion = []
-        if str(origen) not in parametros_esperados:
-            print('Los parametros esperados son:', parametros_esperados)
-            return lista_conversion
-        if str(destino) not in parametros_esperados:
-            print('Los parametros esperados son:', parametros_esperados)
-            return lista_conversion
+        parametros_esperados = ['celsius','kelvin','farenheit'] # esto para
+        lista_conversion = [] # el punto numero
+        if str(origen) not in parametros_esperados: # tres
+            print('Los parametros de origen esperados son:', parametros_esperados) #
+            return lista_conversion #Retorno la lista vacía para que me guarde los valores
+        if str(destino) not in parametros_esperados: #
+            print('Los parametros de destino esperados son:', parametros_esperados) #
+            return lista_conversion #
         for i in self.lista:
-            lista_conversion.append(self.__conversion_grados(i, origen, destino))
+            lista_conversion.append(self.__conversion_grados(i, origen, destino)) #guardar todos los valores 
         return lista_conversion
     
     def factorial(self):
