@@ -72,58 +72,7 @@ moda, repite = valor_modal(lis)
 print('El valor modal es', moda, 'y se repite', repite, 'veces.')
 
 
-# 4) A la función del punto 3, agregar un parámetro más, que permita elegir si se requiere el menor o el mayor de los mas repetidos.
-
-# In[45]:
-
-
-def valor_modal(lista, menor):
-    '''
-    Esta función devuelve el valor modal y recibe de parámetros dos valores:
-    1-Una lista de números
-    2-Verdadero (por defecto) por si se requiere el mínimo de los más repetidos, o Falso si se requiere el máximo
-    '''
-    lista_unicos = []
-    lista_repeticiones = []
-    if len(lista) == 0:
-        return None
-    if (menor):
-        lista.sort()
-    else:
-        lista.sort(reverse=True)
-    for elemento in lista:
-        if elemento in lista_unicos:
-            i = lista_unicos.index(elemento)
-            lista_repeticiones[i] += 1
-        else:
-            lista_unicos.append(elemento)
-            lista_repeticiones.append(1)
-    moda = lista_unicos[0]
-    maximo = lista_repeticiones[0]
-    for i, elemento in enumerate(lista_unicos):
-        if lista_repeticiones[i] > maximo:
-            moda = lista_unicos[i]
-            maximo = lista_repeticiones[i]
-    return moda, maximo
-
-
-# In[46]:
-
-
-lis = [10,1,5,6,8,10,22,5,6,4,11,10,9,5]
-moda, repite = valor_modal(lis, True)
-print('El valor modal es', moda, 'y se repite', repite, 'veces.')
-
-
-# In[47]:
-
-
-lis = [10,1,5,6,8,10,22,5,6,4,11,10,9,5]
-moda, repite = valor_modal(lis, False)
-print('El valor modal es', moda, 'y se repite', repite, 'veces.')
-
-
-# 5) Crear una función que convierta entre grados Celsius, Farenheit y Kelvin<br>
+# 4) Crear una función que convierta entre grados Celsius, Farenheit y Kelvin<br>
 # Fórmula 1	: (°C × 9/5) + 32 = °F<br>
 # Fórmula 2	: °C + 273.15 = °K<br>
 # Debe recibir 3 parámetros: el valor, la medida de orígen y la medida de destino
@@ -179,7 +128,7 @@ print('1 grado Farenheit a Kelvin:', conversion_grados(1, 'farenheit', 'kelvin')
 print('1 grado Farenheit a Farenheit:', conversion_grados(1, 'farenheit', 'farenheit'))
 
 
-# 6) Iterando una lista con los tres valores posibles de temperatura que recibe la función del punto 5, hacer un print para cada combinación de los mismos:
+# 5) Iterando una lista con los tres valores posibles de temperatura que recibe la función del punto 5, hacer un print para cada combinación de los mismos:
 
 # In[62]:
 
@@ -190,7 +139,7 @@ for i in range(0,3):
         print('1 grado', metricas[i], 'a', metricas[j],':', conversion_grados(1, metricas[i], metricas[j]))
 
 
-# 7) Armar una función que devuelva el factorial de un número. Tener en cuenta que el usuario puede equivocarse y enviar de parámetro un número no entero o negativo
+# 6) Armar una función que devuelva el factorial de un número. Tener en cuenta que el usuario puede equivocarse y enviar de parámetro un número no entero o negativo
 
 # In[65]:
 

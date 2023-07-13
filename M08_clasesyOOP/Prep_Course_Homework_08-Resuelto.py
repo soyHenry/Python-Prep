@@ -130,15 +130,11 @@ class Herramientas:
                 break
         return es_primo
 
-    def valor_modal(self, lista, menor):
+    def valor_modal(lista):
         lista_unicos = []
         lista_repeticiones = []
         if len(lista) == 0:
             return None
-        if (menor):
-            lista.sort()
-        else:
-            lista.sort(reverse=True)
         for elemento in lista:
             if elemento in lista_unicos:
                 i = lista_unicos.index(elemento)

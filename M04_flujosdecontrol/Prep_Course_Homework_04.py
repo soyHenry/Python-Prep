@@ -94,20 +94,7 @@
 
 
 
-# 12) Si la cantidad de números que se evalúa es mayor a treinta, esa optimización crece?
-
-# In[58]:
-
-
-
-
-
-# In[59]:
-
-
-
-
-# 13) Aplicando continue, armar un ciclo while que solo imprima los valores divisibles por 12, dentro del rango de números de 100 a 300
+# 12) Aplicando continue, armar un ciclo while que solo imprima los valores divisibles por 12, dentro del rango de números de 100 a 300
 
 # In[62]:
 
@@ -115,14 +102,14 @@
 
 
 
-# 14) Utilizar la función **input()** que permite hacer ingresos por teclado, para encontrar números primos y dar la opción al usario de buscar el siguiente
+# 13) Utilizar la función **input()** que permite hacer ingresos por teclado, para encontrar números primos y dar la opción al usario de buscar el siguiente
 
 # In[73]:
 
 
 
 
-# 15) Crear un ciclo while que encuentre dentro del rango de 100 a 300 el primer número divisible por 3 y además múltiplo de 6
+# 14) Crear un ciclo while que encuentre dentro del rango de 100 a 300 el primer número divisible por 3 y además múltiplo de 6
 
 # In[75]:
 
