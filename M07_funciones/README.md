@@ -274,3 +274,4 @@ La función Lambda es una forma conveniente de crear una función en una sola l�
 12
 ``` 
 
+* Si tienes dudas sobre este tema, puedes consultarlas en el canal **#m07_funciones** de Slack

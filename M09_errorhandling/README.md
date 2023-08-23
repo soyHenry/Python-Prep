@@ -246,5 +246,5 @@ Para realizar una afirmación en nuestro programa lo hacemos con la expresión a
 - Es multiplataforma, ya que un código escrito en macOS funciona en Windows o Linux y viceversa.
 
 
-* Si tienes dudas sobre este tema, puedes consultarlas en el canal **#m9_errorhandling** de Slack
+* Si tienes dudas sobre este tema, puedes consultarlas en el canal **#m05_estructuradedatos** de Slack
 

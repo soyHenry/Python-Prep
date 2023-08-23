@@ -76,3 +76,4 @@ Para conocer mejor el lenguaje que estaremos aprendiendo les compartimos una col
 * [Visualizar tu código] (https://memlayout.com/)
 * [Visualizar tu código] (https://pythontutor.com/visualize.html#mode=edit)
 
+* Si tienes dudas sobre este tema, puedes consultarlas en el canal **#m02_introprogramacion** de Slack

@@ -224,3 +224,6 @@ str(): construye una cadena a partir de una amplia variedad de tipos de datos, i
 ## Recursos adicionales
 
 * [Cheat Lists] (https://intellipaat.com/blog/tutorial/python-tutorial/data-structures-with-python-cheat-sheet/?US)
+
+
+* Si tienes dudas sobre este tema, puedes consultarlas en el canal **#m03_variablesydatos** de Slack

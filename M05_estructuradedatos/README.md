@@ -214,3 +214,5 @@ mi_diccionario={'Clave1':'Valor1', 'Clave2':{'numeros':[1,2,3,4,5]}}
   Tips: La funcionalidad **del** permite eliminar cualquier estructura de datos y la funcionalidad **len** permite obtener el tamaño de la estructura de datos
   </p>
 <hr width="75%">
+
+* Si tienes dudas sobre este tema, puedes consultarlas en el canal **#m09_errorhandling** de Slack

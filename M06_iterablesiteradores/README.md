@@ -178,3 +178,4 @@ Por lo tanto la expresión sólo se aplicará al elemento si se cumple la condic
 
 Lo que hace el código anterior es iterar cada letra de la frase, y si es una r, se añade a la lista. De esta manera el resultado es una lista con tantas letras r como la frase original tiene, y podemos calcular las veces que se repite con len().
 
+* Si tienes dudas sobre este tema, puedes consultarlas en el canal **#m06_iterablesiteradores** de Slack

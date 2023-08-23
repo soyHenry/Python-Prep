@@ -508,3 +508,4 @@ Si queremos que el módulo sea recargado, tenemos que ser explícitos, haciendo 
 >>> importlib.reload(mimodulo)
 ``` 
 
+* Si tienes dudas sobre este tema, puedes consultarlas en el canal **#m08_clasesyoop** de Slack
