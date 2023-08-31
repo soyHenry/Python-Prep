@@ -184,7 +184,7 @@ print(var1 + var2)
 # In[12]:
 
 
-a = float('3,8')
+a = float('3.8')
 
 
 # 23) Crear una variable con el valor 3, y utilizar el operador '-=' para modificar su contenido
