@@ -98,6 +98,11 @@ for i in range(0, 10):
 
 # In[54]:
 
+count = 0
+while count < 30:
+    for i in range(2, count):
+        
+
 
 
 
