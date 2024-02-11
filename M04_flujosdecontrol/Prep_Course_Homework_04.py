@@ -32,14 +32,19 @@ else:
 # In[7]:
 
 
-
+for i in range(1, 21):
+    if i % 2 == 0:
+        print( str(i) + ' es par')
+    else:
+        print(str(i) + ' es impar')
 
 
 # 4) En un ciclo for mostrar para los valores entre 0 y 5 el resultado de elevarlo a la potencia igual a 3
 
 # In[9]:
 
-
+for i in range(0, 6):
+    print(i**3)
 
 
 
