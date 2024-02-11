@@ -38,7 +38,7 @@ for i in range(1, 21):
     else:
         print(str(i) + ' es impar')
 
-
+s
 # 4) En un ciclo for mostrar para los valores entre 0 y 5 el resultado de elevarlo a la potencia igual a 3
 
 # In[9]:
@@ -52,7 +52,9 @@ for i in range(0, 6):
 
 # In[10]:
 
-
+a = 5
+for i in range(0, a):
+    print(i)
 
 
 
@@ -60,13 +62,21 @@ for i in range(0, 6):
 
 # In[33]:
 
-
+count = 20
+while count > 1:
+    count //= 2
+    print(count)
 
 
 
 # 7) Crear un ciclo for dentro de un ciclo while
 
 # In[38]:
+count = 5
+while count > 1:
+    for i in range(0, count):
+        print(i)
+    count -= 1
 
 
 
@@ -76,7 +86,11 @@ for i in range(0, 6):
 
 # In[3]:
 
-
+for i in range(0, 10):
+    while i < 4:
+        print(i * 4)
+        i += 1
+    print('i ahora es', i)
 
 
 
