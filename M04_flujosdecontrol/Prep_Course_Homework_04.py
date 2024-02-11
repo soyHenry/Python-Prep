@@ -6,8 +6,11 @@
 # 1) Crear una variable que contenga un elemento del conjunto de números enteros y luego imprimir por pantalla si es mayor o menor a cero
 
 # In[4]:
-
-
+a = 2
+if a>0:
+    print('a es mayor a 0')
+else:
+    print('a no es mayor a 0')
 
 
 
@@ -15,7 +18,12 @@
 
 # In[5]:
 
-
+b = 2
+i = 3
+if type(b) == type(i):
+    print('las variables son del mismo tipo')
+else:
+    print('las variables son distintas')
 
 
 
