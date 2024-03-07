@@ -195,5 +195,5 @@ De nuevo vuelva a ejecutar en su consola de comando el comando python. Ya están
 
 
 
-Si tienes dudas sobre este tema, puedes consultarlas en el canal **#m1_instalaciónherramientas** 
+Si tienes dudas sobre este tema, puedes consultarlas en el canal **#m01_instalaciónherramientas** 
 
